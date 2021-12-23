@@ -1,0 +1,20 @@
+data:
+
+{'text': 'Are you a fan of Google or Microsoft?', 'midas_label': [{'appreciation': 0.005108690820634365, 'command': 0.012066815979778767, 'comment': 0.0050146193243563175, 'complaint': 0.0037463053595274687, 'dev_command': 0.01268681138753891, 'neg_answer': 0.0015679250936955214, 'open_question_factual': 0.014630580320954323, 'open_question_opinion': 0.02896219678223133, 'opinion': 0.0017335672164335847, 'other_answers': 0.003728050272911787, 'pos_answer': 0.0028917528688907623, 'statement': 0.001506103202700615, 'yes_no_question': 0.9063566327095032}], 'entities': {'Google': {'label': 'organization'}, 'Microsoft': {'label': 'organization'}}, 'midas_single_label': ['yes_no_question'], 'array_label': ['organization', 'organization']}
+
+data_:
+
+{'text': 'Are you a fan of Google or Microsoft?', 'midas_label': [{'appreciation': 0.005108690820634365, 'command': 0.012066815979778767, 'comment': 0.0050146193243563175, 'complaint': 0.0037463053595274687, 'dev_command': 0.01268681138753891, 'neg_answer': 0.0015679250936955214, 'open_question_factual': 0.014630580320954323, 'open_question_opinion': 0.02896219678223133, 'opinion': 0.0017335672164335847, 'other_answers': 0.003728050272911787, 'pos_answer': 0.0028917528688907623, 'statement': 0.001506103202700615, 'yes_no_question': 0.9063566327095032}], 'ner': {'response': [{'text': 'Google', 'label': 'organization'}, {'text': 'Microsoft', 'label': 'organization'}], 'model_version': 'v1.1'}}
+
+
+
+Remove for now:
+
+We can't deny he is full of great ideas. i did not know that IMBD is owned by amazon!! 
+ ["We can't deny he is full of great ideas.", 'i did not know that IMBD is owned by amazon!!'] 
+
+[('opinion', 0.859705924987793), ('statement', 0.035190172493457794), ('comment', 0.03437143936753273), ('command', 0.020747344940900803)]
+[('statement', 0.5693883895874023), ('opinion', 0.22049130499362946), ('neg_answer', 0.04913236200809479), ('complaint', 0.04090270400047302)]
+[('command', 0.40935778617858887), ('statement', 0.365115225315094), ('dev_command', 0.08148381114006042), ('complaint', 0.042389120906591415)]
+
+
