@@ -130,12 +130,12 @@ def collate_fn(batch) -> tuple:
     
     batch_size = len(batch)
     # create empty Tensors to concatenate vectorized utterances and labels
-    X_batch = torch.zeros(batch_size, batch[0][0].shape[0], dtype=torch.double)
+    X_batch = torch.zeros(batch_size, batch[0][0].shape[0])
     y_multi = torch.zeros(batch_size, 2).type(torch.long)
     y_single = torch.zeros(batch_size).type(torch.long)
     
     for i, sample in enumerate(batch):
-        X_batch[i] = torch.from_numpy(batch[i][0])
+        X_batch[i] = torch.Tensor(batch[i][0]).type(torch.float32)
         y_multi[i] = torch.Tensor(batch[i][1][0])
         y_single[i] = batch[i][1][1]
         
