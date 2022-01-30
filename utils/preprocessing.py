@@ -29,7 +29,7 @@ class LabelEncoder:
         """ encodes labels for tensorflow models """
         if self.encoding == 'midas':
             labels = [sample[:1] for sample in labels]
-        elif self.encoding == 'entities':
+        elif self.encoding == 'entity':
             labels = [sample[1:] for sample in labels]
         elif self.encoding == 'concatenation':
             labels = [["_".join(sample)] for sample in labels]
