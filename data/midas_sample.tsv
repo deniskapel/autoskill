@@ -1,0 +1,113 @@
+midas	normalized_text
+command	Or think about a super athlete like PERSON.
+command	What about PERSON?!
+command	wow I didn't know that, I'll have to check it out, what about a DEVICE?
+command	GENRE!
+command	What about PERSON.
+command	Talk about VIDEONAME.
+command	right, talk about VIDEONAME!
+command	Leave it to PERSON!
+command	what about SPORTTEAM?
+command	I do, but we can keep talking about SPORT!
+comment	Wow, they must really like to play SPORT.
+comment	It's crazy that PERSON is so old though.
+comment	Haha the SPORTTEAM used to be good though!
+comment	Yes that was until YEAR and I think that was so sexist and weird
+comment	Hahaha yes all the pretty girls were in GENRE class, what a guy really
+comment	yeah that is so convenient for those who love that type of GENRE
+comment	and PERSON did Hey jude, what an awesome story
+comment	That was not a good SPORT decision trying to steal that base.
+comment	VIDEONAME was really great movie!
+comment	WEAR is funny.
+complaint	DURATION?!
+complaint	Who doesn't browse SOFTWAREAPPLICATION now and again
+complaint	No, who created CHANNELNAME?
+complaint	Because he's PERSON... geez!
+complaint	Wow only NUMBER ?
+complaint	Oh, that myth about LOCATION!
+complaint	YEAR?!
+complaint	Oh I am not convincing you to watch GENRE.
+complaint	Eat that PERSON.
+complaint	I can't believe I'm about to ask...but VIDEONAME?
+neg_answer	Nope, VIDEONAME!
+neg_answer	I do not own an DEVICE.
+neg_answer	Nope, LOCATION here.
+neg_answer	No, wasnt it outrageous, like NUMBER?
+neg_answer	no i dont  watch SPORT much.
+neg_answer	No, I didn't know SOFTWAREAPPLICATION had that opportunity.
+neg_answer	No I hDURATIONven't yet!
+neg_answer	No, I really don't follow SPORT at all.
+neg_answer	No I haven't seen a good GENRE in a long time.
+neg_answer	Oh don't get me started on PERSON.
+open_question_factual	How much moeny does PERSON have at this point?
+open_question_factual	Who was it, PERSON?
+open_question_factual	Hahah  I wonder how long ago PERSON was around?
+open_question_factual	Can be, would be funny to learn more about PERSON, and that is kind of weird, who is in that list?
+open_question_factual	What did ORGANIZATION do?
+open_question_factual	SPORT, what is that?
+open_question_factual	No, what is VIDEONAME about?
+open_question_factual	"What is ""that' you are referring to for what is best for the LOCATION?"
+open_question_factual	Who is PERSON?
+open_question_factual	Oh, so how do they get around, just drive VEHICLE?
+open_question_opinion	What do you think of the SPORTTEAM?
+open_question_opinion	Yep absolutely, what do you think about PERSON though?
+open_question_opinion	In terms of SPORT would you be Hoya?
+open_question_opinion	I do not, I just use the default ones on my DEVICE actually what about you?
+open_question_opinion	Yeah thats a sensible topic indeed lol, I do watch the ORGANIZATION, what about you?
+open_question_opinion	Yes what would PERSON do?
+open_question_opinion	What would the point be on wearing those WEAR lol!
+open_question_opinion	So, what's your take on PERSON?
+open_question_opinion	Yeah, I wonder who they will get to play PERSON's part, do you know?
+open_question_opinion	How can anyone not be a fan of PERSON?
+opinion	More than likely it was ORGANIZATION, they were pretty big at that time.
+opinion	PERSON, GWashington, an T-Jeff, not to be confused with A-Rod
+opinion	Not as easy as PERSON!
+opinion	OMG yes, I usually start with the Conferance EVENT that are going on right now.
+opinion	GAMENAME was awesome!
+opinion	For sure, PERSON started it all out.
+opinion	Interesting, I'm a PERSON fan.
+opinion	VIDEONAME?
+opinion	Probably a whole array of PERSON stuff.
+opinion	Well they are called SPORTTEAM, not sure that would work here.
+pos_answer	yeah,  do you like SPORTTEAM?
+pos_answer	Yes I'm a big VIDEONAME fan.
+pos_answer	Yes SPORT is definitely popular.
+pos_answer	Yes some people do like GENRE.
+pos_answer	Yes and it took them DURATION to actually realize that
+pos_answer	I love my DEVICE.
+pos_answer	Yes they play lots of GENRE as they are required by law to do so
+pos_answer	I did for PERSON.
+pos_answer	Yes I do like GENRE.
+pos_answer	Yes before ORGANIZATION.
+statement	Yeah, we will get rid of the last NUMBER if we are not careful.
+statement	No it is actually PERSON, he goes by the middle name
+statement	Thats by ORGANIZATION studio right?
+statement	I would be interested too, since so many people are on SOFTWAREAPPLICATION you can find anything there.
+statement	they got PERSON kicked out?
+statement	wow never heard of VIDEONAME?
+statement	I was not aware of a ORGANIZATION room.
+statement	Agreed - I'm in LOCATION and it's brutally hot in the summer, but also pretty cold in the winter!
+statement	Yes, The American GENRE brand.
+statement	VIDEONAME.
+yes_no_question	Did you know you could get the daily forecast from the ORGANIZATION Alexa device
+yes_no_question	Are you into GAMENAME?
+yes_no_question	Do you enjoy SPORT?
+yes_no_question	You think PERSON is a good businessman?
+yes_no_question	So do you like to do anything besides SOFTWAREAPPLICATION?
+yes_no_question	I didn't know that, I have never seen a VIDEONAME, have you?
+yes_no_question	Wait, I think I heard about that... wasn't that just for SPORTTEAM though?
+yes_no_question	Do you like LOCATION?
+yes_no_question	Do you remember VIDEONAME?
+yes_no_question	Have you watched VIDEONAME?
+appreciation	That is cool about PERSON.
+appreciation	Yes that is in the LOCATION, pretty cool
+appreciation	ah that is cool, do you like PERSON?
+appreciation	Yes, for NUMBER dlls, cool!
+dev_command	Google instructions for DEVICE.
+dev_command	Have a good day, put on some PERSON to listen to.
+dev_command	bye, have a nice DATE
+dev_command	have a nice DATE
+other_answers	Yes that would be the ORGANIZATION, never knew that
+other_answers	No, maybe PERSON I have no idea really
+other_answers	I think it's close to a NUMBER points to zero, but don't quote me.
+other_answers	no ideDURATION.
