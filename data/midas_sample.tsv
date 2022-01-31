@@ -1,113 +1,103 @@
 midas	normalized_text
-command	Or think about a super athlete like PERSON.
-command	What about PERSON?!
-command	wow I didn't know that, I'll have to check it out, what about a DEVICE?
-command	GENRE!
-command	What about PERSON.
 command	Talk about VIDEONAME.
-command	right, talk about VIDEONAME!
-command	Leave it to PERSON!
-command	what about SPORTTEAM?
-command	I do, but we can keep talking about SPORT!
-comment	Wow, they must really like to play SPORT.
-comment	It's crazy that PERSON is so old though.
-comment	Haha the SPORTTEAM used to be good though!
-comment	Yes that was until YEAR and I think that was so sexist and weird
-comment	Hahaha yes all the pretty girls were in GENRE class, what a guy really
-comment	yeah that is so convenient for those who love that type of GENRE
-comment	and PERSON did Hey jude, what an awesome story
-comment	That was not a good SPORT decision trying to steal that base.
-comment	VIDEONAME was really great movie!
-comment	WEAR is funny.
-complaint	DURATION?!
+command	I would love to hear the original transmission of VIDEONAME.
+command	Let's talk about LOCATION.
+command	What about PERSON?!
+command	I think we should go back to when the runner up was the POSITION.
+command	What about VIDEONAME?
+command	Yeah I would like to hear his opinion on Belt's NUMBER pitch at bat
+command	People need to keep there personal business of ORGANIZATION.
+command	But imagine the EVENT process.
+command	What about DEVICE.
+comment	That was a lot in DURATION!
+comment	ya that's crazy he made NUMBER per episode!
+comment	That's nuts because SPORT isn't that popular!
+comment	That's amazing but bad news for PERSON.
+comment	Not bad for a NUMBER year old guy!
+comment	haha ya I mean I get that its legal in LOCATION but that seems insane
+comment	Kiss tried signing PERSON to their team but that seems like a poor fit
+comment	VIDEONAME was pretty scary.
+comment	VIDEONAME is a great show!
+comment	Reading that sounds like the start to a bad PERSON joke.
+complaint	More than SPORT players really?
 complaint	Who doesn't browse SOFTWAREAPPLICATION now and again
-complaint	No, who created CHANNELNAME?
-complaint	Because he's PERSON... geez!
-complaint	Wow only NUMBER ?
-complaint	Oh, that myth about LOCATION!
 complaint	YEAR?!
 complaint	Oh I am not convincing you to watch GENRE.
-complaint	Eat that PERSON.
+complaint	NUMBER pounds really?
+complaint	You know a lot about SPORT.
+complaint	You don't know what ORGANIZATION is?
 complaint	I can't believe I'm about to ask...but VIDEONAME?
-neg_answer	Nope, VIDEONAME!
-neg_answer	I do not own an DEVICE.
-neg_answer	Nope, LOCATION here.
-neg_answer	No, wasnt it outrageous, like NUMBER?
-neg_answer	no i dont  watch SPORT much.
-neg_answer	No, I didn't know SOFTWAREAPPLICATION had that opportunity.
-neg_answer	No I hDURATIONven't yet!
-neg_answer	No, I really don't follow SPORT at all.
+complaint	Now you're defending LOCATION?
+complaint	DURATION?!
+neg_answer	No we have went a couple DURATION though.
+neg_answer	I didn't know PERSON did that.
+neg_answer	I didn't know that about the deaf SPORTROLE.
+neg_answer	I did not know that PERSON did that.
+neg_answer	No I don't follow  him on SOFTWAREAPPLICATION.
+neg_answer	I have not heard of PERSON.
+neg_answer	No they just have a DEVICE.
+neg_answer	Nope those are the only NUMBER I know of.
 neg_answer	No I haven't seen a good GENRE in a long time.
-neg_answer	Oh don't get me started on PERSON.
-open_question_factual	How much moeny does PERSON have at this point?
-open_question_factual	Who was it, PERSON?
-open_question_factual	Hahah  I wonder how long ago PERSON was around?
-open_question_factual	Can be, would be funny to learn more about PERSON, and that is kind of weird, who is in that list?
-open_question_factual	What did ORGANIZATION do?
-open_question_factual	SPORT, what is that?
-open_question_factual	No, what is VIDEONAME about?
-open_question_factual	"What is ""that' you are referring to for what is best for the LOCATION?"
+neg_answer	I haven't heard about the ORGANIZATION campaign.
+open_question_factual	How in the world could a DEVICE have been placed there?
 open_question_factual	Who is PERSON?
-open_question_factual	Oh, so how do they get around, just drive VEHICLE?
-open_question_opinion	What do you think of the SPORTTEAM?
-open_question_opinion	Yep absolutely, what do you think about PERSON though?
-open_question_opinion	In terms of SPORT would you be Hoya?
-open_question_opinion	I do not, I just use the default ones on my DEVICE actually what about you?
-open_question_opinion	Yeah thats a sensible topic indeed lol, I do watch the ORGANIZATION, what about you?
-open_question_opinion	Yes what would PERSON do?
-open_question_opinion	What would the point be on wearing those WEAR lol!
-open_question_opinion	So, what's your take on PERSON?
-open_question_opinion	Yeah, I wonder who they will get to play PERSON's part, do you know?
-open_question_opinion	How can anyone not be a fan of PERSON?
-opinion	More than likely it was ORGANIZATION, they were pretty big at that time.
-opinion	PERSON, GWashington, an T-Jeff, not to be confused with A-Rod
-opinion	Not as easy as PERSON!
-opinion	OMG yes, I usually start with the Conferance EVENT that are going on right now.
-opinion	GAMENAME was awesome!
-opinion	For sure, PERSON started it all out.
-opinion	Interesting, I'm a PERSON fan.
-opinion	VIDEONAME?
-opinion	Probably a whole array of PERSON stuff.
-opinion	Well they are called SPORTTEAM, not sure that would work here.
-pos_answer	yeah,  do you like SPORTTEAM?
-pos_answer	Yes I'm a big VIDEONAME fan.
-pos_answer	Yes SPORT is definitely popular.
-pos_answer	Yes some people do like GENRE.
-pos_answer	Yes and it took them DURATION to actually realize that
+open_question_factual	How is the DEVICE?
+open_question_factual	Who the heck is PERSON?
+open_question_factual	What was VIDEONAME about?
+open_question_factual	Wonder how much PERSON paid for his wig since he was loaded?
+open_question_factual	I wonder how many games SPORTTEAM has won at home.
+open_question_factual	which one is SOFTWAREAPPLICATION?
+open_question_factual	What was the VIDEONAME movie?
+open_question_factual	I want to know how a person gets a job tagging ORGANIZATION content.
+open_question_opinion	Where else would PERSON park his horses?
+open_question_opinion	What do you think about LOCATION requiring by law that 40% of the music has to be Canadian?
+open_question_opinion	I wonder what the Greeks would do with all the political humor that we have in the LOCATION these days?
+open_question_opinion	What do you think about the SPORTTEAM running back?
+open_question_opinion	Or NUMBER?
+open_question_opinion	What do you think about the VIDEONAME murder documentary?
+open_question_opinion	How about that old DEVICE?
+open_question_opinion	I wonder what people in the other countries that get CHANNELNAME think about it.
+open_question_opinion	I wonder what PERSON thought about that.
+open_question_opinion	What do you think about the next one being held in LOCATION?
+opinion	I thought PERSON was more well known for his sport jacket than his jeans
+opinion	Yeah he still plays PERSON in the newer films and has a much better deal this time so I guess that's good.
+opinion	sad to learn that NUMBER of the earth's natural forest have been lost.
+opinion	I always thought of the GENRE and tragedy masks as a symbol of the two aspects of the theatre.
+opinion	PERSON?
+opinion	Yeah that would be the score of a DURATION though.
+opinion	Now that is an achievement considering how much smaller the LOCATION is now.
+opinion	SPORTTEAM.
+opinion	I have not been there but I have seen their game on DEVICE and it seems like a huge party!
+opinion	That would be cool if you could live in a DEVICE.
+pos_answer	Yeah i read a lot of news on SOFTWAREAPPLICATION.
 pos_answer	I love my DEVICE.
-pos_answer	Yes they play lots of GENRE as they are required by law to do so
-pos_answer	I did for PERSON.
-pos_answer	Yes I do like GENRE.
-pos_answer	Yes before ORGANIZATION.
-statement	Yeah, we will get rid of the last NUMBER if we are not careful.
-statement	No it is actually PERSON, he goes by the middle name
-statement	Thats by ORGANIZATION studio right?
-statement	I would be interested too, since so many people are on SOFTWAREAPPLICATION you can find anything there.
-statement	they got PERSON kicked out?
-statement	wow never heard of VIDEONAME?
-statement	I was not aware of a ORGANIZATION room.
-statement	Agreed - I'm in LOCATION and it's brutally hot in the summer, but also pretty cold in the winter!
-statement	Yes, The American GENRE brand.
-statement	VIDEONAME.
-yes_no_question	Did you know you could get the daily forecast from the ORGANIZATION Alexa device
-yes_no_question	Are you into GAMENAME?
-yes_no_question	Do you enjoy SPORT?
-yes_no_question	You think PERSON is a good businessman?
-yes_no_question	So do you like to do anything besides SOFTWAREAPPLICATION?
-yes_no_question	I didn't know that, I have never seen a VIDEONAME, have you?
-yes_no_question	Wait, I think I heard about that... wasn't that just for SPORTTEAM though?
-yes_no_question	Do you like LOCATION?
-yes_no_question	Do you remember VIDEONAME?
-yes_no_question	Have you watched VIDEONAME?
+pos_answer	PERSON--yes!
+pos_answer	Yes they all did at least NUMBER
+pos_answer	Yes you can ORGANIZATION it.
+pos_answer	I love ORGANIZATION.
+pos_answer	I do like GENRE.
+pos_answer	yes i do like VIDEONAME.
+pos_answer	I love VEHICLE.
+pos_answer	I do like VIDEONAME.
+statement	Yes the science VIDEONAME.
+statement	They have something called the VIDEONAME.
+statement	he used to run the voltage high through the DEVICE to get a particular sound.
+statement	That was PERSON.
+statement	I remember PERSON.
+statement	More than the nuclear icbm deterrent in the LOCATION.
+statement	If I have any albums they are CDs from the YEAR and probably lost in an attic or basement.
+statement	Yeah it is located in LOCATION.
+statement	and he was NUMBER!
+statement	PERSON was interested in art in many forms.
+yes_no_question	You like GENRE ?
+yes_no_question	do you wear your WEAR to bed?
+yes_no_question	have you been to a PERSON concert?
+yes_no_question	yeah... is SOFTWAREAPPLICATION even exists now ?
+yes_no_question	Do you watch DEVICE ?
+yes_no_question	Ok lol  Do you use SOFTWAREAPPLICATION?
+yes_no_question	Sounds like a lot of money to me do you use ORGANIZATION a lot?
+yes_no_question	Do you like DEVICE?
+yes_no_question	Are you a fan of GENRE?
+yes_no_question	lol  Do you know what a DEVICE is?
 appreciation	That is cool about PERSON.
-appreciation	Yes that is in the LOCATION, pretty cool
-appreciation	ah that is cool, do you like PERSON?
-appreciation	Yes, for NUMBER dlls, cool!
-dev_command	Google instructions for DEVICE.
-dev_command	Have a good day, put on some PERSON to listen to.
-dev_command	bye, have a nice DATE
-dev_command	have a nice DATE
-other_answers	Yes that would be the ORGANIZATION, never knew that
-other_answers	No, maybe PERSON I have no idea really
-other_answers	I think it's close to a NUMBER points to zero, but don't quote me.
-other_answers	no ideDURATION.
+dev_command	Have some SOFTWAREAPPLICATION!

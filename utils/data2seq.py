@@ -1,5 +1,7 @@
 import json
 from collections import Counter
+import re
+
 
 from nltk.tokenize import sent_tokenize
 
@@ -49,6 +51,7 @@ class Dial2seq():
             yield dialogue
             
 
+
 class SequencePreprocessor():
     """ 
     preprocesses sequences
@@ -62,9 +65,14 @@ class SequencePreprocessor():
     of a sequence, skip this seqence
     """
 
-    def __init__(self, num_entities=1, entities: list = ['misc', 'anaphor']):
+    def __init__(self, 
+                 num_entities=1, 
+                 stoplist_labels: list = ['misc', 'anaphor'],
+                 stoplist_entities: list = ['a', 'an', 'the', 'A', 'An', 'The']
+                ):
         self.num_entities = num_entities
-        self.stoplist = entities
+        self.stoplist_labels = stoplist_labels
+        self.stoplist_entities = stoplist_entities
         self.midas_all = Counter()
         self.entity_all = Counter()
         self.midas_target = Counter()
@@ -98,7 +106,7 @@ class SequencePreprocessor():
         try:
             sents = sent_tokenize(ut['text'])
         except IndexError:
-            # handles utterances with to much punctuation
+            # handles utterances with too much punctuation
             sents = [ut['text']]
         
         midas_labels, midas_vectors = self.__get_midas(ut['midas_label'])
@@ -109,6 +117,8 @@ class SequencePreprocessor():
             # handles mislabelled samples
             entities = []
         
+        entities = [ent for ent in entities if ent['text'] not in self.stoplist_entities]
+                
         return sents, midas_labels, midas_vectors, entities
 
     
@@ -139,8 +149,11 @@ class SequencePreprocessor():
         
         if len(sent_ents) != 1:
             return False
-
-        return sent_ents[0]['label'] not in self.stoplist
+        
+        if ',' in sents[0]:
+            return False
+        
+        return sent_ents[0]['label'] not in self.stoplist_labels
     
     
     def __shape_output(self, seq: list) -> list:
@@ -186,7 +199,6 @@ class SequencePreprocessor():
             [f"{seq[-1][1][0]}_{seq[-1][2][0]['label']}"]
         )
         
-        
         entry['previous_text'] = [s[0] for s in seq[:-1]]
         entry['previous_midas'] = [s[1] for s in seq[:-1]]
         entry['midas_vectors'] = [s[2] for s in seq[:-1]]
@@ -213,10 +225,37 @@ class SequencePreprocessor():
             
         return labels, vectors
     
-    
+
     def __get_entities(self, sentence, entities) -> list:
         """
         returns entities from a given list of entities
         that are present in a given sentence
         """
-        return [ent for ent in entities if ent['text'] in sentence]
+        ents = []
+        
+        for ent in entities:
+            
+            if ent['label'] in self.stoplist_labels:
+                continue
+            
+            if not self.__regex_checker(ent['text'], sentence):
+                continue
+                
+            if ent['text'] not in sentence:
+                # last sanity check to make sure entity is in a sentence
+                continue
+                
+            ents.append(ent)
+            
+        return ents
+    
+    def __regex_checker(self, entity: str, sentence: str) -> bool:
+        regex = "(?<![a-zA-z])" + entity + "(?![a-zA-Z])"
+        
+        try:
+            matches = re.findall(regex, sentence)
+        except:
+            # catch poorly labeled entities
+            matches = []
+        
+        return len(matches) == 1

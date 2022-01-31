@@ -1,123 +1,114 @@
 midas_entity	normalized_text
-appreciation duration	ThDURATIONt's cool.
-appreciation location	Yes that is in the LOCATION, pretty cool
-appreciation number	Yes, for NUMBER dlls, cool!
 appreciation person	That is cool about PERSON.
 command channelname	Keep learning and enjoy watching CHANNELNAME.
 command date	Have a nice DATE.
-command device	What about DEVICE.
-command event	Yea, imagine if that was the EVENT.
+command device	DEVICE amusement devices.
+command duration	You wonder what our way of voting will be like in DURATION.
+command event	But imagine the EVENT process.
 command genre	GENRE!
-command location	how about that wall on LOCATION ?
 command number	Talk about NUMBER being unlucky haha.
-command organization	What about with ORGANIZATION?
-command position	I enjoy talking about POSITION, but I have to run.
+command position	As long as we can start with the first POSITION.
 command softwareapplication	Some stuff Do you know what SOFTWAREAPPLICATION is?
-command sport	What about SPORT?
+command sport	I have enjoyed talking about SPORT with you.
 command sportteam	Close the SPORTTEAM.
 command videoname	Lets talk about VIDEONAME.
+command wear	But what about the ostrich WEAR?
 command year	Just like the one that happened in the YEAR?
-comment channelname	I din't realize that Tricky Dick had anything to do with the creation of CHANNELNAME, how interesting!
-comment date	have a nice DATE
+comment channelname	CHANNELNAME suing someone for distorting the truth is pretty rich.
+comment date	it was nice chatting with you to have a nice DATE
+comment duration	Wow that is crazy that's a lot of calories to burn in a DURATION!
 comment event	Yes EVENT is a crazy lot!
-comment gamename	No, I've never even heard of GAMENAME until recently lol, can't be that good
-comment genre	Naah, I only saw it move it's head to GENRE ;) looked cool !
-comment position	Oh geez, that sounds even crazy that our POSITION.
-comment softwareapplication	Yea, it's pretty funny the first comment on SOFTWAREAPPLICATION was actually a complaint
-comment songname	Yeah they did it was SONGNAME, such an amazing album
-comment sport	Yeah SPORT does have some weird rules.
-comment sportrole	That is impressive - almost as impressive as the deaf SPORTROLE
-comment sportteam	haha now that's irony SPORTTEAMre.
+comment genre	yeah that is so convenient for those who love that type of GENRE
+comment position	That's had to give the sitting POSITION a moment of pause.
+comment softwareapplication	It's crazy what's all on SOFTWAREAPPLICATION.
+comment songname	SONGNAME do sound majestic
+comment sport	That is an insane amount of money to play SPORT.
+comment sportrole	That is exciting and the SPORTROLE has a lot of responsibility
+comment sportteam	SPORTTEAM are a great team.
 comment vehicle	Yes but they reason that for the fact that they need to protect their VEHICLE so that makes sense
 comment wear	WEAR are good.
-comment year	Yes that was late in the YEAR, pretty recent
-complaint channelname	No, who created CHANNELNAME?
+comment year	It's crazy to think that this all started in the early YEAR.
 complaint duration	DURATION?!
 complaint genre	Oh I am not convincing you to watch GENRE.
 complaint location	Now you're defending LOCATION?
-complaint number	no way, less and NUMBERmb??
+complaint number	NUMBER pounds really?
 complaint organization	You don't know what ORGANIZATION is?
-complaint person	Don't give PERSON any ideas.
-complaint softwareapplication	Who doesn't browse SOFTWAREAPPLICATION now and again
-complaint sport	You know a lot about SPORT.
+complaint person	Eat that PERSON.
+complaint softwareapplication	You never heard of SOFTWAREAPPLICATION?
+complaint sport	More than SPORT players really?
 complaint sportteam	You're not a SPORTTEAM fan?
 complaint videoname	please do not binge watch VIDEONAME.
 complaint year	YEAR?!
-dev_command date	Have a nice DATE
+dev_command date	have a nice DATE
 dev_command device	Google instructions for DEVICE.
-dev_command person	Have a good day, put on some PERSON to listen to.
 dev_command softwareapplication	Have some SOFTWAREAPPLICATION!
 dev_command sport	Keep learning and enjoying SPORT!
 dev_command videoname	Watch VIDEONAME.
-neg_answer device	No they just have a DEVICE.
+neg_answer device	I do not have an DEVICE.
 neg_answer duration	No we have went a couple DURATION though.
+neg_answer event	Not since EVENT grade.
 neg_answer genre	No I haven't seen a good GENRE in a long time.
-neg_answer location	Nope, LOCATION here.
-neg_answer number	No, wasnt it outrageous, like NUMBER?
-neg_answer organization	No, I haven't heard of ORGANIZATION.
-neg_answer person	No, I like PERSON more.
-neg_answer position	No, I do not agree with the POSITION doing that.
-neg_answer softwareapplication	I don't watch SOFTWAREAPPLICATION now.
+neg_answer location	No LOCATION had not been built at that point.
+neg_answer number	Nope those are the only NUMBER I know of.
+neg_answer organization	I haven't heard about the ORGANIZATION campaign.
+neg_answer person	I did not know that PERSON did that.
+neg_answer softwareapplication	Not so much now that I have SOFTWAREAPPLICATION.
 neg_answer sport	Not in modern SPORT.
+neg_answer sportrole	I didn't know that about the deaf SPORTROLE.
 neg_answer sportteam	No I do not like SPORTTEAM.
 neg_answer vehicle	i do not own a VEHICLE.
-neg_answer videoname	Don't like VIDEONAME.
-open_question_factual duration	That is a huge mistake, I bet someone got fired over that, how can it take you DURATION you are like the elite of the elite
+neg_answer videoname	I haven't seen VIDEONAME.
+open_question_factual duration	I wonder how many books she reads a DURATION.
 open_question_factual event	So who did win the EVENT this year?
 open_question_factual gamename	"How long did you play ""GAMENAME Go""."
-open_question_factual genre	Since when has GENRE been around?
-open_question_factual number	What do you mean NUMBER?
-open_question_factual position	Nope actually i don't know the POSITION process from back then what was it?
-open_question_factual softwareapplication	What was SOFTWAREAPPLICATION
-open_question_factual sport	So what kind of SPORT do you follow ?
-open_question_factual sportrole	What did the deaf SPORTROLE do?
-open_question_factual sportteam	Which city do SPORTTEAM compete in?
+open_question_factual genre	What drew these folks to GENRE in the first place though.
+open_question_factual number	how long would it take to play NUMBER games?
+open_question_factual position	Wow that is crazy Do you know what the first POSITION was called
+open_question_factual softwareapplication	Who is the  blind guy on SOFTWAREAPPLICATION.
+open_question_factual sport	Speaking of SPORT how often you watch it?
+open_question_factual sportrole	Who is the best active SPORTROLE?
+open_question_factual sportteam	How did SPORTTEAM do this season?
 open_question_factual vehicle	How often do you drive your VEHICLE by the way?
-open_question_factual videoname	"What's ""VIDEONAME"" ?"
-open_question_factual wear	I wonder what they do with the old WEAR.
-open_question_factual year	No I didnt, what was different back in YEARÂ¡
+open_question_factual videoname	I wonder when VIDEONAME did that?
+open_question_factual wear	hmm its also crazy..  what abt WEAR?
+open_question_opinion channelname	I wonder what people in the other countries that get CHANNELNAME think about it.
+open_question_opinion device	Why do they need a DEVICE processor?
 open_question_opinion duration	How about it took DURATION to make wreck-it-ralph and I haven't even seen the movie.
-open_question_opinion event	Who do you think will make it to the EVENT if you had to guess?
-open_question_opinion number	Or NUMBER?
-open_question_opinion position	What respectful name would you give to the POSITION ?
-open_question_opinion softwareapplication	that makes a lot of sense now, so what do you like to watch on SOFTWAREAPPLICATION?
-open_question_opinion songname	I like SONGNAME, level 99 and some others ,  what are your favorites?
-open_question_opinion sport	How about SPORT?
-open_question_opinion sportrole	Thats funny lol, so what are your thoughs on SPORTROLE?
-open_question_opinion sportteam	I like SPORTTEAM, what about you?
-open_question_opinion vehicle	I love VEHICLE...how about you?
-open_question_opinion wear	WWEAR was the most popular WEAR in the West?
-open_question_opinion year	That is quite long ago, I think I signed up in YEAR, how about you?
-opinion bookname	I bet they never read the BOOKNAME.
-opinion channelname	I love CHANNELNAME.
-opinion venue	I really enjoy the VENUE as well.
-other_answers duration	no ideDURATION.
-other_answers number	I think it's close to a NUMBER points to zero, but don't quote me.
-other_answers organization	Yes that would be the ORGANIZATION, never knew that
-other_answers person	No, maybe PERSON I have no idea really
-pos_answer channelname	Yes, I love CHANNELNAME.
-pos_answer duration	Yes and for a good DURATION and then some
-pos_answer location	Ah, yes, LOCATION!
+open_question_opinion event	Who are you hoping wins the EVENT this year?
+open_question_opinion number	What are the NUMBER kinds of hocky could you tell me please?
+open_question_opinion party	Why register PARTY then?
+open_question_opinion position	So what do you think about the POSITION?
+open_question_opinion softwareapplication	If you were to relax and watch some video on SOFTWAREAPPLICATION what would you pick?
+open_question_opinion sportrole	Why do you have such a bad relationship with your SPORTROLE?
+open_question_opinion sportteam	What do you think of the SPORTTEAM?
+open_question_opinion vehicle	Why couldn't they leave their VEHICLE in uniform?
+open_question_opinion wear	What would the point be on wearing those WEAR lol!
+open_question_opinion year	what are your thoughts on the election rules change of YEAR?
+opinion bookname	It would be cool to read that BOOKNAME too.
+opinion ordinal	I believe he was the ORDINAL.
+opinion venue	There are a lot of Sha la las in it so I guess it is like the VENUE that always sings Sweet Caroline.
+pos_answer channelname	yes CHANNELNAME did.
+pos_answer duration	Yes and it took them DURATION to figure that out
+pos_answer location	Yes that is in the LOCATION's highest floor
 pos_answer number	Yes they all did at least NUMBER
+pos_answer party	Yes because they parodies their anti-PARTY party agenda.
 pos_answer position	Yes the POSITION was the runner up.
-pos_answer softwareapplication	Yes I use SOFTWAREAPPLICATION.
-pos_answer songname	Yes, SONGNAME was performed and recorded with that piano
-pos_answer sportteam	I do just like SPORTTEAM.
-pos_answer vehicle	I love VEHICLE.
-pos_answer wear	SomewWEAR.
-pos_answer year	Yes that was back in YEAR
-statement bookname	Yes, the BOOKNAME does still play a large role in our lives though.
-statement date	Well I got to go, have a nice DATE
+pos_answer softwareapplication	Yes I watch SOFTWAREAPPLICATION from time to time.
+pos_answer sportrole	Yes he's a SPORTROLE.
+pos_answer sportteam	Yes I'm a SPORTTEAM fan.
+pos_answer vehicle	Yes I do own a VEHICLE!
+pos_answer wear	Yes I own WEAR.
+pos_answer year	Yes and that dates back only to YEAR so pretty recent
+statement bookname	There is not a consensus about what is canonical in the BOOKNAME.
 statement ordinal	ORDINAL year?
-statement party	Yes, and PARTY too!!
-statement songname	I have never seen SONGNAME!
-statement sportrole	Yes, that the counter to over paying the SPORTROLE.
+statement party	But then the PARTY became more of a people's party with the passing of the New Deal.
+statement songname	"I only know his one song ""SONGNAME"" because it was popular when I was a kid."
 yes_no_question bookname	Do you know much about the BOOKNAME?
-yes_no_question channelname	I have to agree with that comment, did you ever watch CHANNELNAMEÂ¡
-yes_no_question date	Didn't that just come out in DATE?
-yes_no_question duration	No I don't, but probably more than DURATION ago or so, do you know?
-yes_no_question party	Oh, wasn't that about trying to stop them from parodying the anti PARTY agenda?
-yes_no_question songname	Have you ever heard of the band SONGNAME?
-yes_no_question sportrole	Yes; Do you have a favorite SPORTROLE?
+yes_no_question channelname	Did you like the channel CHANNELNAME?
+yes_no_question date	Isn't it for DATE delivery?
+yes_no_question duration	Is that even possible in a DURATION?
+yes_no_question gamename	Are you into GAMENAME?
+yes_no_question party	And he was a PARTY wasn't he?
+yes_no_question songname	Have you heard the album SONGNAME?
+yes_no_question sportrole	Isnt that the leftie SPORTROLE?
 yes_no_question wear	Have you heard of WEAR?
-yes_no_question year	am I reading that correctly about the YEAR study?

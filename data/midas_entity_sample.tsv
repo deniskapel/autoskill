@@ -1,771 +1,811 @@
 midas_entity	normalized_text
-command person	What about PERSON?
-command person	I see, what about PERSON?
-command person	Ask PERSON.
-command person	We should give PERSON a nickname!
-command person	And we talked about PERSON before.
+command location	Imagine if our sun was the size of the biggest star in our LOCATION.
+command location	I'd like to hear LOCATION pronounced in a song...lol.
+command location	lol  Let's talk about the LOCATION.
+command location	I would like to see that Guatemalan law in the LOCATION.
+command location	how about that wall on LOCATION ?
+command location	Imagine what a mess it would be if LOCATION did something like that.
+command location	Take for instance LOCATION's ban on interracial marriage.
+command location	We should publish this as a book and get some money from LOCATION.
+command location	Remind me never to cut anyone off in traffic in LOCATION.
+command location	Just don't make the mopeds in LOCATION solar-powered!
+command organization	Yes making them leave a restaurant if an ORGANIZATION player is there?
+command organization	ORGANIZATION players should run for office.
+command organization	Leave it to ORGANIZATION
+command organization	Yeah imagine if they took all of the comedy related content out of ORGANIZATION?
+command organization	What about with ORGANIZATION?
+command organization	ok... what about ORGANIZATION?..
+command organization	What about ORGANIZATION.
+command organization	I wish people would talk more about his record at the ORGANIZATION instead of this stuff with his wife.
+command organization	Some news from ORGANIZATION is interesting.
+command organization	People need to keep there personal business of ORGANIZATION.
 command person	Lets talk about PERSON next.
-command person	Oh I see, do you have any other suggestions, what about PERSON?
-command person	Imagine if we had someone like PERSON.
-command person	What do you know about PERSON?
+command person	I'd like them to adapt some PERSON.
+command person	What about PERSON?!
+command person	What about PERSON?
+command person	Yeah imagine how wealthy PERSON actually was way back then.
 command person	Or think about a super athlete like PERSON.
-comment device	Wow, I'm surprised DEVICEy have such similar voices.
-comment device	Thats really odd lol thank God our generation did, man the DEVICE was fun
-comment device	I personally think that the DEVICE used to make those eerie sounds looks pretty cool
+command person	What about PERSON?
+command person	Ask PERSON.
+command person	Imagine if we had someone like PERSON.
+command person	We should give PERSON a nickname!
+comment device	Yeah it was the easiest to dial on those large DEVICE
 comment device	That's DEVICE.
-comment device	That's a pretty special DEVICE!
-comment device	lol, what a way to launch their DEVICE!
 comment device	yes it is pretty cool and also a little bit scary that they have access to our DEVICE
-comment device	haha good point, ya its called a DEVICE, no idea how it works but it sounds crazy
-comment device	that is amazing, I guess DEVICE nowadays need to do so many things at the same time
+comment device	I personally think that the DEVICE used to make those eerie sounds looks pretty cool
+comment device	The DEVICE are funny.
+comment device	That was the best gaming DEVICE ever.
 comment device	It is amazing how powerful our DEVICE are.
-comment duration	But that is crazy that that wasv only in DURATION, must have been exhausting!
-comment duration	Yea, that's a crazy stat for just a DURATION.
-comment duration	That's pretty crazy it took them DURATION to figure that out.
-comment duration	Yes per DURATION, that is crazy.
-comment duration	I am not surprised actually but wow, that is a lot of steps in a single DURATION
-comment duration	DURATION, really crazy!!
-comment duration	Yes, they toured almost non-stop for over DURATION, wow.
-comment duration	ThDURATIONt's hilDURATIONrious.
-comment duration	Yes that was DURATION, must have been exhausting
-comment duration	Well DURATION of sleep actually sound wonderful atm
-comment location	LOCATION is looking like a great place to live.
-comment location	I would like to go to LOCATION, sounds like a great destination with a rich culture
-comment location	LOCATION is a very progressive place.
+comment device	Yea that is short and yet we are glued to the DEVICE for forever
+comment device	That's a pretty special DEVICE!
+comment device	Yeah that is a lot for a small DEVICE
+comment location	That's pretty drastic for LOCATION.
+comment location	It was a great film about the LOCATION space program.
 comment location	LOCATION is  a tough town.
-comment location	That's interesting but I wouldn't want the LOCATION to try that
-comment location	Yes, LOCATION is an odd case.
-comment location	That sounds like LOCATION.
-comment location	That is smart marketing for LOCATION.
+comment location	Wow - that's a lot of money just to cross the LOCATION.
+comment location	Ah that is very similar to LOCATION.
 comment location	haha ya I mean I get that its legal in LOCATION but that seems insane
-comment location	Good move LOCATION!
-comment number	That's pretty clever for a NUMBER year old.
-comment number	The actually built the enclave to live in inside the NUMBER enclosure, that is brave of them.
-comment number	Yeah about NUMBER times hotter, that is really hot
+comment location	That's interesting but I wouldn't want the LOCATION to try that
+comment location	from LOCATION thats interesting.
+comment location	Good for LOCATION.
+comment location	That sounds like LOCATION.
 comment number	Not bad for a NUMBER year old guy!
-comment number	That was a practical thing back in the day, NUMBER seems kind of random now,
-comment number	Our any combinations of the same number like NUMBER, that is so interesting though.
+comment number	NUMBER is a lot of money!
+comment number	That's pretty clever for a NUMBER year old.
+comment number	NUMBER dollars is a lot of money though.
 comment number	Wow NUMBER is pretty young.
+comment number	ya that's crazy he made NUMBER per episode!
+comment number	It is kind of funny to think that NUMBER for a library of characters is cheap.
+comment number	NUMBER its weight is crazy!
+comment number	Wow NUMBER is a lot.
 comment number	NUMBER different types1 wow that sounds like a lot
-comment number	NUMBER is a lot, that is crazy.
-comment number	Mars' mon Phobos is one NUMBER hollow, that's crazy
+comment organization	That's a very bad day for ORGANIZATION.
+comment organization	Yeah he is a great player of the ORGANIZATION.
+comment organization	I did and man did they make a big mistake by not buying ORGANIZATION when they could
 comment organization	That's very good of ORGANIZATION.
 comment organization	That's true with ORGANIZATION.
-comment organization	That's nice of ORGANIZATION.
-comment organization	yeah that is pretty nuts but its a great way for ORGANIZATION to advertise
-comment organization	They missed the opportunity of a life time, buying ORGANIZATION at that price is a great deal
-comment organization	Yea that is great ORGANIZATION does that.
 comment organization	That's great of ORGANIZATION.
-comment organization	I think it was something to do with soliders and not being able to leave, that was smart of ORGANIZATION
-comment organization	It was rather genius of ORGANIZATION if you ask me.
+comment organization	That was not nice of ORGANIZATION.
 comment organization	That's a huge loss for ORGANIZATION.
-comment person	and PERSON did Hey jude, what an awesome story
-comment person	Wow so that was PERSON, how cool and really?
-comment person	They have legendary stats I agree, Curry, Thompson, Iguodola, PERSON and Green, great players indeed
-comment person	PERSON's a strange guy.
-comment person	Yeah, PERSON is a good player.
+comment organization	yeah...it seemed ORGANIZATION.
+comment organization	Yeah that is interesting about ORGANIZATION.
+comment person	PERSON is a great guy.
+comment person	That is too bad for PERSON.
+comment person	You are very angry at PERSON.
+comment person	"That seems like a ""PERSON"" thing to do."
+comment person	It was funny when PERSON tweeted a picture of a hat and a lunchbox to Musk in an attempt to fight back.
+comment person	That sounds like a nice thing you have going on there and they used to tease PERSON a lot because of that
+comment person	That is messed up they must really hate PERSON there lol
 comment person	That's gotta infuriate PERSON.
-comment person	Well I like the Uber myself but I have used left, I guess PERSON was the one who was killed by the way, that's very sad
-comment person	Yes, PERSON was regal.
-comment person	Yeah it was in tribute to PERSON, how sweet of them
-comment person	What PERSON did is unusual.
-comment videoname	Wow, VIDEONAME.
-comment videoname	Yeah what a VIDEONAME.
-comment videoname	Yeah and I also liked VIDEONAME a lot, so funny
-comment videoname	That's hilarious he was scared of VIDEONAME.
-comment videoname	No, its called the Isotopes and the Isotopes are a team in the VIDEONAME, I thought that was pretty cool, and no I did not know that, how interesting.
+comment person	It's crazy that PERSON is so old though.
+comment person	Funny for PERSON.
+comment videoname	VIDEONAME was pretty scary.
+comment videoname	VIDEONAME was a very good movie.
+comment videoname	Wow that's pretty good in that many years of VIDEONAME.
+comment videoname	VIDEONAME!
+comment videoname	That's definitely VIDEONAME.
+comment videoname	Oh right VIDEONAME that was a cool movie!
+comment videoname	VIDEONAME!
+comment videoname	wow that sounds like an episode from VIDEONAME.
 comment videoname	VIDEONAME was awesome.
-comment videoname	The video is called VIDEONAME, they had to upgrade the view count, that is crazy!
-comment videoname	VIDEONAME and 2000 degree weather, sounds fun
-comment videoname	great movie, I do not have a particular show but VIDEONAME was very funny
-comment videoname	Wow, VIDEONAME core!
-open_question_factual device	What kind of DEVICE do you watch?
+comment videoname	VIDEONAME.
+open_question_factual device	Right and how do they still have working machines to read those DEVICE
+open_question_factual device	I wonder how old their DEVICE are
+open_question_factual device	How in the world could a DEVICE have been placed there?
 open_question_factual device	I can't say that I've heard of the DEVICE - what is it?
-open_question_factual device	which brand has the DEVICE?
-open_question_factual device	yup I agree, what was your first DEVICE btw?
-open_question_factual device	I have a DEVICE, and you  ?
 open_question_factual device	What was DEVICE
 open_question_factual device	Omg....whats a DEVICE???
 open_question_factual device	How often do use the DEVICE by the way?
-open_question_factual device	Right and how do they still have working machines to read those DEVICE
 open_question_factual device	How is the DEVICE?
-open_question_factual location	How could that happen in the LOCATION?
-open_question_factual location	Who is the big player on LOCATION?
-open_question_factual location	LOCATION, where else?
-open_question_factual location	How long did you work in LOCATION?
-open_question_factual location	"What is ""that' you are referring to for what is best for the LOCATION?"
+open_question_factual device	What kind of DEVICE do you watch?
+open_question_factual device	which brand has the DEVICE?
+open_question_factual location	How long does LOCATION take?
 open_question_factual location	Really what is there to do in LOCATION?
-open_question_factual location	How  can you listen to LOCATION ?
+open_question_factual location	Yeah and another thing why has 34% of the black male population of LOCATION lost their right to vote?
 open_question_factual location	What did LOCATION do?
-open_question_factual location	What happened in LOCATION?
-open_question_factual location	I've been to LOCATION, that's about it, what branch were you?
-open_question_factual organization	How much they were asking to ORGANIZATION ?
-open_question_factual organization	What do you tend to search on ORGANIZATION?
-open_question_factual organization	What do you mean by ORGANIZATION?
-open_question_factual organization	Well, ill take 3G, if you dont ORGANIZATION it right then, they how are you going to get validation.
-open_question_factual organization	What did ORGANIZATION do?
-open_question_factual organization	What do you mean you have to pay a lot of people in the ORGANIZATION?
-open_question_factual organization	Good old ORGANIZATION :) I wonder how high was the fine ?
-open_question_factual organization	How does ORGANIZATION get away with it then?
-open_question_factual organization	"what does it mean ""had the word ORGANIZATION?"""
+open_question_factual location	Who is the big player on LOCATION?
+open_question_factual location	"What is ""that' you are referring to for what is best for the LOCATION?"
+open_question_factual location	BTW how advance does a radio have to be to hear LOCATION radio storms?
+open_question_factual location	How could that happen in the LOCATION?
+open_question_factual location	True but when else do you hear about LOCATION.
+open_question_factual location	How long did you work in LOCATION?
 open_question_factual organization	Which year did you get your first ORGANIZATION?
+open_question_factual organization	What do you mean you have to pay a lot of people in the ORGANIZATION?
+open_question_factual organization	How does ORGANIZATION get away with it then?
+open_question_factual organization	So what do you usually search on ORGANIZATION?
+open_question_factual organization	I wonder how many warehouses ORGANIZATION has in total?
+open_question_factual organization	How much they were asking to ORGANIZATION ?
+open_question_factual organization	How many teams are in the ORGANIZATION?
+open_question_factual organization	What do you mean by ORGANIZATION?
+open_question_factual organization	I wonder how much the bosses of ORGANIZATION have?
+open_question_factual organization	I wonder what ORGANIZATION's agreements really say.
+open_question_factual person	Yes accounting for inflation I may believe that but I also think that list may not include PERSON.I wonder how wealthy banana was?
 open_question_factual person	How old is PERSON now a days?
+open_question_factual person	What band is PERSON from?
+open_question_factual person	What is a PERSON?
+open_question_factual person	No who is PERSON?
+open_question_factual person	Who the heck is PERSON?
+open_question_factual person	How much moeny does PERSON have at this point?
 open_question_factual person	Who is PERSON?
 open_question_factual person	Who is PERSON?
-open_question_factual person	Can be, would be funny to learn more about PERSON, and that is kind of weird, who is in that list?
-open_question_factual person	Hahah  I wonder how long ago PERSON was around?
-open_question_factual person	Who are PERSON?
-open_question_factual person	never heard of PERSON, what is that?
-open_question_factual person	What was PERSON famous for?
-open_question_factual person	How much longer before PERSON retires?
-open_question_factual person	I just wonder who and how PERSONse things are come up with?
-open_question_opinion device	I do have an DEVICE, why do you ask?
-open_question_opinion device	...so why don't You have an DEVICE ?
-open_question_opinion device	How about you, what do you like to listen to on the DEVICE
-open_question_opinion device	I heard something like that, I will be a little afraid that the DEVICE may end up controlling my mind, what do you think?
-open_question_opinion device	probably the DEVICE.How about You
-open_question_opinion device	What are your thoughts on those DEVICE?
-open_question_opinion device	I do listen to DEVICE on my way to work, what about you?
-open_question_opinion device	Yes, why not use the best for DEVICE?
-open_question_opinion device	I do, I have an DEVICE but dont have much time lately what about you?
-open_question_opinion device	Who wants to be in a DEVICE?
-open_question_opinion genre	What is your favorite GENRE artist?
-open_question_opinion genre	Yeah I love GENRE,  how about yourself?
+open_question_factual person	How can they bring all of those people back that PERSON killed?
+open_question_opinion genre	What do you think about GENRE?
+open_question_opinion genre	Which is you favorite GENRE ?
+open_question_opinion genre	What would you say is the key highlight of GENRE?
 open_question_opinion genre	How do you like GENRE?
+open_question_opinion genre	How much do you like GENRE
 open_question_opinion genre	How do you feel about GENRE.
-open_question_opinion genre	Which one is the classic GENRE type?
+open_question_opinion genre	I wonder who has the oldest GENRE.
 open_question_opinion genre	What type of GENRE do you like?
-open_question_opinion genre	Are there any particular cool GENRE groups you like?
-open_question_opinion genre	yes,  love GENRE,  how about yourself?
-open_question_opinion genre	I do like GENRE, how about you?
-open_question_opinion genre	I like GENRE, what about you?
+open_question_opinion genre	How into GENRE are you?
+open_question_opinion genre	Which one is the classic GENRE type?
+open_question_opinion location	How about 86% of the land in LOCATION being government land?
+open_question_opinion location	What do you think would happen if another country far away wanted to dig to the center to try and extract the metal from LOCATION's core?
+open_question_opinion location	How about how the LOCATION passed legislation to protect government employees from violating the geneva convetions?
+open_question_opinion location	I wonder what the Greeks would do with all the political humor that we have in the LOCATION these days?
+open_question_opinion location	What do you think about the next one being held in LOCATION?
+open_question_opinion location	What do you think about LOCATION requiring by law that 40% of the music has to be Canadian?
 open_question_opinion location	Why do you think LOCATION was so lucky to get that number?
 open_question_opinion location	I wonder what the big issues what be on LOCATION.
-open_question_opinion location	Nope I should check it out I guess, I haven't been to LOCATION what about you?
-open_question_opinion location	What do you think about the next one being held in LOCATION?
-open_question_opinion location	Yeah, but why at LOCATION?
-open_question_opinion location	Sure sounds like a beautiful place, what about LOCATION?
-open_question_opinion location	Why does LOCATION get  to choose?
-open_question_opinion location	Wow now, I have never visit LOCATION, what about you?
-open_question_opinion location	I guess, but why LOCATION?
-open_question_opinion location	Why LOCATION?
-open_question_opinion organization	So what do you think of ORGANIZATION?
-open_question_opinion organization	Yeah thats a sensible topic indeed lol, I do watch the ORGANIZATION, what about you?
-open_question_opinion organization	Thats a valid point, so what are your thoughts on ORGANIZATION?
-open_question_opinion organization	I do yeah, but I use ORGANIZATION a bit more what about you?
-open_question_opinion organization	Yes and I love to shop on ORGANIZATION and you?
-open_question_opinion organization	Why don't you like ORGANIZATION?
-open_question_opinion organization	I wonder how you do that with ORGANIZATION?
-open_question_opinion organization	Yeah I do follow ORGANIZATION why do you ask?
+open_question_opinion location	Why the LOCATION?
+open_question_opinion location	Thank You ;) ....so why LOCATION ?
 open_question_opinion organization	How about life before ORGANIZATION?
-open_question_opinion organization	What do you think about ORGANIZATION?
-open_question_opinion person	wow that is wild, I like PERSON a lot, what about you?
-open_question_opinion person	Oh thats interesting, what are your thoughts on PERSON?
-open_question_opinion person	I'm not sure, I think it's recently, but ya that is great I like PERSON a lot, what about you?
+open_question_opinion organization	What is your favorite ORGANIZATION?
+open_question_opinion organization	I wonder how you do that with ORGANIZATION?
+open_question_opinion organization	Why don't you like ORGANIZATION?
+open_question_opinion organization	What do you think about when the ORGANIZATION banned the dunk.
+open_question_opinion organization	What do you think about ORGANIZATION winning a Emmy for the yellow line invention?
+open_question_opinion organization	So what do you think of ORGANIZATION?
+open_question_opinion organization	What is your favorite team in the ORGANIZATION?
+open_question_opinion organization	What do you think of ORGANIZATION's new sunday delivery contract?
+open_question_opinion organization	What do you think about the ORGANIZATION appointing an ambassador to extraterrestrials?
+open_question_opinion person	What did you think of PERSON in it?
 open_question_opinion person	How about PERSON?
-open_question_opinion person	How can anyone not be a fan of PERSON?
-open_question_opinion person	yup you're right, I would have thought PERSON would be in there, what about you?
-open_question_opinion person	Ive always liked PERSON the best, how about you?
-open_question_opinion person	what do you think of PERSON btw?
-open_question_opinion person	haha yup no one could have predicted, what do you think about PERSON the science guy?
-open_question_opinion person	So how do you feel about PERSON?
-open_question_opinion videoname	how about VIDEONAME
-open_question_opinion videoname	Yes I do, I like to watch VIDEONAME, and you?
-open_question_opinion videoname	"How about ""VIDEONAME""?"
-open_question_opinion videoname	What do you call VIDEONAME Rock?
-open_question_opinion videoname	Which actor do you think played the best VIDEONAME?
-open_question_opinion videoname	How do you feel about the show VIDEONAME?
+open_question_opinion person	How about that PERSON?
+open_question_opinion person	How about that rascal PERSON becoming an actor so he could hit on the hottest girls.
+open_question_opinion person	How about PERSON?
+open_question_opinion person	What do you think of PERSON?
+open_question_opinion person	What do you think of that contract PERSON signed?
+open_question_opinion person	What do you think about PERSON by the way?
+open_question_opinion person	And what about PERSON?
+open_question_opinion person	What do you think about PERSON starting acting in order to meet girls?
+open_question_opinion sport	I wonder how much you burn playing SPORT?
+open_question_opinion sport	Do you think SPORT is rougher now or in the past.
+open_question_opinion sport	Do you have a favorite SPORT player you like to watch?
+open_question_opinion sport	In terms of SPORT would you be Hoya?
+open_question_opinion sport	How about SPORT?
+open_question_opinion sport	How do you feel about SPORT?
+open_question_opinion sport	If you were a SPORT player would you choose familiarity to chance?
+open_question_opinion sport	Wonder what they call SPORT?
+open_question_opinion sport	So why did SPORT never catch on as an adult professional sport?
+open_question_opinion sport	What do you think about SPORT?
+open_question_opinion videoname	I wonder how many fans they would have on VIDEONAME?
 open_question_opinion videoname	I've seen VIDEONAME so far how about you?
+open_question_opinion videoname	Which actor do you think played the best VIDEONAME?
 open_question_opinion videoname	Yeah I guess How about VIDEONAME?
-open_question_opinion videoname	I have to say VIDEONAME or Better Call Saul, what about yours?
-open_question_opinion videoname	What did you think about their album VIDEONAME?
-opinion date	Have a good DATE too!
-opinion date	You might be right on both counts, nice chatting with you have an awesome DATE.
-opinion date	Same, have a great DATE.
-opinion date	You have a nice DATE too!
-opinion date	not sure, have a great DATE:)
-opinion date	You have a great DATE too!
-opinion date	You have one also and a great DATE!
-opinion date	Haha, that is great, nice chatting with you, have a great DATE!
+open_question_opinion videoname	How about VIDEONAME?
+open_question_opinion videoname	"How about ""VIDEONAME""?"
+open_question_opinion videoname	What about VIDEONAME?
+open_question_opinion videoname	Why hasn't VIDEONAME gotten canceled?
+open_question_opinion videoname	I wonder what he felt about VIDEONAME?
+open_question_opinion videoname	What do you call VIDEONAME Rock?
+opinion channelname	That was before CHANNELNAME came up with the nifty yellow first down line though.
+opinion channelname	I'm glad for the yellow line though from CHANNELNAME.
+opinion channelname	I was vaguely familiar with CHANNELNAME
+opinion channelname	I think CHANNELNAME Nudes is a different channel.
+opinion channelname	Interesting that CHANNELNAME News viewers are so old on average.
+opinion channelname	I wonder it was because of good shows on CHANNELNAME meant people would switch to that?
+opinion channelname	Thank you for the info about CHANNELNAME and the yellow first down line.
+opinion channelname	I love CHANNELNAME.
+opinion channelname	CHANNELNAME is much bigger and more powerful than a lot suspect.
+opinion channelname	I mean I only watch CHANNELNAME for the news lol.
+opinion date	I bet they all vote to make DATE free ice cream day.
 opinion date	Have a great DATE!
-opinion date	You have a great DATE too!
-opinion device	No I did not know that and to think we have come such a long way from DEVICE!
-opinion device	DEVICE can be fairly delicate, I suppose.
-opinion device	I've been getting into the DEVICE.
-opinion device	I think that the DEVICE should serve us, not the other way around.
-opinion device	Thats a lot different than the stuff we see on DEVICE!
-opinion device	for sure, I could imagine not having my DEVICE!
-opinion device	I avoid my DEVICE when I can too haha.
-opinion device	Yeah it certainly has changed the way lots of people watch DEVICE.
-opinion device	Thats one of the few reasons to keep normal DEVICE.
-opinion device	I think DEVICE can do the same as well.
-opinion duration	That would be fun, and its sounds like her neighbors all like it if it's been happening for DURATION!
-opinion duration	Yeah exactly, I guess that is why it has been going on for over DURATION now
-opinion duration	I don't know that is a good question I think at some point but I don't know if it will be in my DURATION.
-opinion duration	I DURATIONgree with you.
-opinion duration	Wow, that is almost like one per DURATION!
-opinion duration	Really, yes...Have to enjoy these next few DURATION until it gets really hot!!
-opinion duration	Everyone must have been in complete panic for that DURATION.
-opinion duration	DURATION on the road, that seems quite tiring.
-opinion duration	Very true, let DURATIONlone DURATIONct in one.
-opinion duration	I DURATIONgree.
-opinion event	Bengles should've beat us in the EVENT a couple years ago if it wasn't for Burrfect.
-opinion event	I know it's crazy, EVENT are the same way.
-opinion event	I remember EVENT.
-opinion event	I heard of that, and think it's ironic because of the colors from the EVENT.
-opinion event	I'm EVENT same way.
-opinion event	I would have to say EVENT.
-opinion event	EVENT last year was pretty good.
-opinion event	I agree, can you imagine the EVENT between both teams?
-opinion event	Maybe that is the secret to be a five time EVENT winner!
-opinion event	I watch some, I am excited for the EVENT, you?
-opinion gamename	Yeah I used to love playing GAMENAME growing up!
-opinion gamename	I still remember how people were crazed about GAMENAME
-opinion gamename	I love GAMENAME.
-opinion gamename	i like GAMENAME
-opinion gamename	GAMENAME is a slow poke.
+opinion date	Have a good DATE too!
+opinion date	Have a nice DATE!
+opinion date	you have a nice DATE as well.
+opinion date	thank you have a nice DATE
+opinion date	Have a great DATE!
+opinion date	You have one also and a great DATE!
+opinion date	You have a great DATE as well bye.
+opinion date	I was surprised the first time I got a package on DATE.
+opinion device	I bet they have to use a DEVICE for that.
+opinion device	I would be more than happy to stay off my DEVICE.
+opinion device	I would use a DEVICE LOL just kidding.
+opinion device	That is suprising considering how glued people are to their DEVICE
+opinion device	I wonder if the DEVICE count has gone up
+opinion device	Maybe a wall of DEVICE?
+opinion device	I thought they would have DEVICE dryers or something.
+opinion device	I wonder what the future of DEVICE are.
+opinion device	I think its because of old DEVICE?
+opinion device	It is really incredible what our DEVICE can do these days.
+opinion duration	Voter turnout hasnt gotten over 63% in the last DURATION.
+opinion duration	I would do it differently though because the offer might not come DURATION later.
+opinion duration	That is a lot per DURATION.
+opinion duration	Not sure he has the temperment for another DURATION but we'll see.
+opinion duration	Make you wonder where the other DURATION went
+opinion duration	I think it was more than DURATION.
+opinion duration	We are better off as a people every DURATION!
+opinion duration	ya that's a lot per DURATION which is good for sure!
+opinion duration	It's amazing that it took DURATION to make Wreck-it-Ralph.
+opinion duration	That would be the fight of a DURATION..  Id give the edge to Musk
+opinion event	Yeah the EVENT is usually pretty fun to watch.
+opinion event	EVENT.
+opinion event	Im only into the EVENT.
+opinion event	I wonder how much swimmers lose at a EVENT.
+opinion event	Those EVENT soldiers were amazing!
+opinion event	I think the endorsements for an EVENT gold medalist is a big incentive to win.
+opinion event	well he could probably study during the EVENT.
+opinion event	Made the EVENT but did nothing spectacular there.
+opinion event	I think the EVENT is still ongoing.
+opinion event	Just like EVENT.
+opinion gamename	But that was a huge advancement at the time over monochrome games like GAMENAME!
 opinion gamename	GAMENAME was an amazing game!
+opinion gamename	Probably GAMENAME Where you jumped on the eggs when the bowsers spit them at you.
+opinion gamename	I liked playing their songs in GAMENAME for sure!
+opinion gamename	I love playing GAMENAME too.
+opinion gamename	i am a huge GAMENAME fan.
+opinion gamename	Yeah my nephews are into GAMENAME as well.
+opinion gamename	I find GAMENAME interesting.
 opinion gamename	I am ok. GAMENAME is fun too!
-opinion gamename	I don't so much anymore, but I used to love GAMENAME back in the day.
-opinion gamename	I like GAMENAME.
-opinion gamename	I loved playing GAMENAME when I was younger.
-opinion genre	Yeah GENRE can be really fun to listen to.
-opinion genre	No I didn't, that is really interesting, especially because I really enjoy GENRE.
-opinion genre	Well if you know anyone that wants to loose weight apparently GENRE will help, lol!
-opinion genre	Yeah there are some really good GENRE and yeah that is a good idea!
-opinion genre	I'll pretty much listen to anything except GENRE.
-opinion genre	I like GENRE mostly.
-opinion genre	I'm not really into GENRE.
-opinion genre	Yeah there is some really good GENRE out there for sure.
-opinion genre	I mean, I guess GENRE are for the hardcore fans.
-opinion genre	I like all different stuff, 50's and GENRE are super fun to dance to.
-opinion location	That's a cool fact to know if I'm ever in LOCATION.
-opinion location	I liked LOCATION.
-opinion location	Sounds kind of racist, don't think it would fly in LOCATION.
-opinion location	I had hear that, I love the name they gave to the 'LOCATION'.
-opinion location	I know right,  just thinking about LOCATION and everything out there is very humbling.
-opinion location	Yeah, that would be LOCATION.
-opinion location	I would prefer if they put their heads together and help LOCATION.
-opinion location	There would probably be a lot of arguing in the LOCATION if you had two opposing sides trying to make decisions all the time...
-opinion location	Haha I want to live in LOCATION now!
-opinion location	I wonder too, I heard maybe in LOCATION they still are.
-opinion number	Interesting, I liked the original NUMBER, all the others were pretty bad in my opinion.
-opinion number	I agree 100NUMBER!
-opinion number	No, but i will ride in one that goes NUMBERmph haha
-opinion number	Yeah same here, and I guess it's NUMBER per!
-opinion number	"Im not much taller, only NUMBER"", jumping really hasnt been my strong suit."
-opinion number	That seems to me to be about NUMBER too many.
-opinion number	NUMBER times better.
-opinion number	NUMBER feet is FAR!
-opinion number	Not sure I want to go NUMBER mph in a yellow bus and a cranky Dutch man at the wheel.
-opinion number	Exactly yet they get paid NUMBER.
-opinion organization	I'm pretty sure ORGANIZATION would still be around if that had happened.
-opinion organization	I think so too, but ORGANIZATION knows what people really love more!
-opinion organization	i would love to work at ORGANIZATION.
-opinion organization	ORGANIZATION is amazing.
-opinion organization	I am not such a big fan, but at least I know what ORGANIZATION Stands for.
-opinion organization	ORGANIZATION is good too.
-opinion organization	Yes I really like ORGANIZATION too.
-opinion organization	I think it's funny that ORGANIZATION trademarked the names super hero and super villain.
-opinion organization	Good for ORGANIZATION!
-opinion organization	ORGANIZATION is a good choice.
-opinion party	Yeah, the PARTY was a lot different more recently than people think.
-opinion party	I agree, just not the support needed to elect an PARTY.
-opinion party	That they are a PARTY based?
-opinion party	I don't know, PARTY?
-opinion party	Just another PARTY I don't want to be around, haha!
-opinion party	They are biased and pro PARTY.
-opinion party	Yes, or PARTY.
-opinion party	I consider myself a PARTY but its good to have several points of view
+opinion gamename	I love GAMENAME.
+opinion genre	I will really listen to anything except GENRE.
+opinion genre	I like some GENRE.
+opinion genre	I love GENRE!
+opinion genre	Now that would make a great GENRE.
+opinion genre	It's a bit weird how the Greek meaning of GENRE means action.
+opinion genre	GENRE is great for laughs.
+opinion genre	Yeah I would definitely say that it would be GENRE!
+opinion genre	GENRE is a favorite of mine.
+opinion genre	I tend to watch GENRE shows to get my news.
+opinion genre	I love GENRE when i get a chance to listen to it.
+opinion location	I'm glad that there are more libraries than there are McDonald's in the LOCATION.
+opinion location	I bet it has something to do with LOCATION!
+opinion location	I would hate to live in LOCATION.
+opinion location	Then he should leave LOCATION for his own good.
+opinion location	I love LOCATION.
+opinion location	The German Shepherd dog lobby is strong in LOCATION.
+opinion location	I'd like to go to LOCATION.
+opinion location	I guess LOCATION is sin city.
+opinion location	I'm surprised it didn't last in the LOCATION.
+opinion location	LOCATION is too.
+opinion number	I think one of the funniest elections is when a dog beat NUMBER people in a mayoral election.
+opinion number	I guess he could go to the website with NUMBER of episodes of classic radio dramas for free.
+opinion number	A bus going NUMBER mph would scare me I think.
+opinion number	I think he might be NUMBER now.
+opinion number	she must have NUMBER by this point.
+opinion number	I would be in my REM cycle on inning NUMBER haha.
+opinion number	I wonder if I should wear a seat-belt for a NUMBER mph bus.
+opinion number	I would give up NUMBER for 10 whoppers!
+opinion number	I'm sure it's tough to keep up with all of the NUMBER subscribers at all times.
+opinion number	I agree 100NUMBER.
+opinion organization	What is interesting about the business is that ORGANIZATION is dominant seed provider to all of these.
+opinion organization	I think he just does not like the ORGANIZATION.
+opinion organization	I think there a lot of fines handed out by the ORGANIZATION that people would categorize as ridiculous.
+opinion organization	Which is weird because i thought ORGANIZATION own them.
+opinion organization	ORGANIZATION is nuts!
+opinion organization	I wonder if the ORGANIZATION knew about it.
+opinion organization	ORGANIZATION is a monster.
+opinion organization	i guess we dont want to use the ORGANIZATION deterrent to crunch data.
+opinion organization	Not too much ORGANIZATION.
+opinion organization	Looks like they should have accepted ORGANIZATION's offer and bought them back then.
+opinion party	Probably since the PARTY use the elephant as their symbol.
+opinion party	The PARTY field is a jumble now.
+opinion party	For parodying fox-news anti-PARTY agenda.
+opinion party	Oh that's interesting especially given the fact that she just ran PARTY.
+opinion party	It's just difficult to believe it was actuallu PARTY party.
+opinion party	Which makes sense considering how PARTY the network is haha.
+opinion party	I may go on staff for the PARTY candidate.
+opinion party	I think the PARTY will win.
 opinion party	The PARTY use to be very different.
-opinion party	I got to be honest the older i get and as far as what they stand for i'm leaning more and more PARTY.
-opinion person	I wonder if PERSON is still kicking himself lol.
-opinion person	I love PERSON.
-opinion person	Wow, hey, if I found some worth that much I might be able to bid on PERSON's mansion!
-opinion person	Small people tend to be great dancers, PERSON wasn't too tall either I don't think
-opinion person	I like to see PERSON in an era appropriate language and accent.
-opinion person	I haven't, honestly, but that's a cool little fact as I didn't know PERSON ever did that.
-opinion person	The French explorer PERSON.
-opinion person	Thats really funny, PERSON just kills me, his the best lol
-opinion person	 I cannot say that I agree with PERSON on that one.
-opinion person	For sure, PERSON was on fire at that time lol.
-opinion position	Also, POSITION are less educated than I thought.
-opinion position	Maybe a better POSITION could change that.
+opinion party	I consider myself a PARTY but its good to have several points of view
+opinion person	My guess would be PERSON.
+opinion person	Ballet dancer PERSON?
+opinion person	It's even crazier that the grandmother could recognize PERSON's voice.
+opinion person	I really like PERSON.
+opinion person	He always considered himself one anyway... And his arch nemesis...PERSON!
+opinion person	Yeah PERSON is pretty good.
+opinion person	It reminds of that movie speed with PERSON.
+opinion person	Must have been the style at the time--or an homage to PERSON.
+opinion person	I like PERSON.
+opinion person	that is cool I like PERSON!
+opinion position	Ya nowadays POSITION believe so strongly in their beliefs.
+opinion position	That is funny and makes me wonder how the producer or part selector felt after he in fact did become a POSITION.
+opinion position	what is amazing to me and what would not work today politically is the runner up becoming the POSITION.
+opinion position	I guess at the time the POSITION looked quite different.
 opinion position	Where the runner up became POSITION?
-opinion position	Maybe we do, those are called POSITION too.
-opinion position	I loved that in the past someone from the other party was your POSITION.
-opinion position	i think they should bring the runner up is the POSITION
-opinion position	I think being a POSITION would be very stressful.
-opinion position	We're lucky that we don't use the system where the runner up became the POSITION anymore.
-opinion position	I love when POSITION do things like that!
-opinion position	ya I don't mind it, sad though a POSITION has to work at target just to get by
-opinion softwareapplication	I think so,  SOFTWAREAPPLICATION does.
-opinion softwareapplication	Ok, great chat about SOFTWAREAPPLICATION, it's been fun, have to great night.
-opinion softwareapplication	Oh yea,  on a daily basis,  love SOFTWAREAPPLICATION.
-opinion softwareapplication	I will look up SOFTWAREAPPLICATION, not a gamer but best to be aware.
-opinion softwareapplication	For sure, a great place for SOFTWAREAPPLICATION!
-opinion softwareapplication	I am definitely a SOFTWAREAPPLICATION fan.
-opinion softwareapplication	That was a straight loss for SOFTWAREAPPLICATION.
-opinion softwareapplication	Holy crap, yeah that sounds like the peak hours or the SOFTWAREAPPLICATION and chill hours if you will lol.
-opinion softwareapplication	I think just the plan to destroy SOFTWAREAPPLICATION, but very funny.
-opinion softwareapplication	SOFTWAREAPPLICATION is the way to go.
-opinion songname	Cool, I always liked SONGNAME, Slim shady was the man!
-opinion songname	"One of the songs I like is ""SONGNAME."""
-opinion songname	"I like ""SONGNAME""."
-opinion songname	"I think so, the ""SONGNAME"" soundtrack had high acclaim."
+opinion position	Lisa would be the best POSITION in history!
+opinion position	Yeah that dude should run for POSITION.
+opinion position	So many of those POSITION were so well educated.
+opinion position	She probably won't run for POSITION.
+opinion position	I don't see that happening especially with who the current POSITION is
+opinion softwareapplication	Maybe a saved version of SOFTWAREAPPLICATION.
+opinion softwareapplication	SOFTWAREAPPLICATION was probably fun and probably a lot better about protecting user data.
+opinion softwareapplication	I wonder if they block the like button on SOFTWAREAPPLICATION?
+opinion softwareapplication	I love SOFTWAREAPPLICATION.
+opinion softwareapplication	That sounds like SOFTWAREAPPLICATION.
+opinion softwareapplication	SOFTWAREAPPLICATION is a great way to go.
+opinion softwareapplication	I love SOFTWAREAPPLICATION!
+opinion softwareapplication	That would be a great way to burn calories by using SOFTWAREAPPLICATION.
+opinion softwareapplication	I mostly use SOFTWAREAPPLICATION.
+opinion softwareapplication	I really like SOFTWAREAPPLICATION.
+opinion songname	I love SONGNAME.
+opinion songname	I love SONGNAME.
 opinion songname	I guess they liked the SONGNAME?
-opinion songname	The movie SONGNAME.
+opinion songname	I also like the Rip SONGNAME line of clothes
+opinion songname	"One of the songs I like is ""SONGNAME."""
+opinion songname	Another popular album is SONGNAME.
+opinion songname	Especially her SONGNAME song.
+opinion songname	I like SONGNAME.
 opinion songname	Rock SONGNAME
-opinion songname	I wonder thSONGNAMEt myself.
-opinion songname	lol  Be like watching SONGNAME.
 opinion songname	"""SONGNAME"" is one that comes to mind."
-opinion sport	I don't watch SPORT either, way too boring.
-opinion sport	I'm neutral about SPORT but I know a little.
-opinion sport	Wow, the must really love SPORT!
-opinion sport	I do like SPORT.
-opinion sport	Well, SPORT has gotten too political with the kneeling, etc.
-opinion sport	Yea, i wonder if they do fantasy drafts for SPORT?
-opinion sport	I meant to say female SPORT professional players, even.
-opinion sport	Interesting, both are really cool But SPORT is better, I guess they couldn't decide!
-opinion sport	Oh then yes, although I do like the other SPORT too.
-opinion sport	Well, Ive enjoyed chatting with you about SPORT!
-opinion sportrole	I was thinking SPORTROLE as well and that's probably about it.
-opinion sportrole	Yes certainly I could see a female SPORTROLE.
+opinion sport	I guess my only opinion is that I was kind of surprised that they were that much of a presence in SPORT.
+opinion sport	I bet that was one of the best SPORT celebrations ever!
+opinion sport	Well I don't really like any sports LOL but I will watch SPORT from time to time.
+opinion sport	I am not a big fan of  SPORT.
+opinion sport	She gets involved in SPORT too much.
+opinion sport	I love Kareen Abdul-Jabbar what a fantastic SPORT player!!!
+opinion sport	I don't think so in SPORT.
+opinion sport	Guess they are SPORT fans.
+opinion sport	SPORT is my favorite sport to play.
+opinion sport	SPORT has gained so much popularity over the years too.
 opinion sportrole	I love SPORTROLE's.
-opinion sportrole	The SPORTROLE?
-opinion sportrole	I wonder who their SPORTROLE was.
-opinion sportrole	So, I guess most SPORTROLE are right handed.
-opinion sportrole	A lot of SPORTROLE are actually really smart and well educated.
-opinion sportrole	I guess the rhythm could be different, the choices of the SPORTROLE would be unexpected.
-opinion sportrole	That's a good question because I have also noticed that most SPORTROLE's are white.
-opinion sportrole	I think they're both good individually, but they have a kind of partnership that allows them to understand each other and work seamlessly together, possibly much better than other coaches and SPORTROLE.
-opinion sportteam	I am right there with you, but a SPORTTEAM fan.
-opinion sportteam	SPORTTEAM was terrible.
-opinion sportteam	Right that SPORTTEAM loss is brutal!!
-opinion sportteam	I would do that for SPORTTEAM haha.
+opinion sportrole	The SPORTROLE is definitely one of the determinants in how well a team will do in the season.
+opinion sportrole	Maybe they could be SPORTROLE.
+opinion sportrole	He was definitely beyond qualified to be a SPORTROLE.
+opinion sportrole	That is impressive that a SPORTROLE never fumbled the ball.
+opinion sportrole	I wonder if left handed SPORTROLE are more successful like left handed baseball players.
+opinion sportrole	I like the SPORTROLE end position.
+opinion sportrole	I will be rooting for my favorite SPORTROLE this weekend for sure!
+opinion sportrole	I like SPORTROLE and RB.
+opinion sportrole	I was just impressed by their season and with the play of their SPORTROLE all year.
 opinion sportteam	My favorite team is SPORTTEAM.
-opinion sportteam	I am hoping SPORTTEAM actually.
-opinion sportteam	SPORTTEAM
 opinion sportteam	SPORTTEAM fan.
-opinion sportteam	Ah, SPORTTEAM.
-opinion sportteam	You probably won't like this but I'm SPORTTEAM fan.
-opinion vehicle	lol, I love big VEHICLE too!
-opinion vehicle	i prefer the VEHICLE.
-opinion vehicle	id rather have a VEHICLE lol
+opinion sportteam	I think SPORTTEAM would have burned the reel.
+opinion sportteam	I guess at this point SPORTTEAM.
+opinion sportteam	I like to wear clothes like the SPORTTEAM wore.
+opinion sportteam	My fav is SPORTTEAM.
+opinion sportteam	SPORTTEAM.
+opinion sportteam	I like SPORTTEAM.
+opinion sportteam	I guess SPORTTEAM draws some unruly fans.
+opinion sportteam	I love SPORTTEAM.
+opinion vehicle	I love those Mars VEHICLE.
+opinion vehicle	I love my VEHICLE.
 opinion vehicle	I guess now people are just lazy to leave a VEHICLE :)
-opinion vehicle	Yeah, the VEHICLE are a better way to go there.
-opinion vehicle	Yeah, I guess you're not supposed to read on a VEHICLE.
-opinion vehicle	i thought the VEHICLE would have gotten faster though.
 opinion vehicle	Thats an advantage maybe they also have a VEHICLE that travels at a high speed like the Dutch
-opinion vehicle	You could take the bullet VEHICLE, that goes really fast.
-opinion vehicle	the VEHICLE hop?
-opinion videoname	"It was called ""VIDEONAME"" which sounds kind of interesting."
-opinion videoname	I am not a fan of VIDEONAME but I like all the other actors on the show.
-opinion videoname	Like something out of VIDEONAME?
-opinion videoname	Well, I like VIDEONAME still!
-opinion videoname	Yeah VIDEONAME is just classic.
-opinion videoname	Me too VIDEONAME is most definitely my favorite its an absolute masterpiece.
-opinion videoname	Yes, I loved VIDEONAME!
-opinion videoname	I think VIDEONAME is harmless comedy.
-opinion videoname	I still like VIDEONAME.
-opinion videoname	Yeah i liked VIDEONAME.
-opinion wear	Most likely, thats how I treat my WEAR.
-opinion wear	I believe so too, I mean it's just WEAR?
-opinion wear	TWEAR would be a similar motion.
-opinion wear	Ok, I'll lower my expectations about the WEAR.
+opinion vehicle	Especially the mass production of the VEHICLE made cars much for affordable and widespread.
+opinion vehicle	You could literally start a camp fire with your VEHICLE.
+opinion vehicle	VEHICLE are a lifesaver.
+opinion vehicle	maybe they can invent a VEHICLE that could keep us cool.
+opinion vehicle	i thought the VEHICLE would have gotten faster though.
+opinion vehicle	Driverless VEHICLE have a long way to go I agree.
+opinion videoname	Like VIDEONAME.
+opinion videoname	That is my favorite part of VIDEONAME.
+opinion videoname	I also remember VIDEONAME.
+opinion videoname	I really like VIDEONAME.
+opinion videoname	VIDEONAME are old school proper cartoons.
+opinion videoname	VIDEONAME?
+opinion videoname	VIDEONAME is awesome its very in dept and it's alot more fun then CSI.
+opinion videoname	I liked VIDEONAME.
+opinion videoname	Obviously she is quite successful as a solo act and as a judge on VIDEONAME.
+opinion videoname	VIDEONAME sure cranked out a ton of episode too!
 opinion wear	Never really cared for WEAR.
-opinion wear	I am a weirdo so I would never let anyone wear my WEAR before me.
-opinion wear	The WEAR look pretty delicate.
-opinion wear	I liked the WEAR myself, still do.
-opinion wear	Probably best to stick with the WEAR.
-opinion wear	Yeah, I get the same reaction when I wear my WEAR out in public.
-opinion year	Or at least the YEAR!
-opinion year	I'm old so everything prior to YEAR is my genre.
-opinion year	I think it was back after the YEAR season.
-opinion year	I agree, that was in the YEAR, I wonder if that is true today.
-opinion year	YEAR Model T...I don't think I would have been part of the mass.
-opinion year	that is right, but that was back in YEAR.
+opinion wear	Maybe the Canadian WEAR?
+opinion wear	Maybe he was hoping that the WEAR would go to people that needed them.
+opinion wear	Dunce WEAR are another funny one.
+opinion wear	lol that is so many WEAR to go through lol.
+opinion wear	I love my WEAR!
+opinion wear	I have always liked bowling WEAR.
+opinion wear	I wish all WEAR were that cheap.
+opinion wear	I hope the WEAR were not made of horse hair.
+opinion wear	WEAR just make you smile when you see one.
+opinion year	I think it was actually in the YEAR I think you're thinking of the wrong one haha.
+opinion year	Silent reading was a skill only the most most skilled readers of the YEAR ages could do.
+opinion year	The low YEAR is pretty fast for someone with that kind of injury.
+opinion year	I think that the Pilgrims would probably have been horrified at YEAR's fashion.
+opinion year	I don't think the YEAR were known for their comedy lol.
+opinion year	In YEAR?
+opinion year	I watched it in the YEAR and it's still going strong I think.
+opinion year	I think it was YEAR or so.
 opinion year	I don't even know how to measure that either but YEAR is both unbelievable and impressive haha.
-opinion year	It was easy to see everyone in the YEAR.
-opinion year	Yeah, I guess YEAR is considered the modern era.
-opinion year	I think it was the YEAR but that's still impressive!
-pos_answer device	Yes it was easier to dial on a DEVICE
-pos_answer device	Yes, I do watch a lot of DEVICE!
+opinion year	I think that would of been pure chaos in YEAR!
+pos_answer device	Yes they use an instrument called a DEVICE
 pos_answer device	ya i own an DEVICE
-pos_answer device	Yes because it was easy to dial on a DEVICE
-pos_answer device	Yes, I love my DEVICE.
+pos_answer device	Yes it was easier to dial on a DEVICE
+pos_answer device	Yes it was easy to dial on a DEVICE
+pos_answer device	I do like to watch DEVICE.
+pos_answer device	Yes I love watching DEVICE.
+pos_answer device	Yes because it was easier to dial on a DEVICE
+pos_answer device	i do watch DEVICE.
 pos_answer device	Yes I listen to DEVICE.
-pos_answer device	Yes,  or DEVICE.
-pos_answer device	Yes because is was easy to dial on a DEVICE
-pos_answer device	I love my DEVICE.
-pos_answer device	Yeah, I watch some on DEVICE.
-pos_answer genre	Yes I like GENRE.
+pos_answer device	I do like to watch DEVICE.
+pos_answer genre	I like GENRE.
+pos_answer genre	Yes I do like GENRE.
+pos_answer genre	I do like GENRE?
 pos_answer genre	I love GENRE.
-pos_answer genre	Yes I do like GENRE.
-pos_answer genre	Yes I do like GENRE.
+pos_answer genre	I love GENRE.
+pos_answer genre	Yes I like GENRE.
 pos_answer genre	I do like GENRE.
-pos_answer genre	Yes, I enjoy GENRE.
-pos_answer genre	Yeah I love GENRE.
-pos_answer genre	I do like GENRE.
-pos_answer genre	I do like GENRE.
-pos_answer genre	I do like GENRE.
-pos_answer organization	Yes, the ORGANIZATION offer.
-pos_answer organization	I love ORGANIZATION.
-pos_answer organization	Yes, do you like ORGANIZATION?
+pos_answer genre	I do enjoy GENRE.
+pos_answer genre	I love GENRE.
+pos_answer genre	Yes he gave up his practice to turn to GENRE.
+pos_answer organization	Yes he did with ORGANIZATION.
 pos_answer organization	Yes I love ORGANIZATION.
-pos_answer organization	Yes, they had a chance to buy ORGANIZATION and passed on that
-pos_answer organization	Yes, we loved the ORGANIZATION, too.
-pos_answer organization	I do watch the ORGANIZATION!
-pos_answer organization	Some ORGANIZATION it, do you?
-pos_answer organization	yes, ORGANIZATION made the right choice.
+pos_answer organization	I love ORGANIZATION.
 pos_answer organization	Yes I like ORGANIZATION.
-pos_answer person	Yeah, PERSON.
-pos_answer person	Yeah, like PERSON did.
-pos_answer person	Yeah, have you seen PERSON?
+pos_answer organization	Yes because they signed a deal with ORGANIZATION
+pos_answer organization	Yes they merged with the ORGANIZATION.
+pos_answer organization	Yeah I do shop at ORGANIZATION.
+pos_answer organization	Yeah he was an ORGANIZATION player!
+pos_answer organization	Yeah they make a lot ORGANIZATION money.
+pos_answer organization	Yes you can ORGANIZATION it.
+pos_answer person	I did for PERSON.
+pos_answer person	Yes and it was PERSON the one that cracked it after that long
 pos_answer person	I do like PERSON.
-pos_answer person	PERSON, yes.
 pos_answer person	Love PERSON.
-pos_answer person	I like PERSON yes.
+pos_answer person	I do like PERSON.
+pos_answer person	I did know that PERSON was a dancer.
+pos_answer person	Yeah because it was a suit against PERSON.
 pos_answer person	I love PERSON.
-pos_answer person	Uh, PERSON?
-pos_answer person	Yes, PERSON.
-pos_answer sport	Yes, SPORT.
+pos_answer person	Yes PERSON's are cool.
+pos_answer person	I do like PERSON.
 pos_answer sport	I love SPORT.
+pos_answer sport	I am a SPORT fan.
 pos_answer sport	Yes SPORT is definitely popular.
-pos_answer sport	Yes, SPORT is cool.
-pos_answer sport	Yes SPORT is great too
-pos_answer sport	Sure, I like SPORT.
+pos_answer sport	I love SPORT.
+pos_answer sport	yes SPORT.
+pos_answer sport	i do like SPORT.
+pos_answer sport	Yes - who takes a goat to a SPORT game?
 pos_answer sport	I do like SPORT.
 pos_answer sport	I love SPORT.
-pos_answer sport	I love SPORT.
-pos_answer sport	Yes,  I do like SPORT.
+pos_answer sport	Yes I think SPORT is pretty good.
+pos_answer videoname	I did like VIDEONAME.
+pos_answer videoname	Yes I love VIDEONAME.
+pos_answer videoname	I did like VIDEONAME.
+pos_answer videoname	Yes I used to love VIDEONAME.
+pos_answer videoname	Yes I'm a big VIDEONAME fan.
 pos_answer videoname	Yes in VIDEONAME.
-pos_answer videoname	I did like VIDEONAME.
-pos_answer videoname	I love VIDEONAME.
-pos_answer videoname	Yes,  love VIDEONAME.
 pos_answer videoname	I do like VIDEONAME.
-pos_answer videoname	I did like VIDEONAME.
-pos_answer videoname	Yes, VIDEONAME.
-pos_answer videoname	yes i do like VIDEONAME.
-pos_answer videoname	Yes, I love VIDEONAME.
-pos_answer videoname	VIDEONAME?
-statement channelname	I do like CHANNELNAME.
+pos_answer videoname	Yes I've seen VIDEONAME before.
+pos_answer videoname	I do like VIDEONAME.
+pos_answer videoname	I do like VIDEONAME!
+statement channelname	Mine watch CHANNELNAME.
 statement channelname	I've seen CHANNELNAME.
+statement channelname	I heard that CHANNELNAME were the ones to invent the yellow line that indicates the first down.
+statement channelname	I do follow CHANNELNAME.
+statement channelname	CHANNELNAME won an Emmy for a line.
 statement channelname	CHANNELNAME also owns IGN the gaming webiste
-statement channelname	I dont watch CHANNELNAME.
-statement channelname	I heard that they worked together to create CHANNELNAME.
-statement channelname	I haven't seen CHANNELNAME in a long time.
-statement channelname	Because not everyone is like us, some people actually watch CHANNELNAME
-statement channelname	yes CHANNELNAME.
-statement channelname	I have seen CHANNELNAME before.
-statement channelname	I watched CHANNELNAME very rarely in all honesty.
-statement device	I use DEVICE a lot.
-statement device	I did, i watched a documentry on DEVICE a few months ago about it!
-statement device	I honestly even don't have DEVICE home.
-statement device	They use a DEVICE, it even sounds scary the name of it.
-statement device	I have Frozen DEVICE.
-statement device	I used to play the DEVICE.
-statement device	And we are within the DEVICE?
-statement device	Not sure, they called them DEVICE.
-statement device	I never watch DEVICE anymore.
-statement device	I hear it on the DEVICE.
+statement channelname	That's Fox on CHANNELNAME too!
+statement channelname	I didn't know that it was the first game to be shown on CHANNELNAME.
+statement channelname	It's on CHANNELNAME.
+statement channelname	CHANNELNAME is the sports network yes?
+statement date	Yesterday was the DATE anniversary of the creation of the internet.
+statement date	yes they deliver on DATE now
+statement date	I figured because I get their packages on DATE.
+statement date	They couldn't stop DATE from being broadcasted.
+statement date	The postal workers must get double overtime or something to work on DATE.
+statement date	My day was a postman but he never had to go out on DATE.
+statement date	You're the first person that has actually received a package on a DATE that I have talked to.
+statement date	I don't remember getting one on DATE.
+statement date	He's got a new solo album coming out in DATE.
+statement date	The USPS working on DATE?!
+statement device	The other systems  attracted away all the DEVICE followers.
+statement device	I have that and a DEVICE.
+statement device	I watch a lot of DEVICE during the winter.
+statement device	Yeah some people even have DEVICE too.
+statement device	I don't watch much DEVICE.
+statement device	I watch them on DEVICE.
+statement device	Yeah i used to have the DEVICE!
+statement device	I have a DEVICE.
+statement device	Yes that is because it was easy to dial in a DEVICE
+statement device	I sometimes watch DEVICE.
 statement duration	DURATION.
-statement duration	DURATION!
-statement duration	for sure lol, she could read it in like DURATION i bet.
-statement duration	thats over a DURATION years ago.
-statement duration	Maybe a few times a DURATION.
-statement duration	I never knew thDURATIONt!
-statement duration	I used to until about DURATION ago.
-statement duration	Mine do DURATIONs well.
-statement duration	Yeah, I heard that they did that for DURATION.
-statement duration	right DURATION straight!
-statement event	I do watch the EVENT.
-statement event	And that one defeat was in the Word EVENT.
-statement event	I didnt get a chance to watch the EVENT this time.
-statement event	Yeah, before the EVENT years!
-statement event	Yes, we have a big day on EVENT an all day cooking and celebration party!
-statement event	Good enough to win EVENT!
-statement event	Yes, I am, bring on the EVENT..LOL
-statement event	Yeah, i tend to pay attention around the EVENT.
-statement event	I watch mainly during EVENT time.
-statement event	Well EVENT band got more publicity due to that.
+statement duration	I saw about DURATION and that was enough for me.
+statement duration	I played for DURATION in high school.
+statement duration	So it has more than DURATION of history!
+statement duration	Plus they only do about DURATION of action per game!
+statement duration	It's DURATION.
+statement duration	They have been on the air for about DURATION.
+statement duration	I practiced mindfulness for a DURATION in the morning.
+statement duration	and that has been going on for more than DURATION
+statement duration	He only played DURATION.
+statement event	He is the one that started kneeling during the EVENT to protest.
+statement event	I watched the EVENT.
+statement event	"That's one for the ""EVENT ball""!!"
+statement event	I'm not sure if all teams participate in the EVENT.
+statement event	It takes more computing power for one Google search that it did for the 1st EVENT moon mission.
+statement event	I try to watch the EVENT.
+statement event	He did not play much in college and did not have a lot of good tests at the EVENT.
+statement event	We have our next EVENT category: 40 Meter Cowboy Sketch.
+statement event	I am not sure who won the most recent EVENT.
+statement event	He did win EVENT.
+statement gamename	He has like GAMENAME.
 statement gamename	oh I remember GAMENAME.
-statement gamename	I heard one guy became a professional driver by beating people in the game GAMENAME.
-statement gamename	No, but I do remember GAMENAME Legacy.
-statement gamename	I can watch GAMENAME from time to time.
-statement gamename	the original GAMENAME!
-statement gamename	GAMENAME!
+statement gamename	Never played GAMENAME.
+statement gamename	I used to play GAMENAME.
+statement gamename	Yes they were playing GAMENAME
+statement gamename	Oh yeah plenty of GAMENAME and yeah we used to watch him in grade school.
+statement gamename	:) now the current generation is into video games like GAMENAME and no one communicates anymore.
+statement gamename	Yeah I spent hours playing GAMENAME.
 statement gamename	GAMENAME is a computational knowledge engine or answer engine.
-statement gamename	I had an old GAMENAME.
-statement gamename	Yeah, I used to play GAMENAME.
-statement gamename	They produced GAMENAME too!
-statement genre	I listen to GENRE sometimes.
+statement gamename	I have played GAMENAME.
+statement genre	I've watched GENRE shows and movies (like Monty Python!
+statement genre	"It was said he feared the ""urban decadence"" of GENRE."
+statement genre	Yes sometimes but they play a whole lot of GENRE in those
+statement genre	I don't know much about GENRE.
+statement genre	I am not sure when GENRE showed up.
+statement genre	It was a GENRE station but it's not around anymore.
 statement genre	I have heard of GENRE.
-statement genre	there's another GENRE that I used to really enjoy.
-statement genre	Wow that seems like a great activity, I have to start watching more GENRE then lol
-statement genre	Yeah and some famous people in GENRE have stopped by
-statement genre	I have watch enough GENRE.
-statement genre	I hear GENRE is topping the charts there.
-statement genre	Yeah all the pretty girls were going to GENRE class so he followed them
-statement genre	I heard about them, I have not though, I bet it is GENRE!
-statement genre	Isnt creed a GENRE?
-statement location	yes the system is very complicated and there are alternative sources all over the LOCATION.
-statement location	Yes, founded in LOCATION!
-statement location	they should send that to LOCATION so that they dont have to fly short distances
-statement location	Yes in LOCATION as well!
-statement location	Oh same as in LOCATION.
-statement location	Apparently LOCATION does!
-statement location	yes that is on the top floor of the LOCATION
-statement location	LOCATION has always been a slow poke.
-statement location	They office out of the LOCATION, right?
-statement location	"I said I went to LOCATION because I thought it would get me attention."""
-statement number	Wow, NUMBER people!
-statement number	haha nobody has time for the NUMBER page long ones!
-statement number	NUMBER different kinds?
-statement number	NUMBER a year is all you need?
-statement number	Wow, and I have spent NUMBER over the years and all I get is free shipping!
-statement number	NUMBER!
-statement number	Thankfully only NUMBER.
-statement number	Only NUMBER?
-statement number	As far as I know, I think about NUMBER years ago
-statement number	Pretty sure just NUMBER main types.
-statement organization	I have used ORGANIZATION in the past.
-statement organization	Yes, I actually got a package last Sunday from ORGANIZATION.
-statement organization	Yeah, ORGANIZATION is huge.
-statement organization	Yeah, because if you dont get that selfie to ORGANIZATION immediately it never really happened, right?
+statement genre	It's actually used to make the creepy metallic noises you hear in GENRE.
+statement genre	I listen to GENRE.
+statement genre	Korean rappers call GENRE compliment battle.
+statement location	I hope they update the saved copy in the LOCATION library often
+statement location	I had a friend in LOCATION who was in tears that his knees would not allow him to run marathons any more.
+statement location	I believe that's in LOCATION but I'm not sure where.
+statement location	I have a family friend who was in LOCATION.
+statement location	LOCATION was never a serious competitor for anything.
+statement location	Somewher in LOCATION I believe.
+statement location	I read that 34% of black male population in LOCATION has lost the right to vote permanently.
+statement location	Yeah but LOCATION has dog pounds.
+statement location	I've actually been to the LOCATION as a child on a school trip and it's not very big.
+statement location	Didnt know that but i was told that 80% of radio played in LOCATION must be Canadian.
+statement number	I am NUMBER too and just do not have the bandwidth to do what he does.
+statement number	I guess over NUMBER!
+statement number	I missed all NUMBER episodes.
+statement number	lol  I was surprised to have recently found out there is NUMBER different blood types for dogs and that dogs can donate blood at dog blood drives.
+statement number	There are a bunch of spinoffs... i think there are like NUMBER different series after the original.
+statement number	Almost NUMBER years old.
+statement number	It is played by NUMBER countries and make the game very popular.
+statement number	There's over NUMBER episodes of that show.
+statement number	I've heard so many people there are turning NUMBER that they had to find a way to make cheaper cups.
+statement number	it would cost NUMBER just to drive across the country
+statement organization	I mean ORGANIZATION is a convenient service.
+statement organization	This year's Heisman winner was also at ORGANIZATION.
+statement organization	yes i use ORGANIZATION maps all the time.
+statement organization	ORGANIZATION is extremely popular.
+statement organization	yeah my friend works for ORGANIZATION and he brings his dog to work everyday!!!
+statement organization	ORGANIZATION expanded its business that year.
 statement organization	I'm not even sure if ORGANIZATION is even around anymore.
-statement organization	I love to shop at ORGANIZATION, theres a ORGANIZATION almost everywhere
-statement organization	I have not joined ORGANIZATION.
-statement organization	Yes, but ORGANIZATION didnt care.
-statement organization	I don't watch ORGANIZATION.
-statement organization	I don't know much about the ORGANIZATION.
+statement organization	They even own ORGANIZATION!
+statement organization	I've read that 30% of Americans use ORGANIZATION as their primaty source of news.
+statement organization	I read that the president of the ORGANIZATION believes that chess was invented by aliens.
+statement person	It is true about PERSON being the only PhD.
+statement person	I have read that about the PERSON.
+statement person	That is one thing PERSON managed to avoid!
+statement person	High school games at PERSON' high school actually cost $100-$120.
+statement person	PERSON has a lot of experience and he knows how to use his players!
+statement person	Well Im sure you know who PERSON is from the daily show.
 statement person	PERSON?
-statement person	PERSON had the juice!
-statement person	they must be, I also did not know PERSON was a champion dancer
-statement person	Yeah I'm not really sure who PERSON is.
-statement person	PERSON
-statement person	PERSON?
-statement person	Yes, I have read that about the PERSON.
-statement person	PERSON does suffer from red-green colorblindness.
-statement person	It was the band PERSON.
-statement person	Well, it's PERSON.
-statement position	our POSITION needs a nickname
-statement position	I am not sure if the POSITION is allowed in.
-statement position	Well the runner up was bumped to POSITION so either way they won something
-statement position	Actually the runner up became the POSITION
-statement position	I don't remember which one, but it was a man that was also POSITION.
-statement position	Almost all previous POSITION have done so.
-statement position	So that will be the POSITION, correct?
-statement position	yeah based on the fact that the POSITION was always the runer up
-statement position	Well, they became POSITION so you never know!
+statement person	Yeah its PERSON.
+statement person	I know who PERSON is.
+statement person	I heard he was called PERSON!
 statement position	If you become POSITION you can end it all.
-statement softwareapplication	I don't have SOFTWAREAPPLICATION.
-statement softwareapplication	yes i use SOFTWAREAPPLICATION.
-statement softwareapplication	No, I mostly use SOFTWAREAPPLICATION.
-statement softwareapplication	SOFTWAREAPPLICATION is dead!
-statement softwareapplication	I have used SOFTWAREAPPLICATION a bit.
-statement softwareapplication	I just turned SOFTWAREAPPLICATION style on in the background.
-statement softwareapplication	Look on SOFTWAREAPPLICATION, lol.
-statement softwareapplication	I seen that on SOFTWAREAPPLICATION.
-statement softwareapplication	Yes, I direct a lot of newbees to SOFTWAREAPPLICATION to learn the trade.
-statement softwareapplication	Well it was good speaking to you, I'm going to go on SOFTWAREAPPLICATION now and search Mumble Rap.
-statement sport	I guess i know my mission: play SPORT.
-statement sport	Yeah apparently they are both from there, a town with a lot of talent, SPORT must be  a big thing out there.
-statement sport	Mine is SPORT.
-statement sport	See there, I knew you must know some about SPORT!
-statement sport	I didnt know that about SPORT.
-statement sport	Well, I follow SPORT based from what my cousins update me with.
-statement sport	SPORT is physical.
-statement sport	I actually don't watch alot of SPORT.
-statement sport	I don't know anything about SPORT!
-statement sport	It is SPORT!
-statement sportteam	SPORTTEAM involuntarily scored but won anyway.
-statement sportteam	I am a SPORTTEAM fan.
-statement sportteam	Yeah the SPORTTEAM's team needed a whole rebuild.
-statement sportteam	I am a huge fan and I follow SPORTTEAM.
-statement sportteam	SPORTTEAM have been doing better.
-statement sportteam	SPORTTEAM.
-statement sportteam	Oh, I had mentioned earlier that I have been following SPORTTEAM.
-statement sportteam	yes they will mostly play the SPORTTEAM  things
-statement sportteam	SPORTTEAM, though I don't watch at all to be honest.
-statement sportteam	Yes I am an SPORTTEAM fan.
-statement vehicle	VEHICLE are an old concept.
-statement vehicle	I think about that a lot as I drive my VEHICLE, alone down a nicely paved road.
-statement vehicle	Yeah I do when I am in my VEHICLE.
-statement vehicle	They should all get in their VEHICLE and go elsewhere where it's safe.
-statement vehicle	Cool, I have a VEHICLE.
-statement vehicle	These days we depend on VEHICLE so much.
-statement vehicle	Ah, I just have your standard VEHICLE.
-statement vehicle	There are hardly any VEHICLE either.
+statement position	Each POSITION has his own way of dealing with the world and people.
+statement position	in cases wherein no candidate receives a majority of electors for POSITION.
+statement position	In class they also studied interesting facts about POSITION.
+statement position	Actually the runner up became the POSITION
+statement position	Hey...the POSITION is a reality tv star.
+statement position	I've heard it somewhere... that was before they were elected a POSITION right ?
+statement position	yeah based on the fact that the POSITION was always the runer up
+statement position	The only Fake News I hear is the POSITION's tweets.
+statement position	The POSITION is criticized for not reading much.
+statement softwareapplication	Well they published the governments plans to destroy SOFTWAREAPPLICATION so Im sure they would have no problem leaking it.
+statement softwareapplication	My family watches those SOFTWAREAPPLICATION Originals.
+statement softwareapplication	You know I had heard they were allowing their constitution to be rewritten via SOFTWAREAPPLICATION.
+statement softwareapplication	Buy a real game or get a SOFTWAREAPPLICATION subscription - go hang out with some friends and watch a movie.
+statement softwareapplication	I actually pay for SOFTWAREAPPLICATION Red so I don't have to deal with ads.
+statement softwareapplication	I had a SOFTWAREAPPLICATION account as well.
+statement softwareapplication	I use SOFTWAREAPPLICATION to learn how to cook and fix stuff around my house.
+statement softwareapplication	Well I do have SOFTWAREAPPLICATION.
+statement softwareapplication	I use SOFTWAREAPPLICATION quite a bit.
+statement softwareapplication	I watch SOFTWAREAPPLICATION when I can.
+statement sport	Yeah SPORT coaches make a lot of money!
+statement sport	There's always SPORT too.
+statement sport	Yea in SPORT.
+statement sport	I watch a lot of SPORT.
+statement sport	i dont pay a lot of attention to SPORT.
+statement sport	I played SPORT.
+statement sport	i dont follow SPORT much.
+statement sport	professional... SPORT team ?
+statement sport	He was a huge SPORT player a long time ago.
+statement sport	An SPORT hockey ring remains under a basketball court when switching stadium sports.
+statement sportrole	The SPORTROLE must get paid a lot of money.
+statement sportrole	Yea the greatest SPORTROLE of all time was left handed.
+statement sportrole	There was just the first female non-SPORTROLE signed to a scholarship.
+statement sportrole	I don't know how many AA SPORTROLE have played.
+statement sportrole	He's a SPORTROLE.
+statement sportrole	Place SPORTROLE is used for kickoffs and field goals.
+statement sportrole	And the SPORTROLE seem to make the most of them all.
+statement sportrole	He never fumbled a football in his entire career and he was a running SPORTROLE!
+statement sportrole	Well the SPORTROLE gets the ball and can pass it.
+statement sportrole	Ia m also surprised there is only one left handed SPORTROLE.
+statement sportteam	You're a SPORTTEAM fan.
+statement sportteam	He played for the SPORTTEAM.
+statement sportteam	The only hockey I can think of is the SPORTTEAM.
+statement sportteam	I know that the SPORTTEAM Orchestra has been playing a new low brass concerto she composed.
+statement sportteam	Never knew there was a SPORTTEAM tailgate show on local cable.
+statement sportteam	SPORTTEAM are the team to beat?
+statement sportteam	Their nickname is the SPORTTEAM.
+statement sportteam	He is the SPORTTEAM QB.
+statement sportteam	Oh I didn't know there was a new headcase on the SPORTTEAM?
+statement sportteam	It was just a SPORTTEAM game that I went to.
+statement vehicle	lol  The old VEHICLE a long time ago used to carry wooden trunks on the back of them and that's how the back of a car became to be known as a trunk.
+statement vehicle	I know I have been trying to get one installed in my VEHICLE but no one does that where i live.
 statement vehicle	I own a VEHICLE.
-statement vehicle	I just bought a VEHICLE not too long ago.
-statement videoname	"It's essentially a remake of ""VIDEONAME."""
-statement videoname	True, but remember VIDEONAME.
-statement videoname	apparently VIDEONAME guys album was debuted at No.
-statement videoname	I have never seen VIDEONAME in my area.
-statement videoname	VIDEONAME
-statement videoname	oh yea Han died in VIDEONAME.
+statement vehicle	These days we depend on VEHICLE so much.
+statement vehicle	Yeah I do when I am in my VEHICLE.
+statement vehicle	Because soldiers couldnt get out of their VEHICLE in their fatigues.
+statement vehicle	The dutch are creating a VEHICLE designed to travel at 160mph.
+statement vehicle	Fascinating - they had a grand piano on the VEHICLE?
+statement vehicle	its a class A mishap which can be the total destruction of the VEHICLE... $100 million in a pile of twisted metal.
+statement vehicle	And people here forget about their dogs in their VEHICLE and they die.
+statement videoname	It is VIDEONAME and there is a sequel coming up
+statement videoname	I've seen VIDEONAME but never a full one.
+statement videoname	I watch VIDEONAME every sunday night!
+statement videoname	Watch The Grand Tour: VIDEONAME series.
+statement videoname	He can sit and watch VIDEONAME without budging.
 statement videoname	VIDEONAME.
-statement videoname	Yes, but VIDEONAME old one could not run again.
-statement videoname	You mean VIDEONAME?
-statement videoname	Sometimes I watch VIDEONAME.
-statement wear	I didn't know tWEAR!
-statement wear	A WEAR?
-statement wear	Wow, never heard tWEAR before!
-statement wear	That is crazy right, I had some WEAR when I was younger.
-statement wear	The design of WEAR has varied from culture to culture.
-statement wear	Actually that is what I though too but it is the WEAR
-statement wear	I wear WEAR if it is cold outside.
+statement videoname	We steered our kids towards VIDEONAME.
+statement videoname	Yeah I forgot he was in VIDEONAME.
+statement videoname	VIDEONAME.
+statement videoname	They copied VIDEONAME!
+statement wear	I was regularly use WEAR only.
+statement wear	Some WEAR also have fold down ear flaps to keep ears warm.
 statement wear	Apparently there is a super WEAR that's banned.
-statement wear	yeah,  I have all sorts of WEAR!
-statement wear	I wear a WEAR everyday pretty much.
-statement year	I have a pair of Jordans for each version up to the YEAR edition, still brand new.
-statement year	Yeah they stopped making them back in YEAR, its a shame but theres more advanced systems now
-statement year	They did that back in YEAR right?
-statement year	I own one, can't believe they have been around since like YEAR or even earlier
-statement year	Yea, that was since YEAR and we have benefited from that
-statement year	YEAR.
+statement wear	WEAR originally were made out of leather or matted animal fur.
+statement wear	Yep their WEAR are noticeable!
+statement wear	He wore them WEAR even though it were against the rules!
+statement wear	Yeah for some special WEAR for those leans.
+statement wear	I do know that high WEAR were originally invented for men.
+statement wear	Actually that is what I though too but it is the WEAR
+statement wear	I looked at a picture of WEAR.
 statement year	Yeah that was back in YEAR and still stands as a record
-statement year	YEAR!
-statement year	Yeah that was back in YEAR, did not know if that was possible
-statement year	Yes that only began in YEAR,, pretty recent
-yes_no_question device	Have you ever used a DEVICE?
-yes_no_question device	Did you ever have a DEVICE?
-yes_no_question device	Do you know when the next DEVICE is launching?
-yes_no_question device	Do you like watching DEVICE?
+statement year	He was big in the YEAR.
+statement year	Yeah but that is not a lot because they have been around since YEAR
+statement year	One of the most popular groups was called Seo Tajij and Boys they formed in YEAR.
+statement year	YEAR.
+statement year	I just learned that their album was the best selling of the YEAR.
+statement year	the one built back in YEAR?
+statement year	In YEAR when they had their IPO they were valued at $104 billion then.
+statement year	THat was in YEAR roughly.
+statement year	"I also read that there was a ""moral panic"" because of the spread of the reading of novels in the YEAR."
+yes_no_question device	Yeah Have you heard of DEVICE?
+yes_no_question device	Are you a DEVICE person?
 yes_no_question device	do you use your DEVICE much?
-yes_no_question device	Have you ever used a DEVICE?
-yes_no_question device	That would be a fun site, I would visit it lol so do you watch a lot of DEVICE?
-yes_no_question device	Do you like DEVICE?
-yes_no_question device	Do you know much about DEVICE?
-yes_no_question device	Have you heard about the DEVICE?
-yes_no_question event	I did, I watched EVENT this year, do you agree with the winners?
-yes_no_question event	Are you planning on watching the EVENT this year?
-yes_no_question event	Did you watch the EVENT this year?
-yes_no_question event	Did you see the end of the EVENT?
-yes_no_question event	Did you watch the EVENT last year?
-yes_no_question event	I have no idea and do you know who was the first one to be photographed during their EVENT?
-yes_no_question event	Didn't they do that back in EVENT?
+yes_no_question device	Do you watch anything lately on DEVICE?
+yes_no_question device	Yeah Do you know when the DEVICE first came out?
+yes_no_question device	Have you heard of these transhumanists who want to load themselves on to DEVICE sticks?
+yes_no_question device	Yeah maybe in the near future it will so do you watch a lot of DEVICE?
+yes_no_question device	Was there a reason that such a light DEVICE was built?
+yes_no_question device	Do you think it will be possible one day to upload our minds into DEVICE?
+yes_no_question device	Did yo know that you could make a with just pencil and DEVICE?
+yes_no_question event	Have you ever watched the EVENT?
+yes_no_question event	Can you imagine the EVENT shows.
+yes_no_question event	Do you like EVENT?
+yes_no_question event	That was back in the EVENT wasnt it.
+yes_no_question event	Did you watch much of the EVENT this year?
 yes_no_question event	So did you watch the EVENT or have any fantasy drafts?
-yes_no_question event	Are there any set in EVENT?
-yes_no_question event	It is, did you watch the EVENT?
-yes_no_question gamename	ya I don't know, have you ever played the game GAMENAME?
-yes_no_question gamename	Is that like GAMENAME men?
-yes_no_question gamename	Yeah, have you tried GAMENAME?
-yes_no_question gamename	Did you ever play GAMENAME.
-yes_no_question gamename	ah that makes sense then, did you ever play GAMENAME?
-yes_no_question gamename	Do you mean GAMENAME?
-yes_no_question gamename	Have you ever played GAMENAME congress?
-yes_no_question gamename	It does seem weird, I would have though it was the other way around, did you ever play GAMENAME?
-yes_no_question gamename	That's crazy, Ive never even played the game GAMENAME, have you?
-yes_no_question gamename	Did you hear about the guy who beat 90,000 people in GAMENAME
-yes_no_question genre	Do you have a favorite GENRE?
-yes_no_question genre	So, are into GENRE?
-yes_no_question genre	It's ok. Do you watch GENRE ?
-yes_no_question genre	do you listen to GENRE?
-yes_no_question genre	Yeah absolutely,  funny GENRE lol No I havent seen that ,  is it good?
-yes_no_question genre	That's funny lol....Do you ever listen to GENRE?
-yes_no_question genre	On another subject, are you a fan of GENRE at all?
-yes_no_question genre	Do you read GENRE?
-yes_no_question genre	Ever listen to GENRE?
-yes_no_question genre	Do you listen to GENRE?
-yes_no_question location	Yeah mostly available in any language, did you know there 3g signal on top of LOCATION
-yes_no_question location	that sounds like a great invention, have you ever been to LOCATION?
-yes_no_question location	Have you ever been to LOCATION?
-yes_no_question location	haha yes don't they do that in LOCATION?
-yes_no_question location	Have you ever been to LOCATION?
-yes_no_question location	Did you ever go on the Skywalk at LOCATION?
-yes_no_question location	"do you want ""Isn't it a pity that the LOCATION is a 'no-fly' zone for publishing the truth about this group?"
-yes_no_question location	Have you been to LOCATION before?
-yes_no_question location	Is that in LOCATION?
-yes_no_question location	Don't you get embarrassed when someone talks about LOCATION?
+yes_no_question event	Did you see the end of the EVENT?
+yes_no_question event	Do you watch the EVENT?
+yes_no_question event	Did you watch the EVENT this year?
+yes_no_question event	Did you know that the media are who actually labeled them 'EVENT.'
+yes_no_question genre	Do you like GENRE?
+yes_no_question genre	Do you like GENRE?
+yes_no_question genre	Would you be interested in hearing classic radio GENRE?
+yes_no_question genre	Have you ever been to a GENRE?
+yes_no_question genre	Do you like the GENRE?
+yes_no_question genre	Are you sure that wasn't in a GENRE?
+yes_no_question genre	Do you like GENRE at all?
+yes_no_question genre	did you see the two GENRE masks?
+yes_no_question genre	Aren't they a GENRE band ?
+yes_no_question genre	Would you get more votes with a good GENRE?
+yes_no_question location	have you ever looked at the LOCATION on google maps?
+yes_no_question location	"do you think the LOCATION team name of ""tall blacks"" seems a little racist??"
+yes_no_question location	Did you know Astronaunts vote in LOCATION?
+yes_no_question location	Is there nothing else to do in the great land of LOCATION in the winter?
+yes_no_question location	Did you know that there is internet service at the peak of LOCATION.
+yes_no_question location	Do you believe that there is a backup of the Internet in the LOCATION?
+yes_no_question location	Did you know there is a 3g cell service at the top of LOCATION
+yes_no_question location	LOL Have you ever been to LOCATION?
+yes_no_question location	Have you been to LOCATION?
+yes_no_question location	Didn't a man from LOCATION invent it?
+yes_no_question number	Did you know that Astronomers detected building blocks in a planet NUMBER light years away.
+yes_no_question number	Have you ever tried to separate NUMBER phonebooks that have overlapped pages?
+yes_no_question number	Did you know that dogs can learn over NUMBER words?
+yes_no_question number	Did you know that there are NUMBER different blood types for dogs?
+yes_no_question number	Doesn't she make NUMBER his salary?
 yes_no_question number	do u know the factual section NUMBER dance
-yes_no_question number	Are those the twins that are NUMBER years old?
-yes_no_question number	Yes, NUMBER, can you believe that?Wow
 yes_no_question number	Could you imagine driving at NUMBER?
-yes_no_question number	Did you know that there is a road dedicated to Archie and the speed limit is NUMBERmph same as Archie jersey's number.
-yes_no_question number	Were you at least NUMBER years old then?
-yes_no_question number	yeah, did you watch NUMBER reasons why?
-yes_no_question number	Well... do You forget how it was when You were like NUMBER ?
-yes_no_question number	Is it NUMBER?
-yes_no_question number	I heard about that before, but I don't get it... wouldn't NUMBER be the fastest way ?
-yes_no_question organization	ya I guess so, would you ever work for ORGANIZATION?
+yes_no_question number	Did you hear about that one guy who found$3 NUMBER dollars worth of baseball cards in is attic?
+yes_no_question number	Didn't it only have like NUMBER episodes that aired?
+yes_no_question number	Did you know that there have been over NUMBER episodes?
+yes_no_question organization	Have you seen any of the latest ORGANIZATION movies?
+yes_no_question organization	Was that because of the ORGANIZATION factory there?
+yes_no_question organization	Yes can you imagine a ORGANIZATION bought them at that time?
+yes_no_question organization	I hope ORGANIZATION does not agree to sell.
 yes_no_question organization	Was it ORGANIZATION ?
-yes_no_question organization	Yeah the same one, do you also like ORGANIZATION?
-yes_no_question organization	So do you ever use ORGANIZATION?
-yes_no_question organization	do you think ORGANIZATION was kicking themselves?
-yes_no_question organization	Do you like ORGANIZATION?
-yes_no_question organization	Not as much as I do ORGANIZATION, do you?
+yes_no_question organization	oh ok. did you know that ORGANIZATION expanded Waze carpooling service?
+yes_no_question organization	Have u been to ORGANIZATION?
+yes_no_question organization	Do you think ORGANIZATION just wanted to be humorous
 yes_no_question organization	Did you hear about the ORGANIZATION secret room?
-yes_no_question organization	Does anyone even like anything about ORGANIZATION?
-yes_no_question organization	does the ORGANIZATION use a pink one?
-yes_no_question person	Did you like PERSON?
-yes_no_question person	Do you have any idea who PERSON is?
-yes_no_question person	Yes, did you know that PERSON manages a k-pop band.
-yes_no_question person	True, do you like PERSON?
-yes_no_question person	Are you a fan of PERSON by chance?
-yes_no_question person	No didnt know that, do you know who PERSON the science guy is?
+yes_no_question organization	Are you familiar with the ORGANIZATION?
 yes_no_question person	Do you like PERSON?
+yes_no_question person	Did you know that PERSON is the highest all-time box office star.
 yes_no_question person	Do you like PERSON?
-yes_no_question person	hmm that seems dumb like its just playing with words, do you like PERSON?
+yes_no_question person	Do you think PERSON senator's don't make enough money?
+yes_no_question person	Do you like PERSON' work?
+yes_no_question person	Do you listen to PERSON at all?
 yes_no_question person	Do you like PERSON?
-yes_no_question position	lol Do you know who the wealthiest POSITION were?
-yes_no_question position	Do you know the functions exercised by a POSITION in other nations?
-yes_no_question position	Are you interested in POSITION?
+yes_no_question person	Do you think PERSON is the best ever?
+yes_no_question person	Didn't PERSON take the big prize last year?
+yes_no_question person	Did you know that PERSON actually walks backwards to avoid being photographed.
 yes_no_question position	Is that wealthiest POSITION?
-yes_no_question position	Do you know what the first POSITION was named?
-yes_no_question position	Isn't that part of the tradition and essential part of being POSITION?
-yes_no_question position	Yes I do agree with you, Do you think this decision put the POSITION moving in the right direction?
-yes_no_question position	Does the POSITION do nothing?
-yes_no_question position	Did you know back in the day, the runner up became POSITION!
-yes_no_question position	Banana is a very interesting nickname for a POSITION, but is that not slightly offensive at the least?
-yes_no_question softwareapplication	Do you like SOFTWAREAPPLICATION?
-yes_no_question softwareapplication	If I could see that, by the way do you ever watch SOFTWAREAPPLICATION with the people that you love
-yes_no_question softwareapplication	right, is SOFTWAREAPPLICATION even around anymore.
-yes_no_question softwareapplication	I can imagine, do you use SOFTWAREAPPLICATION a lot?
+yes_no_question position	DO the POSITION read enders game?
+yes_no_question position	Did you know that in the 1800's if you were runner up in a presidential election you got to be POSITION!
+yes_no_question position	Maybe but wouldn't that mean he would be POSITION Congress?
+yes_no_question position	Do you know the functions exercised by a POSITION in other nations?
+yes_no_question position	lol Do you know who the wealthiest POSITION were?
+yes_no_question position	Wasnt it always the loser of the election became the POSITION?
+yes_no_question position	Do you know much about the POSITION?
+yes_no_question position	DO you know how the POSITION used to be elected?
+yes_no_question position	Is there a rule that the POSITION is not allowed into the Senate?
+yes_no_question softwareapplication	I know DO you know what SOFTWAREAPPLICATION is?
+yes_no_question softwareapplication	Do you use SOFTWAREAPPLICATION much?
+yes_no_question softwareapplication	Are you an active SOFTWAREAPPLICATION user?
+yes_no_question softwareapplication	Did you see the SOFTWAREAPPLICATION vid where the guy who built the exploding glitter bomb package had also built a dartboard that moves for a bullseye every time?
+yes_no_question softwareapplication	Do you use SOFTWAREAPPLICATION in your work too?
+yes_no_question softwareapplication	Is it on SOFTWAREAPPLICATION?
+yes_no_question softwareapplication	Do you watch SOFTWAREAPPLICATION videos?
 yes_no_question softwareapplication	Do you watch SOFTWAREAPPLICATION?
-yes_no_question softwareapplication	are you a frequent SOFTWAREAPPLICATION user?
-yes_no_question softwareapplication	So, do you watch on SOFTWAREAPPLICATION?
-yes_no_question softwareapplication	oh that is sad I didn't know that, did you see that on SOFTWAREAPPLICATION?
-yes_no_question softwareapplication	I didn't but that makes sense, have you checkout out the police version of SOFTWAREAPPLICATION, blutube?
-yes_no_question softwareapplication	Interesting, are you a fan of SOFTWAREAPPLICATION?
-yes_no_question sport	Do you like SPORT?
-yes_no_question sport	Do you like SPORT as well?
-yes_no_question sport	haha ya I agree, do you ever go SPORT?
-yes_no_question sport	Did you also know that granny style is the best way to shoot a SPORT?
-yes_no_question sport	Do you like SPORT?
-yes_no_question sport	Are you a SPORT fan?
-yes_no_question sport	Do you like SPORT as well?
-yes_no_question sport	Do you like to watch SPORT ?
-yes_no_question sport	Do you like SPORT?
+yes_no_question softwareapplication	Do you like SOFTWAREAPPLICATION?
+yes_no_question softwareapplication	Do you ever watch trailers on SOFTWAREAPPLICATION?
+yes_no_question sport	Do you enjoy SPORT?
+yes_no_question sport	Are they expensive because of SPORT player salaries?
 yes_no_question sport	Are you a fan of SPORT?
-yes_no_question sportteam	that is a great invention, do you like SPORTTEAM?
-yes_no_question sportteam	It must be hard I agree, do you like SPORTTEAM?
+yes_no_question sport	Are you a SPORT fan?
+yes_no_question sport	Do you enjoy SPORT?
+yes_no_question sport	Doesn't he seem like someone who would quit SPORT to game?
+yes_no_question sport	Do you watch SPORT?
+yes_no_question sport	I would be mad..... Do you like SPORT?
+yes_no_question sport	Do you like SPORT as well?
+yes_no_question sport	Do you watch SPORT?
+yes_no_question sportteam	Have you heard of the SPORTTEAM?
+yes_no_question sportteam	Will the SPORTTEAM do well this year?
+yes_no_question sportteam	Are you a SPORTTEAM fan?
+yes_no_question sportteam	Do you know who the coach of the SPORTTEAM is?
+yes_no_question sportteam	Are you a SPORTTEAM fan too?
+yes_no_question sportteam	Will SPORTTEAM make it?
+yes_no_question sportteam	Do you like SPORTTEAM?
 yes_no_question sportteam	Did A-Rod ever play for SPORTTEAM?
-yes_no_question sportteam	yup yep I agree, do you like SPORTTEAM by the way?
-yes_no_question sportteam	Have you ever seen the SPORTTEAM?
-yes_no_question sportteam	Thats a lot of money, wow, did you ever buy a pair of SPORTTEAM?
-yes_no_question sportteam	Oh, is that a guy on the SPORTTEAM?
-yes_no_question sportteam	Do you follow the SPORTTEAM at all?
-yes_no_question sportteam	Are you a SPORTTEAM fan then?
-yes_no_question sportteam	It does seem like a lot, did you hear about that team that is nicknamed SPORTTEAM
-yes_no_question vehicle	"I have an VEHICLE... Have you ever heard of ""Ask Amy""?"
-yes_no_question vehicle	Do you know who invented the VEHICLE?
-yes_no_question vehicle	Do you drive a VEHICLE by the way?
+yes_no_question sportteam	Do you know much about SPORTTEAM?
+yes_no_question sportteam	Is it SPORTTEAM?
 yes_no_question vehicle	Do you know the VEHICLE general purpose computer?
+yes_no_question vehicle	Do you own a VEHICLE?
 yes_no_question vehicle	Do you love VEHICLE?
-yes_no_question vehicle	Nice, VEHICLE were named after some french dude i think, do you know his whole name?
-yes_no_question vehicle	You have a VEHICLE?
-yes_no_question vehicle	Have you ever worn a pair of VEHICLE?
-yes_no_question vehicle	No always wondered about the name so thanks for filling that void, cool fact, do you like the brand VEHICLE?
+yes_no_question vehicle	Are you interested in VEHICLE?
 yes_no_question vehicle	have you driven a VEHICLE?
-yes_no_question videoname	It will be, did yo ever watch VIDEONAME?
-yes_no_question videoname	Was it Joey from VIDEONAME?
-yes_no_question videoname	"Have you seen ""VIDEONAME""?"
-yes_no_question videoname	well have you seen VIDEONAME?
-yes_no_question videoname	Do you agree with his assessment of VIDEONAME Fu Hustle?
-yes_no_question videoname	oh ya I remember that, Blinky was his name, did you ever watch VIDEONAME?
-yes_no_question videoname	Did you watch VIDEONAME?
-yes_no_question videoname	Have u ever watched VIDEONAME?
-yes_no_question videoname	Have you watched VIDEONAME?
-yes_no_question videoname	I do Did you ever watch VIDEONAME?
+yes_no_question vehicle	I had never even heard of a Macthbox Sky Busters Continental VEHICLE 787-8 - had you?
+yes_no_question vehicle	Have you ever worn a pair of VEHICLE?
+yes_no_question vehicle	Have you ever put a dog inside your VEHICLE before?
+yes_no_question vehicle	Are you interested in VEHICLE?
+yes_no_question vehicle	You have a VEHICLE?
+yes_no_question videoname	Do you like VIDEONAME?
+yes_no_question videoname	Did you ever watch VIDEONAME.
+yes_no_question videoname	Do you like VIDEONAME?
+yes_no_question videoname	Have you ever seen the VIDEONAME movies?
+yes_no_question videoname	Did you ever watch VIDEONAME when you did?
+yes_no_question videoname	Isn't she Erin from the show VIDEONAME?
+yes_no_question videoname	Have you ever seen the movie VIDEONAME?
+yes_no_question videoname	Did you see VIDEONAME?
+yes_no_question videoname	Are you a VIDEONAME fan?
+yes_no_question videoname	Yeah have you watched VIDEONAME?
+yes_no_question year	"Did you know that using of ""red"" and ""blue"" colors only started in YEAR?"
+yes_no_question year	Was that in YEAR?
+yes_no_question year	Really in the YEAR?
+yes_no_question year	Did you hear about that game in YEAR?
+yes_no_question year	Didn't they start as a private dinner in YEAR?
+yes_no_question year	am I reading that correctly about the YEAR study?
+yes_no_question year	Did you know that it was the best selling album of the YEAR.
+yes_no_question year	Do you know any other people who died in YEAR?
+yes_no_question year	Did you watch the YEAR's Show?
+yes_no_question year	Did you know the consistent use of red and blue didn't start until YEAR?
