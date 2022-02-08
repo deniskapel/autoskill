@@ -1,3 +1,6 @@
+from hashlib import sha1
+
+from abc import ABC, abstractmethod
 from typing import List, Tuple
 
 from sklearn.preprocessing import MultiLabelBinarizer
@@ -52,3 +55,53 @@ def spacy_tokenize(text: str, tokenizer):
     tokenize a string with Spacy and return list of lowercase tokens
     """
     return [token.lower_ for token in tokenizer(text)]
+
+
+
+class Raw2Clean(ABC):
+    
+    """ 
+    a class to transform raw dialogues into clean ones with a legacy structure
+    """
+    def __init__(self, data, output_path: str):
+        self.data = data
+        self.output_path = output_path
+    
+    @abstractmethod
+    def clean(self):
+        """ reduces a dataset to necessary data only"""
+        pass
+    
+    
+class Daily2Clean(Raw2Clean):
+    
+    """ Raw2Clean customisation for the daily dialogue dataset """
+        
+    def clean(self):
+        output = {}
+
+        for dialogue in self.data:
+            idx = sha1(dialogue.encode()).hexdigest()
+            output[idx] = [{'text': ut.strip()} for ut in dialogue.split('__eou__') if ut.strip()]
+            
+        return output
+    
+    
+class Topical2Clean(Raw2Clean):
+    """ Raw2Clean customisation for the topical chat dataset """
+    def clean(self):
+        output = {}
+
+        for idx, sample in self.data.items():
+            output[idx] = [{'text': self.__preproc(ut['message'])} for ut in sample['content']]
+
+        return output
+
+    def __preproc(self, ut: str):
+        """ 
+        topical chat is not very clean
+        
+        it was decided to replace all commas with full stops to
+        facilitate tokenization into sentences downstream.
+        """
+        return ut.replace(",", ".")
