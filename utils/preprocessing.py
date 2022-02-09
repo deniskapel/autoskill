@@ -1,8 +1,10 @@
-from hashlib import sha1
+import re
 
 from abc import ABC, abstractmethod
+from hashlib import sha1
 from typing import List, Tuple
 
+from nltk.tokenize import sent_tokenize
 from sklearn.preprocessing import MultiLabelBinarizer
 
 Labels = List[Tuple[str, str]]
@@ -82,9 +84,21 @@ class Daily2Clean(Raw2Clean):
 
         for dialogue in self.data:
             idx = sha1(dialogue.encode()).hexdigest()
-            output[idx] = [{'text': ut.strip()} for ut in dialogue.split('__eou__') if ut.strip()]
+            output[idx] = [{'text': self.__preproc(ut)} for ut in dialogue.split('__eou__') if ut.strip()]
             
         return output
+    
+    def __preproc(self, text: str) -> list:
+        """ 
+        removes unnecessary spaces from a string and
+        tokenizes into sentences to facilitate midas annotation
+        """
+        # remove spaces between punctuation and word tokens
+        text = re.sub(r'(?<=[a-zA-Z])\s(?=[\.,?!])',"", text.strip())
+        # remove extra spaces in acronyms to faciliate midas annotation
+        text = re.sub(r'(?<=[A-Z]\.)\s(?=[A-Z])', "", text)
+        # tokenize into sentences
+        return sent_tokenize(text)
     
     
 class Topical2Clean(Raw2Clean):
@@ -97,11 +111,8 @@ class Topical2Clean(Raw2Clean):
 
         return output
 
-    def __preproc(self, ut: str):
+    def __preproc(self, ut: str) -> list:
         """ 
-        topical chat is not very clean
-        
-        it was decided to replace all commas with full stops to
-        facilitate tokenization into sentences downstream.
+        replaces all commas with full stops and tokenize into sentences
         """
-        return ut.replace(",", ".")
+        return sent_tokenize(ut.replace(",", "."))

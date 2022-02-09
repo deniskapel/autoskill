@@ -51,7 +51,7 @@ class Midas(Annotation):
 
         for ut in dialogue:
             midas, prev_phrase = self.__annotate_ut(ut, prev_phrase)
-            ut['midas_label'] = midas
+            ut['midas'] = midas
             
             
     def __annotate_ut(self, ut: dict, prev_phrase: str) -> tuple:
@@ -60,7 +60,7 @@ class Midas(Annotation):
          - annotated utterance with midas labels per each sentence in the utterance
          - last sentence of the given utterance to annotate the next utterance  
         """
-        sentences = sent_tokenize(ut['text'])
+        sentences = ut['text']
         # batch annotation 
         to_annotate = {
             # provide sentences to annotate
@@ -74,3 +74,45 @@ class Midas(Annotation):
         assert len(sentences) == len(midas)
         
         return midas, sentences[-1]
+    
+    
+class EntityDetection(Annotation):
+    
+    """ 
+    a class that annotates dialogues with a pre-trained Entity Detection model
+    accessed with its url
+    """
+
+    def annotate(self, data: dict):
+        """ 
+        use a pre-trained entity detection model to retrieve entities and 
+        their categories for each of the sentences in the utterance
+        
+        this function updates a dataset dict in place
+        """
+        for idx in data:
+            self.__annotate_dialogue(data[idx])
+    
+    
+    def __annotate_dialogue(self, dialogue: Dialogue):
+        """
+        update dicts of each utterance in the dialogues with midas labels
+        per each sentences in the utterance
+        """
+        for ut in dialogue:
+            entities = self.__annotate_ut(ut)
+            ut['entities'] = entities
+            
+            
+    def __annotate_ut(self, ut: dict) -> list:
+        """ 
+        returns a labelled entities per each sentences in the utterance
+        """
+        sentences = [{"sentences": [s]} for s in ut['text']]
+        entities = requests.post(self.url, json=sentences).json()
+        assert len(sentences) == len(entities)
+        
+        # extract only necessary information
+        entities = [s[0]['labelled_entities'] for s in entities]
+        
+        return entities
