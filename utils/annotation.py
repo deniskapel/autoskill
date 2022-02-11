@@ -112,7 +112,7 @@ class EntityDetection(Annotation):
         
         entities = list()
         
-        for to_annotate in sentences"
+        for to_annotate in sentences:
             entities += requests.post(self.model_url, json=to_annotate).json()
         
         assert len(ut['text']) == len(entities)
