@@ -108,14 +108,16 @@ class EntityDetection(Annotation):
         """ 
         returns a labelled entities per each sentences in the utterance
         """
-        sentences = {"sentences": ut['text']}
+        sentences = [{'sentences': [s]} for s in ut['text']]
         
-        entities = requests.post(self.model_url, json=sentences).json()
+        entities = list()
+        
+        for to_annotate in sentences"
+            entities += requests.post(self.model_url, json=to_annotate).json()
         
         assert len(ut['text']) == len(entities)
         
-        # extract only labelled entities or empty dict if there are none
-        entities = [s.get("labelled_entities", {}) for s in entities]
+        # extract only labelled entities or empty list if there are none
+        entities = [s.get("labelled_entities", list()) for s in entities]
         
-
         return entities
