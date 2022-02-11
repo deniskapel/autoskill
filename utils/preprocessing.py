@@ -6,6 +6,9 @@ from typing import List, Tuple
 
 from nltk.tokenize import sent_tokenize
 from sklearn.preprocessing import MultiLabelBinarizer
+import spacy
+
+nlp = spacy.load("en_core_web_sm")
 
 Labels = List[Tuple[str, str]]
 EncodedLabels = List[List[int]]
@@ -93,12 +96,12 @@ class Daily2Clean(Raw2Clean):
         removes unnecessary spaces from a string and
         tokenizes into sentences to facilitate midas annotation
         """
-        # remove spaces between punctuation and word tokens
-        text = re.sub(r'(?<=[a-zA-Z])\s(?=[\.,?!])',"", text.strip())
+        # remove extra spaces between punctuation marks and word tokens
+        text = re.sub(r'(?<=[a-zA-Z0-9\.,?!])\s(?=[\.,?!])', "", text.strip())
         # remove extra spaces in acronyms to faciliate midas annotation
         text = re.sub(r'(?<=[A-Z]\.)\s(?=[A-Z])', "", text)
         # tokenize into sentences
-        return sent_tokenize(text)
+        return [s.text for s in nlp(text).sents] 
     
     
 class Topical2Clean(Raw2Clean):
@@ -111,8 +114,8 @@ class Topical2Clean(Raw2Clean):
 
         return output
 
-    def __preproc(self, ut: str) -> list:
+    def __preproc(self, text: str) -> list:
         """ 
         replaces all commas with full stops and tokenize into sentences
         """
-        return sent_tokenize(ut.replace(",", "."))
+        return [s.text for s in nlp(text.replace(",", ".")).sents]
