@@ -1,14 +1,14 @@
 import argparse
 import json
 
-from utils.annotation import Midas, 
-
+from utils.annotation import Midas, EntityDetection 
+ 
 def main(dataset_path: str, midas_url: str, ner_url: str, output_path: str):
     
     with open(dataset_path, 'r', encoding="utf8") as f:
         dataset = json.load(f)
-        
-    midas_model = Midas(url=midas_url)
+
+    midas_model = Midas(url=midas_url, first_phrase="")
     ner_model = EntityDetection(url=ner_url)
     
     midas_model.annotate(dataset)

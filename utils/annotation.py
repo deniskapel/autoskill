@@ -3,7 +3,7 @@ import requests
 from abc import ABC, abstractmethod
 from typing import List
 
-from nltk.tokenize import sent_tokenize
+from tqdm import tqdm
 
 Dialogue = List[dict]
 
@@ -38,7 +38,7 @@ class Midas(Annotation):
         
         this function updates a dataset dict in place
         """
-        for idx in data:
+        for idx in tqdm(data):
             self.__annotate_dialogue(data[idx])
     
     
@@ -90,7 +90,7 @@ class EntityDetection(Annotation):
         
         this function updates a dataset dict in place
         """
-        for idx in data:
+        for idx in tqdm(data):
             self.__annotate_dialogue(data[idx])
     
     
@@ -108,11 +108,14 @@ class EntityDetection(Annotation):
         """ 
         returns a labelled entities per each sentences in the utterance
         """
-        sentences = [{"sentences": [s]} for s in ut['text']]
-        entities = requests.post(self.url, json=sentences).json()
-        assert len(sentences) == len(entities)
+        sentences = {"sentences": ut['text']}
         
-        # extract only necessary information
-        entities = [s[0]['labelled_entities'] for s in entities]
+        entities = requests.post(self.model_url, json=sentences).json()
         
+        assert len(ut['text']) == len(entities)
+        
+        # extract only labelled entities or empty dict if there are none
+        entities = [s.get("labelled_entities", {}) for s in entities]
+        
+
         return entities
