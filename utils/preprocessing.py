@@ -6,8 +6,11 @@ from typing import List, Tuple
 
 from nltk.tokenize import sent_tokenize
 from sklearn.preprocessing import MultiLabelBinarizer
+from tqdm import tqdm
+
 import spacy
 
+spacy.prefer_gpu()
 nlp = spacy.load("en_core_web_sm")
 
 Labels = List[Tuple[str, str]]
@@ -85,7 +88,7 @@ class Daily2Clean(Raw2Clean):
     def clean(self):
         output = {}
 
-        for dialogue in self.data:
+        for dialogue in tqdm(self.data):
             idx = sha1(dialogue.encode()).hexdigest()
             output[idx] = [{'text': self.__preproc(ut)} for ut in dialogue.split('__eou__') if ut.strip()]
             
@@ -109,7 +112,7 @@ class Topical2Clean(Raw2Clean):
     def clean(self):
         output = {}
 
-        for idx, sample in self.data.items():
+        for idx, sample in tqdm(self.data.items()):
             output[idx] = [{'text': self.__preproc(ut['message'])} for ut in sample['content']]
 
         return output
@@ -118,4 +121,4 @@ class Topical2Clean(Raw2Clean):
         """ 
         replaces all commas with full stops and tokenize into sentences
         """
-        return [s.text for s in nlp(text.replace(",", ".")).sents]
+        return [s.text for s in nlp(text.replace(",", ".")).sents if s.text.strip()]
