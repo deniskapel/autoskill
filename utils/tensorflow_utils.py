@@ -89,7 +89,7 @@ class SkillDataset(Sequence):
         input: List[str]
         output: numpy array (len(utterance), embed_dim)
         """
-        return self.vectorizer(utterances).numpy()
+        return self.vectorizer([" ".join(ut) for ut in utterances]).numpy()
     
     def __norm_midas(self, midas_vectors: list) -> np.ndarray:
         """ 
@@ -111,8 +111,7 @@ class SkillDataset(Sequence):
         
         TODO: replace with sklearn MultiLabelBinarizer
         """
-        
-        entities = [[ent['label'] for ent in ut] for ut in entities]
+        entities = [[ent['label'] for sent in ut for ent in sent] for ut in entities]
         ohe_vec = np.zeros((len(entities), len(self.vars2id['entities2id'])))
         
         for i, ut in enumerate(entities):

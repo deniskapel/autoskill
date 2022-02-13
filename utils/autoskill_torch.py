@@ -47,7 +47,7 @@ class SkillDataset(torch.utils.data.Dataset):
     
     def __tokenize(self, texts: list) -> list:
         """ transform list of strings into a list of list of tokens using spaCy """
-        return [[token.lower_ for token in self.tokenizer(ut)] for ut in texts]
+        return [[token.lower_ for token in self.tokenizer(" ".join(ut))] for ut in texts]
     
     def __vectorize(self, texts: list) -> np.array:
         """ 
@@ -67,13 +67,13 @@ class SkillDataset(torch.utils.data.Dataset):
     
     def __ohencode(self, entities) -> torch.Tensor:
         """ one-hot encoding of entities per each sample """
-        entities = [[ent['label'] for ent in ut] for ut in entities]
+        entities = [[ent['label'] for sent in ut for ent in sent] for ut in entities]
         ohe_vec = np.zeros((len(entities), len(self.vars2id['entities2id'])))
         
         for i, ut in enumerate(entities):
             for ent in set(ut):
                 ohe_vec[i][self.vars2id['entities2id'][ent]] = 1
-                
+        
         return ohe_vec
     
     def __concat_vecs(self, tfidf_vec, midas_vec, ohe_vec) -> np.array:
@@ -122,7 +122,7 @@ class SkillDataset(torch.utils.data.Dataset):
         entity_id = self.vars2id['target_entity2id'][entity_label]
         concat_id = self.vars2id['target_midas_and_entity2id'][f"{midas_label}_{entity_label}"]
         
-        return [midas_id, entity_id], concat_id
+        return [midas_id, entity_id, concat_id]
     
     
 def collate_fn(batch) -> tuple:
@@ -131,12 +131,10 @@ def collate_fn(batch) -> tuple:
     batch_size = len(batch)
     # create empty Tensors to concatenate vectorized utterances and labels
     X_batch = torch.zeros(batch_size, batch[0][0].shape[0])
-    y_multi = torch.zeros(batch_size, 2).type(torch.long)
-    y_single = torch.zeros(batch_size).type(torch.long)
+    y_batch = torch.zeros(batch_size, 3).type(torch.long)
     
     for i, sample in enumerate(batch):
         X_batch[i] = torch.Tensor(batch[i][0]).type(torch.float32)
-        y_multi[i] = torch.Tensor(batch[i][1][0])
-        y_single[i] = batch[i][1][1]
+        y_batch[i] = torch.Tensor(batch[i][1])
         
-    return X_batch, y_multi, y_single
+    return X_batch, y_batch

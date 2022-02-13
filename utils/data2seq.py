@@ -36,7 +36,7 @@ class Dial2seq():
         
     def __load_data(self, path: str) -> dict:
         """ loads data from a json file """
-        with open(path, 'r') as f:
+        with open(path, 'r', encoding='utf8') as f:
             data = json.load(f)
         return data
     
@@ -59,20 +59,15 @@ class SequencePreprocessor():
     
     params:
     num_entities: int - maximum size of a last sentence in a sequence 
-    in terms of number of cobot entities 
-    
-    entities: list - if these cobot entities labels are in the last sentence
-    of a sequence, skip this seqence
+    in terms of number of annotated entities 
     """
 
     def __init__(self, 
                  num_entities=1, 
                  stoplist_labels: list = ['misc', 'anaphor'],
-                 stoplist_entities: list = ['a', 'an', 'the', 'A', 'An', 'The']
                 ):
         self.num_entities = num_entities
         self.stoplist_labels = stoplist_labels
-        self.stoplist_entities = stoplist_entities
         self.midas_all = Counter()
         self.entity_all = Counter()
         self.midas_target = Counter()
@@ -85,75 +80,35 @@ class SequencePreprocessor():
         seqs = list()
         
         for seq in sequences:
-            sents, midas_labels, _, entities = self.preproc(seq[-1])
-            if not self.__is_valid(sents, midas_labels, entities):
+            
+            if not self.__is_valid(seq[-1]):
                 continue
+            
             sample = self.__get_dict_entry(self.__shape_output(seq))
+            
             seqs.append(sample)
             
         return seqs
     
 
-    def preproc(self, ut) -> tuple:
-        """ 
-        opens up a single utterance to extract:
-        1. sentances (with nltk.sent_tokenize)
-        2. midas probability vector
-        3. all entities in this utterance
-        
-        returns tuple
-        """
-        try:
-            sents = sent_tokenize(ut['text'])
-        except IndexError:
-            # handles utterances with too much punctuation
-            sents = [ut['text']]
-        
-        midas_labels, midas_vectors = self.__get_midas(ut['midas_label'])
-                         
-        try:
-            entities = ut['ner']['response']
-        except KeyError:
-            # handles mislabelled samples
-            entities = []
-        
-        entities = [ent for ent in entities if ent['text'] not in self.stoplist_entities]
-                
-        return sents, midas_labels, midas_vectors, entities
-
-    
-    def __is_valid(self, sents:list, midas_labels:list, entities:list) -> bool:
+    def __is_valid(self, ut) -> bool:
         """
         checks if all the requirements for an utterance are met:
-        1. number of sents == number of midas_labels
-        2. an uterrance is one sentence, one midas label and 
-        includes only one entity which is not in the stoplist
-        3. when an utterance has 2+ sentence, it will be valid if
+        1. an uterrance is one sentence, and has only one
+        labelled entity which is not in the stoplist
+        2. when an utterance has 2+ sentence, it will be valid if
         the requirement 2 is applicable to the first sentence while
         other sentences are omitted
             
         input:
-        sents: list - an utterance tokenized into sentences
-        midas_labels: list - midas_label per each sentence
-        entities: list of dicts - all entities in a given utterance (not mapped)
+        ut: dict
         
         output: bool
         """
-        if len(sents) != len(midas_labels) or not entities:
+        if len(ut['entities'][0]) != 1:
             return False
         
-        if len(sents) == 1 and len(entities) > 1:
-            return False
-        
-        sent_ents = self.__get_entities(sents[0], entities)
-        
-        if len(sent_ents) != 1:
-            return False
-        
-        if ',' in sents[0]:
-            return False
-        
-        return sent_ents[0]['label'] not in self.stoplist_labels
+        return ut['entities'][0][0]['label'] not in self.stoplist_labels
     
     
     def __shape_output(self, seq: list) -> list:
@@ -162,23 +117,23 @@ class SequencePreprocessor():
         output = list()
         
         for ut in seq[:-1]:
-            try:
-                entities = ut['ner']['response']
-            except KeyError:
-                # handles mislabelled samples
-                # TODO: fix labelling
-                entities = []
                 
-            midas_labels, midas_vectors = self.__get_midas(ut['midas_label'])
+            midas_labels, midas_vectors = self.__get_midas(ut['midas'])
             
             output.append((
-                # tuple of text, midas labels, entities for a utterance
-                ut['text'], midas_labels, midas_vectors, entities))
+                ut['text'], midas_labels, midas_vectors, ut['entities']))
 
         # preprocess last sentence in the sequence
-        sents, midas_labels, midas_vectors, entities = self.preproc(seq[-1])
+        midas_labels, midas_vectors = self.__get_midas(seq[-1]['midas'])
+        sentence = seq[-1]['text'][0]
+        entity = seq[-1]['entities'][0][0]
+        
+        sentence = (sentence[:entity['offsets'][0]] + 
+                    entity['label'].upper() + 
+                    sentence[entity['offsets'][1]:])
+        
         output.append(
-            (sents[0], midas_labels[0:1], self.__get_entities(sents[0], entities)))
+            (sentence, midas_labels[0:1], entity))
         
         return output
     
@@ -188,15 +143,15 @@ class SequencePreprocessor():
         entry = dict()
         
         # calc stats for all possible entities and targets in prev sequences
-        for s in seq:
+        for s in seq[:-1]:
             self.midas_all.update(s[1])
-            self.entity_all.update([label['label'] for label in s[-1]])
+            self.entity_all.update([ent['label'] for ents in s[-1] for ent in ents])
 
         # calc stats for targets
         self.midas_target.update([seq[-1][1][0]])
-        self.entity_target.update([seq[-1][2][0]['label']])
+        self.entity_target.update([seq[-1][2]['label']])
         self.midas_and_entity_target.update(
-            [f"{seq[-1][1][0]}_{seq[-1][2][0]['label']}"]
+            [f"{seq[-1][1][0]}_{seq[-1][2]['label']}"]
         )
         
         entry['previous_text'] = [s[0] for s in seq[:-1]]
@@ -206,7 +161,7 @@ class SequencePreprocessor():
         entry['predict'] = {}
         entry['predict']['text'] = seq[-1][0]
         entry['predict']['midas'] = seq[-1][1][0]
-        entry['predict']['entity'] = seq[-1][2][0]
+        entry['predict']['entity'] = seq[-1][2]
         
         return entry
             
@@ -220,42 +175,7 @@ class SequencePreprocessor():
         vectors = []
         
         for sample in midas_labels:
-            labels.append(max(sample, key=sample.get))
-            vectors.append(list(sample.values()))
+            labels.append(max(sample[0], key=sample[0].get))
+            vectors.append(list(sample[0].values()))
             
         return labels, vectors
-    
-
-    def __get_entities(self, sentence, entities) -> list:
-        """
-        returns entities from a given list of entities
-        that are present in a given sentence
-        """
-        ents = []
-        
-        for ent in entities:
-            
-            if ent['label'] in self.stoplist_labels:
-                continue
-            
-            if not self.__regex_checker(ent['text'], sentence):
-                continue
-                
-            if ent['text'] not in sentence:
-                # last sanity check to make sure entity is in a sentence
-                continue
-                
-            ents.append(ent)
-            
-        return ents
-    
-    def __regex_checker(self, entity: str, sentence: str) -> bool:
-        regex = "(?<![a-zA-z])" + entity + "(?![a-zA-Z])"
-        
-        try:
-            matches = re.findall(regex, sentence)
-        except:
-            # catch poorly labeled entities
-            matches = []
-        
-        return len(matches) == 1

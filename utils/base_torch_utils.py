@@ -33,25 +33,30 @@ class BaseModel(nn.Module):
 def train_single_model(
     model, device, dataloader, 
     n_batches: int, epoch: int,
-    loss_fn: dict, optimizer, clip=10.,
-    last_n_losses=500, verbose=True):
-
+    loss_fn: dict, optimizer, 
+    label_type: str ='concatenation',
+    clip=10., last_n_losses=500, verbose=True):
+    
+    label_types = ['midas', 'entity', 'concatenation']
+    assert label_type in label_types
+    label_pos = label_types.index(label_type)
+    
     losses = list() 
 
     progress_bar = tqdm(total=n_batches, disable=not verbose, desc=f'Train epoch {epoch}')
     
     model.train()
-
-    for x, _, y_concat in dataloader:
-
+    
+    for x, labels in dataloader:
+        
         optimizer.zero_grad()
 
         x = x.to(device)
-        y_concat = y_concat.to(device)
+        y = labels[:, label_pos].to(device)
         
         logits = model(x)
         
-        loss = loss_fn(logits, y_concat)
+        loss = loss_fn(logits, y)
         
         # backpropatation
         loss.backward()
@@ -73,7 +78,14 @@ def train_single_model(
 
 
 def evaluate_single_model(
-    model, device, dataloader, n_batches: int, epoch: int, loss_fn: dict, last_n_losses=500, verbose=True):
+    model, device, dataloader, n_batches: int, 
+    epoch: int, loss_fn: dict, 
+    label_type: str ='concatenation',
+    last_n_losses=500, verbose=True):
+    
+    label_types = ['midas', 'entity', 'concatenation']
+    assert label_type in label_types
+    label_pos = label_types.index(label_type)
 
     losses = list()
     
@@ -84,20 +96,20 @@ def evaluate_single_model(
 
     model.eval()
     
-    for x, _, y_concat in dataloader:
+    for x, labels in dataloader:
         
         x = x.to(device)
-        y_concat = y_concat.to(device)
+        y = labels[:, label_pos].to(device)
         
         with torch.no_grad():
             logits = model(x)
         
         # get losses
-        loss = loss_fn(logits, y_concat)
+        loss = loss_fn(logits, y)
         losses.append(loss.item())
         
         y_pred_batch = torch.argmax(torch.softmax(logits, -1), -1).cpu().tolist()
-        y_true_batch = y_concat.cpu().tolist()
+        y_true_batch = y.cpu().tolist()
         
         # add up to the total list of predictions and targets
         preds += y_pred_batch
