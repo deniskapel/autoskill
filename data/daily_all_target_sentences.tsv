@@ -1,0 +1,2353 @@
+midas_entity	text
+command date	What about DATE?
+command date	What about DATE?
+command date	Let's meet on DATE to discuss your progress.
+command date	What about DATE?
+command device	Let me just check that on my DEVICE.
+command device	Well, first let's consider your DEVICE.
+command device	Could you show me how to use the DEVICE?
+command device	Let's go on the DEVICE to see what's up.
+command device	May I have a DEVICE, please?
+command device	May I turn on the DEVICE then?
+command device	Well, first let's consider your DEVICE.
+command device	Hey, look at the DEVICE.
+command duration	Let ’ s have you come back in a DURATION and see how you feel.
+command duration	Just let me sleep 5 more DURATION.
+command duration	so, shall we allow DURATION to cover the distance?
+command duration	So, shall we allow DURATION to cover the distance?
+command duration	Well, would you please come back DURATION later?
+command duration	Then can you wait a DURATION?
+command duration	Please give me a DURATION to calculate...
+command duration	Let me think about it for DURATION.
+command duration	Ok, let's think about it for DURATION.
+command duration	Let me think about it for DURATION.
+command duration	Then let's call it a DURATION, shall we?
+command event	Yes, I want to know about the EVENT.
+command location	What about LOCATION?
+command location	Can we get any more help at the LOCATION?
+command location	Let ’ s go to LOCATION.
+command location	Let ’ s go to LOCATION.
+command location	Please let me know when you go to LOCATION and let me be of some assistance to you.
+command location	Sure, let's go to LOCATION.
+command location	Um, well let's see... I'm from LOCATION originally.
+command number	Give me a package of NUMBER, then.
+command number	Can I have my $ NUMBER please?
+command number	Then would you please make your prices CIF including NUMBER?
+command number	Let me get $ NUMBER back.
+command number	We need to set the table for NUMBER.
+command number	All right, let's fix it at NUMBER pieces then.
+command number	Let's close the deal at $ NUMBER, OK?
+command number	Give me NUMBER.
+command number	What about NUMBER?
+command number	Let's meet half way, NUMBER, OK?
+command number	Let's say NUMBER then.
+command number	Oh, let's see... About NUMBER.
+command organization	Let's go to ORGANIZATION and think of something to do then.
+command person	Could you tell her PERSON called?
+command person	Yes, please ask her to call PERSON.
+command person	Let's give PERSON a call and ask her for her help right now.
+command person	Let's take a look at the PERSON Project.
+command person	Yes, would you please tell her PERSON called?
+command person	What about PERSON?
+command person	Please tell her to give PERSON a call when she gets back.
+command songname	"Now let me sing "" SONGNAME "" for you."
+command sport	Better start SPORT!
+command sportteam	let's watch the SPORTTEAM.
+command vehicle	Here, take one of these VEHICLE.
+command vehicle	May I suggest a VEHICLE?
+command vehicle	OK, please move your VEHICLE off to the side of the road.
+command videoname	VIDEONAME?
+command videoname	VIDEONAME then.
+command videoname	VIDEONAME, think back.
+command videoname	VIDEONAME-think back.
+comment device	DEVICE are great, aren ’ t they?
+comment device	DEVICE are great, aren ’ t they?
+comment device	It ’ s a good idea to have a DEVICE, isn ’ t it?
+comment duration	It was actually a long DURATION.
+comment duration	Mmmm... DURATION does seem like a long time.
+comment location	It must be strange for you to live in LOCATION.
+comment number	NUMBER is pretty steep.
+comment number	Considering that it's over NUMBER degrees outside, that would be weird.
+comment number	NUMBER is pretty steep.
+comment organization	ORGANIZATION is an incredible school.
+comment person	PERSON is a good player
+comment person	that's a bit high for PERSON.
+comment person	That's a bit high for PERSON.
+complaint device	You shouldn't have used the DEVICE.
+complaint device	Oh, don't talk to me about DEVICE.
+complaint device	You shouldn't have used the DEVICE.
+complaint duration	You said the same thing DURATION ago.
+complaint duration	You said the same thing DURATION ago.
+complaint location	I told you we should have stayed in LOCATION today.
+complaint location	I told you we should have stayed in LOCATION today.
+complaint person	Stop preaching your dream love PERSON to me.
+complaint videoname	You didn't watch VIDEONAME?
+complaint videoname	Not this VIDEONAME.
+complaint videoname	VIDEONAME.
+dev_command device	Turn the DEVICE off.
+dev_command device	Turn the DEVICE off.
+dev_command device	Turn on the DEVICE?
+dev_command device	Please read the instructions on the DEVICE.
+dev_command device	Please use the DEVICE.
+dev_command device	Go ahead and use the DEVICE, but put it on medium speed.
+dev_command device	Be careful of the DEVICE.
+dev_command duration	Just head straight up the street about DURATION blocks and then turn left.
+dev_command location	Then, walk three blocks to LOCATION an turn right.
+neg_answer date	No, it's a DATE.
+neg_answer device	No, it's my DEVICE for personal use.
+neg_answer device	No, the DEVICE is optional, sir.
+neg_answer device	No, the DEVICE is optional, sir.
+neg_answer duration	No, It's only about DURATION ' walk.
+neg_answer duration	No, just a DURATION.
+neg_answer duration	No, it will be another DURATION.
+neg_answer duration	No, not for a DURATION.
+neg_answer duration	No, it should only take you about DURATION by foot.
+neg_answer duration	Not even for an DURATION?
+neg_answer genre	No, I don't like GENRE because I'm cultured!
+neg_answer location	No, it stopped at LOCATION.
+neg_answer location	No, LOCATION isn't very mountainous.
+neg_answer location	No, he's from LOCATION.
+neg_answer number	No, NUMBER at least.
+neg_answer number	Not until you have paid NUMBER margin.
+neg_answer person	No, PERSON did.
+neg_answer person	No, it's PERSON.
+neg_answer position	No, the POSITION does this.
+neg_answer sport	No, I don ’ t like SPORT.
+neg_answer sport	No, I hate SPORT.
+neg_answer sport	No, I hate SPORT.
+neg_answer vehicle	No, I hate VEHICLE.
+neg_answer videoname	No, it ’ s VIDEONAME.
+neg_answer year	Not until the YEAR.
+open_question_factual date	Um... let me double check... unfortunately, she ’ s booked solid on DATE, how does next Monday work for you?
+open_question_factual date	Um... let me double check... unfortunately, she ’ s booked solid on DATE, how does next Monday work for you?
+open_question_factual date	What are your hours on DATE?
+open_question_factual date	What time do you open and close on DATE?
+open_question_factual date	How ’ s DATE?
+open_question_factual date	How ’ s DATE?
+open_question_factual device	How am I supposed to log on to the DEVICE?
+open_question_factual device	And where's the DEVICE?
+open_question_factual device	What do I do to log on to the DEVICE?
+open_question_factual device	May I ask why you're returning the DEVICE?
+open_question_factual device	What do you use your DEVICE for?
+open_question_factual device	How do I use the DEVICE?
+open_question_factual device	How do I log on to the DEVICE?
+open_question_factual device	Where is the DEVICE?
+open_question_factual device	What do you use your DEVICE for?
+open_question_factual device	how much does the DEVICE cost?
+open_question_factual device	Then, is the DEVICE broken or...
+open_question_factual device	Where is our DEVICE?
+open_question_factual duration	Then, how much do you wish to be paid each DURATION?
+open_question_factual duration	May I ask how much I can get every DURATION?
+open_question_factual duration	Where do you see yourself DURATION from now?
+open_question_factual duration	What happens if I'm not finished with them in DURATION?
+open_question_factual duration	By the way, how many days do we work every DURATION?
+open_question_factual duration	What have you been doing for the past DURATION?
+open_question_factual duration	How much do you need to make per DURATION?
+open_question_factual duration	How long will you work a DURATION?
+open_question_factual duration	How much do you hope to get a DURATION here?
+open_question_factual duration	What happens if I'm not finished with them in DURATION?
+open_question_factual duration	How many hours a DURATION can I do?
+open_question_factual duration	Where do you see yourself DURATION from now?
+open_question_factual event	When do the EVENT start?
+open_question_factual event	What did he do for restoring the EVENT?
+open_question_factual event	What was the EVENT about?
+open_question_factual event	when do the EVENT start?
+open_question_factual genre	how long have you been in to GENRE, then?
+open_question_factual genre	How long have you been in to GENRE, then?
+open_question_factual location	Where do you live in LOCATION?
+open_question_factual location	When did you come to LOCATION?
+open_question_factual location	What is the whether like in LOCATION at this time of this year?
+open_question_factual location	And what's LOCATION like?
+open_question_factual location	Where is LOCATION?
+open_question_factual location	May I ask what your job is in LOCATION?
+open_question_factual location	Hey, How did you know I came from LOCATION?
+open_question_factual location	How can you cash them when you arrive in the LOCATION?
+open_question_factual location	How long will you be staying in LOCATION?
+open_question_factual location	How long will it take to get to LOCATION.
+open_question_factual location	What are they doing in LOCATION?
+open_question_factual location	Where's LOCATION.
+open_question_factual location	Where in LOCATION are you from?
+open_question_factual location	Which way do we go for the LOCATION?
+open_question_factual location	Okay, what time is my meeting in LOCATION?
+open_question_factual location	How long do you plan to stay in the LOCATION?
+open_question_factual location	Hey, How did you know I came from LOCATION?
+open_question_factual location	When did you come to LOCATION?
+open_question_factual location	Where on LOCATION?
+open_question_factual location	How long are you going to stay in the LOCATION?
+open_question_factual location	When do they arrive in LOCATION?
+open_question_factual location	Well, how long will it take to arrive in LOCATION?
+open_question_factual location	What is the purpose of your visit to the LOCATION?
+open_question_factual location	And by the way, what time shall we get to LOCATION?
+open_question_factual location	Which way do we go for the LOCATION?
+open_question_factual location	Where in LOCATION do you live?
+open_question_factual location	How long do you think it will take to get to LOCATION.
+open_question_factual number	What's the NUMBER for?
+open_question_factual number	So far we have $ 2,NUMBER, what else?
+open_question_factual organization	When did you get your ORGANIZATION certificate?
+open_question_factual organization	What's wrong with ORGANIZATION?
+open_question_factual organization	When did you get your ORGANIZATION certificate?
+open_question_factual organization	When did it begin to be called ORGANIZATION?
+open_question_factual organization	Where are ORGANIZATION headquarters?
+open_question_factual organization	What about the ORGANIZATION?
+open_question_factual organization	What about the ORGANIZATION?
+open_question_factual person	Where is PERSON?
+open_question_factual person	Who, PERSON?
+open_question_factual person	Who is PERSON?
+open_question_factual person	Where's PERSON?
+open_question_factual person	When are you going to tell her that PERSON doesn't exist?
+open_question_factual person	Who ’ s PERSON?
+open_question_factual person	So what's PERSON up to these days?
+open_question_factual person	Who's PERSON?
+open_question_factual person	Where is PERSON?
+open_question_factual person	Oh, look, what's happened to PERSON?
+open_question_factual person	What did PERSON do yesterday?
+open_question_factual person	What's PERSON like, by the way?
+open_question_factual sport	How are they at SPORT?
+open_question_factual sport	How are they at SPORT?
+open_question_factual vehicle	Here I ’ ll take VEHICLE instead, how do you refund us?
+open_question_factual vehicle	Where is your VEHICLE now?
+open_question_factual vehicle	What time should the VEHICLE be here to pick you up?
+open_question_factual vehicle	I've thought of that, but what can I do with my VEHICLE?
+open_question_factual vehicle	When shall I tell the VEHICLE to be here?
+open_question_factual vehicle	What does your VEHICLE look like?
+open_question_factual vehicle	How long does it take for the VEHICLE to get there?
+open_question_factual vehicle	How often do you ride the VEHICLE?
+open_question_factual vehicle	Where can I find the VEHICLE?
+open_question_factual vehicle	Why hasn't the VEHICLE come yet?
+open_question_factual vehicle	What is the make and model of your VEHICLE?
+open_question_factual vehicle	And how long does the VEHICLE take?
+open_question_factual videoname	Where can find the VIDEONAME?
+open_question_factual videoname	How is VIDEONAME?
+open_question_factual videoname	What did the VIDEONAME look like?
+open_question_factual year	So when's the next YEAR?
+open_question_factual year	So when's the next YEAR?
+open_question_factual year	So when's the next YEAR?
+open_question_opinion date	How about DATE?
+open_question_opinion date	Then, what shall we do on DATE.
+open_question_opinion date	How about DATE?
+open_question_opinion date	What about DATE?
+open_question_opinion date	How about DATE?
+open_question_opinion date	What about DATE?
+open_question_opinion device	How about DEVICE?
+open_question_opinion device	Do you like it better here or at DEVICE?
+open_question_opinion device	What made you decide to get into DEVICE?
+open_question_opinion device	So, why did you leave DEVICE?
+open_question_opinion device	How about a DEVICE?
+open_question_opinion device	Why don ’ t you just continue going to DEVICE?
+open_question_opinion device	What about your DEVICE skills?
+open_question_opinion device	How do you like it here compared to DEVICE?
+open_question_opinion device	Which is better, here or DEVICE?
+open_question_opinion device	Well, what do you think about the development in DEVICE?
+open_question_opinion device	How about the DEVICE?
+open_question_opinion device	How about the DEVICE?
+open_question_opinion duration	But then what would I do every DURATION?
+open_question_opinion duration	Where would you like to be in DURATION?
+open_question_opinion duration	What do you think of this industry's outlook in DURATION?
+open_question_opinion duration	How can believe it if the same excuse was used twice within a DURATION?
+open_question_opinion duration	why not go again to celebrate out DURATION-year anniversary?
+open_question_opinion duration	Where would you like to be in DURATION?
+open_question_opinion duration	How can believe it if the same excuse was used twice within a DURATION?
+open_question_opinion event	Other than the EVENT, what else is on the list?
+open_question_opinion genre	Oh, how can you be infatuated with GENRE?
+open_question_opinion genre	Why don't you like GENRE?
+open_question_opinion genre	Is GENRE your favorite?
+open_question_opinion genre	Why the GENRE?
+open_question_opinion genre	How about GENRE?
+open_question_opinion location	What time should I arrive at LOCATION?
+open_question_opinion location	What about in LOCATION?
+open_question_opinion location	Mm, so what are you going to miss about LOCATION?
+open_question_opinion location	What's special about LOCATION?
+open_question_opinion location	How about LOCATION?
+open_question_opinion location	How do you like LOCATION?
+open_question_opinion location	Why were you in LOCATION?
+open_question_opinion location	How about here in LOCATION?
+open_question_opinion location	If you don't mind me asking, how did you enjoy your stay at LOCATION?
+open_question_opinion location	What did you think of LOCATION?
+open_question_opinion location	How do you like LOCATION?
+open_question_opinion location	How about LOCATION?
+open_question_opinion location	How do you like LOCATION?
+open_question_opinion location	Why would you park in the LOCATION?
+open_question_opinion location	Why don't you go to see the LOCATION?
+open_question_opinion location	Why don't you go to see the LOCATION?
+open_question_opinion location	Why did you stay an extra night in LOCATION?
+open_question_opinion location	And how about LOCATION?
+open_question_opinion location	What about going to LOCATION?
+open_question_opinion location	How about LOCATION?
+open_question_opinion number	Hmm, how about NUMBER?
+open_question_opinion number	How about NUMBER?
+open_question_opinion number	How about NUMBER?
+open_question_opinion number	Hmm, how about NUMBER?
+open_question_opinion number	What about NUMBER?
+open_question_opinion number	Well, how about NUMBER discount?
+open_question_opinion number	How about NUMBER?
+open_question_opinion number	How about NUMBER?
+open_question_opinion organization	Well, how about the ORGANIZATION?
+open_question_opinion organization	Well, how about the ORGANIZATION?
+open_question_opinion organization	Why didn ’ t you just stay at ORGANIZATION?
+open_question_opinion organization	Why don't we go to the ORGANIZATION instead?
+open_question_opinion organization	What about my ORGANIZATION?
+open_question_opinion person	How about some PERSON?
+open_question_opinion person	How about PERSON?
+open_question_opinion person	Why don't you ask PERSON if he can help?
+open_question_opinion person	Why don ’ t you marry PERSON, then?
+open_question_opinion person	Go on your vacation with PERSON and when you come back, why don't you just move in with him as well!
+open_question_opinion person	How about PERSON?
+open_question_opinion person	How about PERSON?
+open_question_opinion person	Why would anyone vote for PERSON?
+open_question_opinion person	how about PERSON?
+open_question_opinion position	Who was your vote for POSITION?
+open_question_opinion sport	How about playing SPORT with me?
+open_question_opinion sport	What style of SPORT do you like best?
+open_question_opinion sport	How about going for SPORT around 10
+open_question_opinion sport	But why do you choose SPORT at first?
+open_question_opinion vehicle	In that case, how about a VEHICLE?
+open_question_opinion videoname	How about VIDEONAME?
+open_question_opinion videoname	How about ‘ VIDEONAME? ’
+open_question_opinion videoname	What about VIDEONAME?
+opinion date	DATE is good.
+opinion date	DATE is fine.
+opinion date	By the middle of DATE, I think.
+opinion date	It gets better on DATE, though.
+opinion date	I think that DATE would work.
+opinion date	Hmm, I guess on the DATE.
+opinion date	Well, I'm afraid DATE is out for me.
+opinion date	Hopefully, we ’ ll both have relaxing DATE.
+opinion date	I guess you can write that I'm looking forward to seeing them in DATE.
+opinion date	See you on DATE, then.
+opinion date	DATE is perfect.
+opinion date	Oh, I hope it be fixed on DATE.
+opinion date	I ’ m glad they ’ re coming in DATE.
+opinion date	And hopefully they are going to confirm the deal on DATE, fingers crossed.
+opinion date	Any day except DATE.
+opinion date	Hmm, I guess on the DATE.
+opinion date	I want to come in on DATE.
+opinion date	OK.Any time on DATE will be OK with me.
+opinion date	It gets better on DATE, though.
+opinion date	I would like to come in on DATE.
+opinion device	When he pulled out the DEVICE, I got so scared.
+opinion device	The cords that you see behind your DEVICE that plug into an outlet.
+opinion device	I hope you have a good DEVICE.
+opinion device	You really shouldn't watch so much DEVICE.
+opinion device	I hate DEVICE.
+opinion device	It's better because it doesn't tie up the DEVICE.
+opinion device	This DEVICE is of very high quality.
+opinion device	I like it here at DEVICE.
+opinion device	It could be the DEVICE.
+opinion device	You can also play DEVICE on it if you hook it up to your TV.
+opinion device	I like DEVICE.
+opinion device	I never did like this DEVICE anyway.
+opinion device	DEVICE is perfectly fine for me.
+opinion device	We should choose from the DEVICE.
+opinion device	I think DEVICE is a lot better than here.
+opinion device	that's one of the problems with having an DEVICE.
+opinion device	I like playing the DEVICE.
+opinion device	I don't want DEVICE.
+opinion device	I was so scared when I saw the DEVICE.
+opinion device	I think the only thing is DEVICE.
+opinion device	I like DEVICE better.
+opinion device	But I don't like playing the DEVICE.
+opinion device	Perhaps it's the DEVICE then?
+opinion device	I'm surprised you don't use more of the features on your DEVICE.
+opinion device	A DEVICE is something most people appreciate.
+opinion device	A DEVICE would be an excellent gift.
+opinion device	I think I ’ d like to just get another DEVICE, please.
+opinion device	DEVICE is great!
+opinion device	You could always take the DEVICE.
+opinion device	Perhaps it's the DEVICE then?
+opinion device	Maybe the DEVICE is going bad.
+opinion device	I hate DEVICE.
+opinion device	This DEVICE is of very high quality.
+opinion device	I expect to operate DEVICE.
+opinion device	Maybe his DEVICE is out of order.
+opinion device	I don't want DEVICE.
+opinion device	And the DEVICE has some fragile items inside, so please be careful with that too.
+opinion duration	Yes, that could have been it, but I haven ’ t been feeling that great for the past DURATION.
+opinion duration	I think it was about DURATION long.
+opinion duration	If I were you, I would take a DURATION to take care of those things before you move in.
+opinion duration	I'm afraid it would take DURATION at most.
+opinion duration	Of course, she should take DURATION.
+opinion duration	DURATION.
+opinion duration	I think about DURATION.
+opinion duration	Well, between $ 350-400 a DURATION.
+opinion duration	Perhaps you can try the DURATION date, the latest type.
+opinion duration	Maybe I could get back to you in a DURATION.
+opinion duration	I think it's soon, maybe in a DURATION.
+opinion duration	Perhaps you can try the DURATION date, the latest type.
+opinion duration	Well, DURATION would be fine, too.
+opinion duration	at least you didn't waste time thinking about what you were going to wear every DURATION!
+opinion duration	I think it's soon, maybe in a DURATION.
+opinion duration	I think he'll be back in about an DURATION at least.
+opinion duration	Maybe I'll cook once or twice a DURATION.
+opinion duration	You know, I think it would be better if I could pick it up in DURATION.
+opinion duration	Working at DURATION is something I hate to do most.
+opinion duration	If it is not more than DURATION past its due date, then you may still mail it in.
+opinion duration	DURATION, that will be all right.
+opinion duration	Working at DURATION is something I hate to do most.
+opinion duration	DURATION ' time will be OK.
+opinion duration	If I survive the next DURATION.
+opinion duration	I'd like to go and live there for at least another DURATION.
+opinion duration	I don't really enjoy big occasions, but I think I ’ ll come round to the idea in the end, It only happens once in a DURATION.
+opinion duration	I'm afraid it will take DURATION at most.
+opinion duration	Well, I'm only here for DURATION, so I think 500 GAP should be plenty.
+opinion duration	I guess I'll wait a few more DURATION.
+opinion duration	Maybe we could try it again in a DURATION when things have settled down.
+opinion duration	I think he'll be back in about an DURATION at least.
+opinion duration	I think we should go for DURATION.
+opinion duration	I'm sorry I haven't dropped in that much these past DURATION.
+opinion duration	It takes only one DURATION and you could experience almost all the famous spots in the city, I don't think you would like to miss it.
+opinion event	I hope you'll do better in the EVENT.
+opinion event	Well, being able to go to the EVENT sounds like such a great opportunity.
+opinion event	Mostly on the EVENT.
+opinion event	It has got this year's EVENT.
+opinion gamename	GAMENAME is such a good game.
+opinion gamename	Well, I like collecting GAMENAME!
+opinion genre	Like GENRE?
+opinion genre	Yes, GENRE is my favorite.
+opinion genre	GENRE is my favorite.
+opinion genre	Actually, I mostly just listen GENRE.
+opinion genre	GENRE is my favorite.
+opinion genre	GENRE is my favorite.
+opinion genre	But you don't have such a problem as to GENRE.
+opinion genre	that is to say, you like all genres except for GENRE.
+opinion genre	GENRE?
+opinion genre	GENRE?
+opinion genre	GENRE doesn't have any depth for me.
+opinion genre	GENRE.
+opinion genre	To tell you the truth, I'm strictly into GENRE.
+opinion genre	GENRE.
+opinion genre	I think I like GENRE better.
+opinion genre	I like GENRE.
+opinion genre	GENRE is my favorite.
+opinion genre	She's very fond of GENRE?
+opinion genre	I must admit that I like several pieces of GENRE.
+opinion genre	I must admit that I like several pieces of GENRE.
+opinion genre	I like GENRE a lot.
+opinion genre	I like GENRE because I like to be scared.
+opinion genre	I don't like GENRE very much.
+opinion genre	GENRE is my favorite.
+opinion genre	actually, I mostly just listen GENRE.
+opinion genre	I like GENRE.
+opinion genre	That is to say, you like all genres except for GENRE.
+opinion genre	I like GENRE.
+opinion genre	I am interested in GENRE.
+opinion genre	She's very fond of GENRE?
+opinion genre	I Like GENRE best.
+opinion genre	Sorry, I forgot to mention that I don't like GENRE much, either.
+opinion genre	GENRE.
+opinion genre	I like GENRE.
+opinion genre	She's very fond of GENRE?
+opinion genre	GENRE?
+opinion genre	I don't care for a GENRE.
+opinion genre	I like GENRE.
+opinion genre	She's very fond of GENRE.
+opinion location	I've always wanted to go to LOCATION.
+opinion location	I guess LOCATION is finally maturing.
+opinion location	Well, if you ever want to visit LOCATION, I would be happy to show you around.
+opinion location	LOCATION is lovely.
+opinion location	It's a pity that I was traveling around LOCATION at that time.
+opinion location	LOCATION.
+opinion location	Yes, but I want to go to the LOCATION.
+opinion location	Oh, LOCATION of sure.
+opinion location	It looks like I might have convinced you to go to LOCATION!
+opinion location	My pleasure, I hope your visit to LOCATION is very enjoyable!
+opinion location	LOCATION is more exciting.
+opinion location	oh, LOCATION sounds great, but I'm afraid it'll cost too much.
+opinion location	I like LOCATION.
+opinion location	OK, I ’ ll sing LOCATION then.
+opinion location	He ’ s going to be sent to LOCATION to study, really?
+opinion location	Yes, I want to spend a couple days in LOCATION.
+opinion location	I wanted to see the LOCATION.
+opinion location	So the other party could be across the LOCATION or just on the other side of the street!
+opinion location	I've always wanted to go to LOCATION.
+opinion location	I think that place is LOCATION.
+opinion location	I hope to visit LOCATION next year.
+opinion location	Well, I've always wanted to see LOCATION.
+opinion location	While the pale color symbolizes beauty and elegance in most LOCATION.
+opinion location	Nowadays, it's no difference from LOCATION.
+opinion location	Well, I really recommend LOCATION.
+opinion location	Whenever I go to LOCATION, I get really excited.
+opinion location	Wow, like LOCATION.
+opinion location	The LOCATION certainly is worth visiting.
+opinion location	Maybe LOCATION.
+opinion location	I think I ‘ d say LOCATION.
+opinion location	It lies in LOCATION.
+opinion location	I ’ m sure he will help better LOCATION.
+opinion location	I think I will start off in LOCATION.
+opinion location	I think that place is LOCATION.
+opinion location	Because it enjoys great reputation and it is located in my favorite city LOCATION.
+opinion location	I think if everyone pitches in, the LOCATION will be a better place.
+opinion location	Therefore, I think I'll explore LOCATION some more.
+opinion location	I think we can visit LOCATION.
+opinion location	I like the LOCATION too.
+opinion location	That will be a throw in for LOCATION.
+opinion location	Well, it ’ s a bit of a mixed bag in LOCATION today.
+opinion location	I think if everyone pitches in, the LOCATION will be a better place.
+opinion location	The first place you should go is the LOCATION.
+opinion location	I like LOCATION.
+opinion location	Thank you, but I'd prefer to buy a LOCATION-made set.
+opinion location	As a matter of fact, I would like to work in LOCATION.
+opinion location	I think I'd say LOCATION.
+opinion location	I'm glad you enjoyed the LOCATION, anyway.
+opinion number	NUMBER is a great time to get started.
+opinion number	Thanks, thanks a lot and thanks NUMBER.
+opinion number	NUMBER would be too large a figure to be used for a trial.
+opinion number	I'm afraid NUMBER is too expensive for me.
+opinion number	NUMBER is by no means a large order.
+opinion number	I believe that NUMBER is just about right amount.
+opinion number	I agree that NUMBER would be just about right.
+opinion number	NUMBER.
+opinion number	I'll take NUMBER.
+opinion number	Yes, I would call NUMBER of my former classmates really close friends.
+opinion number	NUMBER people.
+opinion number	I won ’ t go any lower than $ NUMBER.
+opinion number	NUMBER is good.
+opinion number	NUMBER would be good, don't you think?
+opinion number	NUMBER is a little expensive.
+opinion number	I think a NUMBER is your size.
+opinion number	Well, I want to stay under $ NUMBER.
+opinion number	I think NUMBER is enough.
+opinion number	I'll buy it if NUMBER.
+opinion number	I would like $ NUMBER.
+opinion number	He got a NUMBER here which means it's unsatisfactory.
+opinion number	I believe I am a NUMBER.
+opinion number	NUMBER would be perfect.
+opinion organization	ORGANIZATION was my first choice.
+opinion organization	Hopefully, I ’ ll get accepted to ORGANIZATION.
+opinion organization	I think my favorite job so far was when I worked for ORGANIZATION.
+opinion organization	I really wanted to get into ORGANIZATION.
+opinion organization	My warmest congratulations on your entering the ORGANIZATION.
+opinion organization	I ’ d like to bring to ORGANIZATION Company not only my technical skills, ambition, enthusiasm, but also my loyalty, a sensor desire to become an administrative assistant.
+opinion organization	ORGANIZATION is OK.
+opinion organization	By ORGANIZATION, if that's ok.
+opinion organization	Well, ORGANIZATION is famous for its speed and reliability.
+opinion organization	I think it ’ s my acceptance letter from ORGANIZATION.
+opinion organization	I had high hopes for ORGANIZATION.
+opinion organization	ORGANIZATION.
+opinion organization	The ORGANIZATION should have more authority.
+opinion organization	ORGANIZATION.
+opinion organization	ORGANIZATION is a wonderful institution.
+opinion organization	I ’ d like to bring to ORGANIZATION not only my technical skills, ambition, enthusiasm, but also my loyalty.
+opinion person	I'm not sure, but I think it must be directed by PERSON.
+opinion person	Basically, I think PERSON is threatened by me.
+opinion person	PERSON?
+opinion person	PERSON, of course.
+opinion person	PERSON is a legend, anyway.
+opinion person	PERSON may be handsome, but I think he's a bit crazy, don't you?
+opinion person	I like PERSON the most.
+opinion person	Hum, PERSON, or something like that.
+opinion person	I know PERSON won't mind.
+opinion person	PERSON doesn't hold a grudge, if that's what you're worried about.
+opinion person	That's probably PERSON.
+opinion person	PERSON.
+opinion person	That must be PERSON.
+opinion person	It should be under PERSON.
+opinion person	Well, maybe not a PERSON, but better than the average.
+opinion person	PERSON may be handsome, but I think he's a bit crazy, don't you?
+opinion person	PERSON.
+opinion person	Actually, I recommend you take PERSON sooner rather than later.
+opinion person	Well, their inventors were not as clever as PERSON.
+opinion person	I thought you had trouble with PERSON!
+opinion person	I like the way PERSON runs.
+opinion person	I feel nervous when I face PERSON.
+opinion person	I know PERSON won't mind.
+opinion person	Well, I want to become just like PERSON.
+opinion person	I hope I can fly to any place like PERSON.
+opinion person	I'm a big fan of PERSON.
+opinion person	I agree that PERSON doesn't teach so well.
+opinion person	I bet that PERSON wasn't too happy with that!
+opinion person	My vote was for PERSON.
+opinion person	Hum, PERSON, or something like that.
+opinion person	PERSON.
+opinion person	I have nothing but faith in PERSON.
+opinion person	I love PERSON.
+opinion person	PERSON?
+opinion person	I guess it Is PERSON.
+opinion person	You know, PERSON isn't such a bad guy.
+opinion person	PERSON.
+opinion person	Oh, I love PERSON.
+opinion person	With PERSON leaving, we should probably look to someone new on board.
+opinion person	PERSON.
+opinion person	PERSON.
+opinion person	PERSON?
+opinion person	I thought that he was with PERSON.
+opinion position	I know he ’ s going to be the next POSITION.
+opinion position	People must want him as our POSITION.
+opinion position	All I can tell you is our next POSITION got my vote.
+opinion position	I ’ m voting for the next POSITION.
+opinion position	I am so happy that he is our new POSITION!
+opinion sport	I'd love to, but I don't care for SPORT very much.
+opinion sport	SPORT.
+opinion sport	I seldom play SPORT.
+opinion sport	well, I like to play SPORT.
+opinion sport	I seldom play SPORT.
+opinion sport	You should try SPORT then.
+opinion sport	I have never thought that SPORT can bring us so many benefits.
+opinion sport	I don't care about SPORT.
+opinion sport	I'd strongly recommend that you wait for a while before going SPORT.
+opinion sport	Maybe I can meet you at the club and we can play SPORT together.
+opinion sport	Sounds interesting, but SPORT doesn ’ t really appeal to me.
+opinion sport	I seldom play SPORT.
+opinion sport	Well, I like to play SPORT.
+opinion sport	In my country, many people enjoy SPORT, but it is too expensive for some people.
+opinion sport	I would like to go SPORT.
+opinion sport	I prefer TV play to SPORT.
+opinion sport	my absolute favorite is SPORT.
+opinion sport	In SPORT.
+opinion sport	Sounds interesting, but SPORT doesn ’ t really appeal to me.
+opinion sport	SPORT of course!
+opinion sport	Oh... SPORT.
+opinion sport	I like playing SPORT.
+opinion sport	SPORT.
+opinion sport	SPORT.
+opinion sport	I like SPORT, but I prefer to be along with you.
+opinion sportteam	SPORTTEAM.
+opinion sportteam	I like SPORTTEAM.
+opinion sportteam	SPORTTEAM was my second choice, but I ’ m happy knowing I ’
+opinion sportteam	SPORTTEAM.
+opinion sportteam	20 to 1, in favour of SPORTTEAM!
+opinion sportteam	There is no doubt that the SPORTTEAM team will win.
+opinion sportteam	SPORTTEAM?
+opinion sportteam	SPORTTEAM, of course!
+opinion sportteam	if SPORTTEAM had played as they normally do, they should have won.
+opinion sportteam	I wonder if anyone can call the SPORTTEAM about this.
+opinion sportteam	SPORTTEAM.
+opinion sportteam	If SPORTTEAM had played as they normally do, they should have won.
+opinion vehicle	Actually, in my opinion, the VEHICLE were better because you don't have to tip them.
+opinion vehicle	I will be driving my VEHICLE.
+opinion vehicle	No, I wouldn't be caught dead in a VEHICLE.
+opinion vehicle	I wonder if I can use your VEHICLE.
+opinion vehicle	maybe if I sold my VEHICLE now, I wouldn't be so tempted to use it.
+opinion vehicle	Maybe if I sold my VEHICLE now, I wouldn't be so tempted to use it.
+opinion vehicle	The VEHICLE?
+opinion vehicle	I am glad I did not drive a VEHICLE.
+opinion vehicle	I agree, but I would find it difficult to stop using my VEHICLE.
+opinion vehicle	I want to have a VEHICLE like that.
+opinion vehicle	I don't think we'll be able to find a VEHICLE very easily during hush hours.
+opinion vehicle	He shouldn't drive his VEHICLE.
+opinion vehicle	Perhaps you'd prefer a VEHICLE.
+opinion vehicle	I think a VEHICLE is better.
+opinion vehicle	I can't stand riding the VEHICLE.
+opinion vehicle	The VEHICLE?
+opinion vehicle	I agree, but I would find it difficult to stop using my VEHICLE.
+opinion vehicle	I don't think we'll be able to find a VEHICLE very easily during hush hours.
+opinion videoname	to be honest, I didn't really like VIDEONAME.
+opinion videoname	VIDEONAME is really beautiful.
+opinion videoname	I like VIDEONAME.
+opinion videoname	VIDEONAME.
+opinion videoname	This one, VIDEONAME, looks good.
+opinion videoname	VIDEONAME is very tricky.
+opinion videoname	VIDEONAME.
+opinion videoname	The VIDEONAME.
+opinion videoname	VIDEONAME.
+opinion videoname	VIDEONAME?
+opinion videoname	VIDEONAME.
+opinion videoname	I like to watch VIDEONAME sticking her tongue out.
+opinion videoname	VIDEONAME.
+opinion videoname	' VIDEONAME ' ?
+opinion videoname	VIDEONAME.
+opinion videoname	I can't stand VIDEONAME!
+opinion videoname	VIDEONAME.
+opinion videoname	Oh, VIDEONAME flies.
+opinion videoname	VIDEONAME.
+opinion videoname	Staying with VIDEONAME, of course.
+opinion videoname	The guy in VIDEONAME at the table by the window.
+opinion videoname	Oh, VIDEONAME.
+opinion videoname	My favorite is VIDEONAME.
+opinion videoname	VIDEONAME.
+opinion videoname	Oh, and I can ’ t wait to watch VIDEONAME!
+opinion videoname	VIDEONAME.
+opinion videoname	VIDEONAME?
+opinion videoname	I guess we should see VIDEONAME soon.
+opinion videoname	VIDEONAME.
+opinion videoname	VIDEONAME!
+opinion videoname	VIDEONAME.
+opinion videoname	Oh, VIDEONAME.
+opinion videoname	Well, along with VIDEONAME!
+opinion videoname	The VIDEONAME is highly rated.
+opinion videoname	VIDEONAME.
+opinion videoname	VIDEONAME again?!
+opinion videoname	VIDEONAME.
+opinion videoname	VIDEONAME?
+opinion videoname	Yeah, I love VIDEONAME.
+opinion videoname	VIDEONAME.
+opinion videoname	I like to read VIDEONAME.
+opinion videoname	The VIDEONAME location.
+opinion videoname	VIDEONAME.
+opinion videoname	' VIDEONAME ' .
+opinion videoname	VIDEONAME.
+opinion videoname	VIDEONAME?
+opinion videoname	VIDEONAME?
+opinion videoname	VIDEONAME?
+opinion videoname	VIDEONAME.
+opinion videoname	Yes, I would love to see the VIDEONAME.
+opinion videoname	VIDEONAME.
+opinion videoname	Oh, VIDEONAME flies.
+opinion videoname	VIDEONAME?
+opinion videoname	It's kind of cool that they are still using the same VIDEONAME theme song for this movie.
+opinion videoname	Sure, I love VIDEONAME, too.
+opinion videoname	I am happy that you like the VIDEONAME.
+opinion videoname	VIDEONAME, eh?
+opinion videoname	VIDEONAME, please.
+opinion videoname	VIDEONAME?
+opinion videoname	VIDEONAME.
+opinion videoname	VIDEONAME?
+opinion videoname	Maybe the VIDEONAME has some redeeming qualities.
+opinion videoname	VIDEONAME is very tricky.
+opinion videoname	VIDEONAME.
+opinion videoname	I like VIDEONAME.
+opinion videoname	VIDEONAME?
+opinion videoname	Oh, VIDEONAME flies.
+opinion videoname	I've always liked VIDEONAME.
+opinion videoname	ok, i choose VIDEONAME.
+opinion videoname	Well, I like VIDEONAME, but I can't decide yet.
+opinion videoname	I like VIDEONAME.
+opinion videoname	I love VIDEONAME.
+opinion videoname	yes, I think I'd like the VIDEONAME in the middle.
+opinion videoname	VIDEONAME.
+opinion videoname	VIDEONAME again?!
+opinion videoname	VIDEONAME!
+opinion videoname	VIDEONAME.
+opinion videoname	To be honest, I didn't really like VIDEONAME.
+opinion videoname	VIDEONAME?
+opinion videoname	If I were you, VIDEONAME would be my first choice.
+opinion videoname	Yes, I think I'd like the VIDEONAME in the middle.
+opinion videoname	VIDEONAME.
+opinion videoname	VIDEONAME.
+opinion videoname	VIDEONAME?
+opinion videoname	VIDEONAME?
+opinion videoname	Oh, VIDEONAME.
+opinion videoname	The one VIDEONAME.
+opinion year	In YEAR please.
+opinion year	YEAR would be fine.
+other_answers duration	Perhaps DURATION, I'm not sure.
+pos_answer date	Yes, DATE sounds fine.
+pos_answer date	Yes, on DATE.
+pos_answer date	Yes, DATE sounds fine.
+pos_answer date	Yes, maybe you can come on DATE.
+pos_answer date	Yes, DATE sounds fine.
+pos_answer date	Yes, DATE would be fine.
+pos_answer device	Yes, you play the DEVICE well.
+pos_answer device	I loved DEVICE.
+pos_answer device	Yes, it's a DEVICE.
+pos_answer device	Yes, it's a DEVICE.
+pos_answer duration	Yes, DURATION years ago.
+pos_answer duration	Yes, I went there DURATION years ago.
+pos_answer genre	Hey, you can dance to GENRE!
+pos_answer location	Yes, there are some on LOCATION.
+pos_answer number	Yes, they were NUMBER percent off.
+pos_answer number	Yes, they were NUMBER percent off.
+pos_answer sport	No, but I do like SPORT.
+statement date	Yes, I will see that the room is ready by DATE.
+statement date	It usually gets here at noon on DATE, which is tomorrow.
+statement date	I should be done by DATE.
+statement date	On DATE 11th.
+statement date	That will be on the second of DATE.
+statement date	By the middle of DATE.
+statement date	I can ’ t vote on DATE.
+statement date	Well, I guess on DATE, then you can eat.
+statement date	DATE the first is coming.
+statement date	I'm terribly sorry, but I've already made arrangements for DATE.
+statement date	Will, that'll be the sixth of DATE.
+statement date	Well, today is DATE.
+statement date	I'm leaving on DATE.
+statement date	The regular price is $ 2980.00, but until DATE the 31st it ′ s on sale for just $ 2,699. 00.
+statement date	It's DATE 1st.
+statement date	We're completely open on DATE.
+statement date	It closes at 7:00 on DATE.
+statement date	It was bought on DATE 12th at 3
+statement date	I'd love to, but I have a night class on DATE.
+statement date	We will only be needing it for DATE.
+statement date	I won ’ t be able to vote on DATE.
+statement date	Today is DATE 28th, 2007.
+statement date	We'll inform you of our final decision by early DATE.
+statement date	I'm sorry, but we're booked up on DATE.
+statement date	It's DATE.
+statement date	It's DATE.
+statement date	DATE 23rd, please.
+statement date	I was born on DATE 15, 1986.
+statement date	Yes, that's my only day off until DATE.
+statement date	We'll go to your house and repair it on DATE.
+statement date	By the middle of DATE.
+statement date	We start on DATE.
+statement date	But it's DATE!!
+statement date	I need an appointment on DATE.
+statement date	My birthday is DATE 14th, 1985.
+statement date	Actually, I ’ Ve got something scheduled on DATE.
+statement date	So you will stay until DATE?
+statement date	By the coming DATE.
+statement date	It's often windy in DATE.
+statement date	I see you sometimes work on DATE, too.
+statement date	In DATE.
+statement date	Today is DATE.
+statement date	I get paid on DATE, I'll pay you back then.
+statement date	Any time is all right, except DATE.
+statement date	It was purchased on the 12th of DATE at 3
+statement date	Okay, so on DATE, you can buy yourself something to eat.
+statement date	Thanks, I'll see you around DATE then.
+statement date	In the second week of DATE.
+statement date	Yeah, I'm expecting to come back on DATE.
+statement date	I think it ’ s DATE September.
+statement date	Well unfortunately, I'm tied up on DATE.
+statement date	Actually, I ’ Ve got something scheduled on DATE.
+statement date	I think I got it on DATE, but it just showed up today.
+statement date	We'll go to your house and repair it on DATE.
+statement date	I should be done by DATE.
+statement date	Yes, you're seeing him on DATE.
+statement date	So that leaves DATE.
+statement date	OK.There is one on DATE.
+statement date	We've particularly busy on DATE.
+statement date	It's DATE and we are sitting at home doing nothing.
+statement date	It's DATE 16,2009.
+statement date	yes, that's my only day off until DATE.
+statement date	Yes, my birth date is DATE 22, 1977.
+statement date	I said by the middle of DATE.
+statement date	Yeah, I'm expecting to come back on DATE.
+statement date	The completion date will be DATE 1st 2007.
+statement date	Today is DATE.
+statement date	Well then, I'll see you on DATE.
+statement date	The only time we can come on DATE is at 3
+statement device	I will call you when a DEVICE is free.
+statement device	But nobody uses DEVICE!
+statement device	I'm afraid I don't know how to use your DEVICE.
+statement device	Not paying attention to the DEVICE?
+statement device	Take the DEVICE over there and turn left, you'll see the sign.
+statement device	And make sure to return my DEVICE to my desk when you are done with it.
+statement device	DEVICE are more expensive, right?
+statement device	At first I didn't know anything about the DEVICE.
+statement device	There was a DEVICE on the signal.
+statement device	The DEVICE is near my office.
+statement device	I'll wear that if you'll wear these DEVICE.
+statement device	You have to pay tax for this DEVICE.
+statement device	You should look it up on our DEVICE.
+statement device	I'm going to DEVICE.
+statement device	I'll go get the DEVICE.
+statement device	I have a plan for handling DEVICE.
+statement device	I'm returning a DEVICE.
+statement device	Our DEVICE have a high level of quality now.
+statement device	She mentioned a DEVICE.
+statement device	Oh, and here are your DEVICE.
+statement device	I came here from DEVICE.
+statement device	The DEVICE turns off by itself.
+statement device	Don ’ t forget to also get a new DEVICE.
+statement device	while you ’ re cleaning the DEVICE, I ’ ll wipe the worktop.
+statement device	The one next to the DEVICE.
+statement device	No, but I have taken elective courses in DEVICE in college.
+statement device	You can see the time on the DEVICE.
+statement device	There are instructions posted on the DEVICE.
+statement device	And your DEVICE too.
+statement device	I see, and what about the DEVICE?
+statement device	Once a DEVICE is available, I will let you know.
+statement device	But nobody uses DEVICE!
+statement device	Slide your card into the DEVICE.
+statement device	Yeah, try not to kick or hit the DEVICE!
+statement device	While you ’ re cleaning the DEVICE, I ’ ll wipe the worktop.
+statement device	You ’ re going to have to wait for a DEVICE.
+statement device	Just put your card into the DEVICE.
+statement device	That's not the DEVICE.
+statement device	Using DEVICE I can rely on this to direct me home.
+statement device	I don't know much about DEVICE.
+statement device	When there is a DEVICE available, I will call you.
+statement device	No, but you never know when you'll need a DEVICE.
+statement device	But I can't move the DEVICE at all.
+statement device	Alternatively, we do offer DEVICE in our lobby.
+statement device	OK.Now you dial 9 on the DEVICE.
+statement device	I didn't take my DEVICE with me at that time.
+statement device	Next you dial 9 on the DEVICE.
+statement device	I ’ m just going to keep going to DEVICE.
+statement device	OK, you ’ ll need to reboot your DEVICE.
+statement device	Remember us for all your DEVICE needs.
+statement device	That's not the DEVICE.
+statement device	The DEVICE were out everywhere.
+statement device	Yeah, try not to kick or hit the DEVICE!
+statement device	I need change for the DEVICE?
+statement device	The DEVICE is near my office.
+statement device	I want to return this DEVICE.
+statement device	This will be my first time using an DEVICE.
+statement device	Yes, your DEVICE is on the chair.
+statement device	The DEVICE has brought us lots of convenience.
+statement device	A DEVICE it is.
+statement device	But it doesn't have a DEVICE.
+statement device	So I can't take my DEVICE then.
+statement device	I turned on my DEVICE and it broke!
+statement device	We ’ ll give you your money back as long as the DEVICE is returned in the original packaging and with a receipt.
+statement device	I cannot let anything happen to that DEVICE.
+statement device	I don't know much about DEVICE.
+statement device	I go to DEVICE.
+statement device	I'll just use the DEVICE.
+statement device	We do charge to use the DEVICE.
+statement device	There is a wait right now to use the DEVICE.
+statement device	While you ’ re cleaning the DEVICE, I ’ ll wipe the worktop.
+statement device	I started at DEVICE.
+statement device	I'm going to listen to the DEVICE.
+statement device	Well, a 15 - inch DEVICE is $ 2,100.
+statement device	I ’ m going to need you to show me how to use the DEVICE.
+statement device	The DEVICE take change?
+statement device	They took full advantage of the DEVICE being out.
+statement device	There is a wait for the DEVICE.
+statement device	And no DEVICE.
+statement device	If that ’ s the case, then I will fix the DEVICE.
+statement device	You can put on your DEVICE.
+statement device	I asked for leave and was at home when the DEVICE rang.
+statement device	One DEVICE, coming right up.
+statement device	You need to push your card into the DEVICE.
+statement device	Then something must be wrong with the DEVICE.
+statement device	They plan to install a DEVICE here.
+statement device	This cover comes with the DEVICE.
+statement device	Well, after you dial 9 on the DEVICE, you should hear the tone change.
+statement device	You have to pay to use the DEVICE.
+statement device	I was sitting in this room watching DEVICE when someone knocked on the door.
+statement device	I see from the DEVICE that you are a frequent guest here.
+statement device	no, some people have DEVICE now, too.
+statement device	I failed in my DEVICE course once and I made up my mind to learn it well.
+statement device	We are allowed to use a DEVICE in class?
+statement device	I asked for leave and was at home when the DEVICE rang.
+statement device	I suppose you need the DEVICE set up.
+statement device	Look, I am playing the DEVICE for you.
+statement device	Oh, I watched it on DEVICE.
+statement device	Not paying attention to the DEVICE?
+statement device	You'd spend 30 % of your time on the DEVICE.
+statement device	In fact, she prefers DEVICE.
+statement device	Look, you can still learn a lot from watching DEVICE, you just need to be smart when you're watching.
+statement duration	In DURATION or so.
+statement duration	Yes, you can see every test for the past DURATION.
+statement duration	But you have already worked there for DURATION.
+statement duration	We'll meet again in a DURATION.
+statement duration	It lasts for DURATION.
+statement duration	I got on about DURATION ago.
+statement duration	It ’ s supposed to leave in DURATION.
+statement duration	DURATION
+statement duration	Every DURATION you will receive a Continued Claim Form that you must turn in.
+statement duration	a couple of times a DURATION.
+statement duration	I'm afraid I can only rent it for DURATION.
+statement duration	Almost DURATION.
+statement duration	You've been gone for DURATION.
+statement duration	I have enough to live off of for about DURATION.
+statement duration	Only DURATION.
+statement duration	You can take it in a DURATION.
+statement duration	It hasn't been working the past DURATION.
+statement duration	In about 3 to DURATION.
+statement duration	About DURATION ago.
+statement duration	If you could just give us a few more DURATION, we should be able to get this straightened out.
+statement duration	Generally it will arrive within a DURATION.
+statement duration	It ’ ll take about DURATION.
+statement duration	I have lived here for DURATION.
+statement duration	I still have DURATION to practise.
+statement duration	78 dollars a DURATION with unlimited mileage.
+statement duration	I spent DURATION to get my license.
+statement duration	A little over DURATION.
+statement duration	He said, ' DURATION, ' and we both laughed about it.
+statement duration	For DURATION we can offer you 0.59 % .
+statement duration	Yes, almost once a DURATION.
+statement duration	It is DURATION-year and covers parts and service.
+statement duration	I didn't realize that I have to buy something from them every DURATION.
+statement duration	let's see, I've got about $ 50 to get me through the DURATION.
+statement duration	Perhaps, but I haven ’ t felt well for a DURATION now.
+statement duration	Just over DURATION.
+statement duration	Okay, it'll be ready in DURATION.
+statement duration	It's about DURATION.
+statement duration	I have been working here for DURATION.
+statement duration	You should look at your claim form and see if it has been more than DURATION since it was due.
+statement duration	It ’ s $ 8.50 a DURATION.
+statement duration	even if I ’ m only sick for DURATION?
+statement duration	DURATION.
+statement duration	About DURATION.
+statement duration	It runs every DURATION.
+statement duration	No, I haven ’ t been back for more than DURATION.
+statement duration	well, he was supposed to be able to learn his job in DURATION, but he just doesn't seem to know what he's doing.
+statement duration	Okay, they ’ ll be ready for you in DURATION.
+statement duration	I don't need to drink every DURATION.
+statement duration	I haven ’ t got DURATION at the moment.
+statement duration	It'll take you about DURATION.
+statement duration	About DURATION.
+statement duration	Maybe DURATION.
+statement duration	About DURATION.
+statement duration	So you are leaving DURATION from now?
+statement duration	I have been married for DURATION.
+statement duration	I want to fetch them in DURATION.
+statement duration	For about DURATION.
+statement duration	DURATION.
+statement duration	About DURATION.
+statement duration	Nearly DURATION.
+statement duration	DURATION ago.
+statement duration	About DURATION.
+statement duration	On and off, for quite a DURATION.
+statement duration	Yes, it runs till the end of the DURATION.
+statement duration	About DURATION.
+statement duration	About DURATION ago.
+statement duration	It will take DURATION.
+statement duration	You've been gone for DURATION.
+statement duration	About DURATION.
+statement duration	It's about DURATION long.
+statement duration	I told him DURATION.
+statement duration	These are due back in DURATION.
+statement duration	Within DURATION once we receive your orders.
+statement duration	Around DURATION.
+statement duration	OK, your work experience is impressive, and I think you sound right for this position, but I do have 3 other people to interview, so you'll be hearing from us within a DURATION.
+statement duration	So it is, I've come again to renew our sole agency agreement for another DURATION.
+statement duration	I usually run it every few DURATION.
+statement duration	You'd better have a good rest for a DURATION.
+statement duration	OK, I promise we'll get there in DURATION.
+statement duration	About a DURATION.
+statement duration	For DURATION and a half.
+statement duration	About more DURATION, I think.
+statement duration	DURATION at most.
+statement duration	DURATION.
+statement duration	It looks like it should be here in just a DURATION.
+statement duration	I'll call again in DURATION.
+statement duration	And even if it takes DURATION, huh?
+statement duration	It's just about DURATION ' walk.
+statement duration	I was there for almost DURATION.
+statement duration	I've been trying to call him for the last DURATION, but your line was busy.
+statement duration	I think less than DURATION.
+statement duration	she says that after DURATION years of use, it ’ s not working properly.
+statement duration	Yes, so I had to wait DURATION for the next one.
+statement duration	OK, I'll take a small, for 1 DURATION, in this branch, please.
+statement duration	This problem has been happening for a DURATION now.
+statement duration	But we ’ Ve only been on the road for DURATION.
+statement duration	It ’ ll take about DURATION.
+statement duration	Well, it's about DURATION ' walk.
+statement duration	They run about every DURATION.
+statement duration	We cannot pay you unless you turn that form in every DURATION.
+statement duration	About DURATION.
+statement duration	$ 850 a DURATION.
+statement duration	This visa is good for DURATION.
+statement duration	Every DURATION.
+statement duration	I felt OK until an DURATION or so ago, and then I just doubled over.
+statement duration	You're not going to get up in DURATION if I let you fall back asleep.
+statement duration	I was there for about DURATION.
+statement duration	DURATION.
+statement duration	I understand, and it will get done after I wake up in DURATION.
+statement duration	I'll be here for about DURATION.
+statement duration	For DURATION or so.
+statement duration	Ok, I will contact you in DURATION.
+statement duration	DURATION?
+statement duration	I have been a class commissary in charge of studies for DURATION.
+statement duration	You'll have a definite answer from us within a DURATION.
+statement duration	Well, we do the same things every DURATION.
+statement duration	Usually about DURATION.
+statement duration	For DURATION, that's what I usually do.
+statement duration	Actually, I'm really swamped right now and I'll be going into a meeting in a DURATION.
+statement duration	DURATION!
+statement duration	If things don ’ t get better in a DURATION, I will look for some other solutions.
+statement duration	Ok, but how long I have to wait, it is going to be more than DURATION.
+statement duration	you're here a bit early, so check the departure screens in the waiting area in about a DURATION.
+statement duration	About DURATION.
+statement duration	Okay, they'll be ready for you in DURATION.
+statement duration	Oh, he's 14 and in the past DURATION, he's become quieter and a bit secretive.
+statement duration	For DURATION, please.
+statement duration	It was DURATION.
+statement duration	Take them for DURATION.
+statement duration	You'll be able to take the test again in a DURATION.
+statement duration	Not that long ago, I think it was DURATION ago.
+statement duration	About a DURATION.
+statement duration	Sure, I'll be back in DURATION.
+statement duration	It will take about DURATION.
+statement duration	I'm taking DURATION now.
+statement duration	DURATION?
+statement duration	For DURATION.
+statement duration	I would like to have notice of that question, I will give you an answer in a DURATION.
+statement duration	You have to do it in DURATION.
+statement duration	Then I ’ ll come along DURATION later to put my signature on it.
+statement duration	DURATION.
+statement duration	Your lease is for DURATION.
+statement duration	About DURATION ago.
+statement duration	About DURATION.
+statement duration	It's $ 24 for each DURATION.
+statement duration	In a DURATION of days, I was told.
+statement duration	DURATION.
+statement duration	I've been on here for like, DURATION.
+statement duration	It ’ s takes only about DURATION
+statement duration	DURATION.
+statement duration	You ’ re getting married in DURATION.
+statement duration	DURATION.
+statement duration	It should be no longer than an DURATION.
+statement duration	Take it three times a DURATION.
+statement duration	In about DURATION.
+statement duration	DURATION or so.
+statement duration	They will stay for DURATION.
+statement duration	Once a DURATION.
+statement duration	I heard they were just married for DURATION.
+statement duration	About DURATION.
+statement duration	just over DURATION.
+statement duration	DURATION.
+statement duration	If I'm not back in DURATION, come and find me.
+statement duration	You can't finish in less than DURATION.
+statement duration	In DURATION your lease will be up.
+statement duration	It only takes a DURATION.
+statement duration	About DURATION
+statement duration	There was a very important project that had to be researched and completed by the end of the DURATION.
+statement duration	Twice a DURATION?
+statement duration	Well, DURATION.
+statement duration	If you have your ID and are willing to pay a DURATION in advance, we can do that for you today, there is no need to wait.
+statement duration	I am leaving in DURATION.
+statement duration	Just DURATION.
+statement duration	It's only $ 24 a DURATION.
+statement duration	No, I've been here for DURATION.
+statement duration	I have had it on and off for the past DURATION.
+statement duration	I'll say the movie's starting in the DURATION.
+statement duration	They'll be there in about an DURATION.
+statement duration	More than DURATION now.
+statement duration	You need DURATION.
+statement duration	it looks like it should be here in just a DURATION.
+statement duration	The delivery people showed up DURATION late.
+statement duration	For a DURATION or so.
+statement duration	I left it DURATION ago.
+statement duration	About DURATION.
+statement duration	Yes, DURATION.
+statement duration	I came here only a DURATION ago.
+statement duration	in a DURATION.
+statement duration	only about DURATION.
+statement duration	DURATION?
+statement duration	I'm not 100 % sure, around an DURATION ago I guess.
+statement duration	In about DURATION.
+statement duration	Give it a couple DURATION, and it should be back on.
+statement duration	About DURATION ago.
+statement duration	DURATION.
+statement duration	It can be completed in DURATION normally.
+statement duration	Good, I'm leaving my room in about DURATION.
+statement duration	Twice a DURATION?
+statement duration	I ‘ Ve been married for about DURATION.
+statement duration	Oh, more than DURATION.
+statement duration	About 300 a DURATION.
+statement duration	She says that after DURATION years of use, it ’ s not working properly.
+statement duration	For a DURATION or so.
+statement duration	About DURATION,
+statement duration	About DURATION now.
+statement duration	Twice a DURATION?
+statement duration	In about DURATION.
+statement duration	Well, we still have about DURATION.
+statement duration	About DURATION.
+statement duration	Well, we were only there for DURATION, so we didn't do too much.
+statement duration	About DURATION.
+statement duration	I will be there after DURATION.
+statement duration	About DURATION now.
+statement duration	DURATION already?
+statement duration	Well, we come here almost every DURATION.
+statement duration	Almost DURATION.
+statement duration	At least DURATION.
+statement duration	She freelanced with us for DURATION.
+statement duration	Well, I'll be back in DURATION.
+statement duration	But we ’ Ve only been on the road for DURATION.
+statement duration	Probably DURATION.
+statement duration	It takes only DURATION.
+statement duration	It ’ s about DURATION.
+statement duration	I ’ ll be there in about DURATION.
+statement duration	Only DURATION?
+statement duration	I plan to repay it within DURATION.
+statement duration	It lasts for DURATION.
+statement duration	For DURATION.
+statement duration	It was DURATION.
+statement duration	You will receive a Continued Claim Form and every DURATION, you must turn it in.
+statement duration	I will be there for DURATION.
+statement duration	About DURATION ago.
+statement duration	You need to be very careful to send that form in every DURATION if you want to get paid.
+statement duration	Oh, it ’ s been uh... DURATION.
+statement duration	OK, I will keep this position for you for DURATION.
+statement duration	Perhaps DURATION.
+statement duration	Put me down for DURATION.
+statement duration	They run about every DURATION.
+statement duration	It starts at 7:00 and lasts DURATION.
+statement duration	Unfortunately, I'm leaving here unexpectedly, and I may be away for DURATION.
+statement duration	Nearly DURATION.
+statement duration	DURATION.
+statement duration	perhaps DURATION.
+statement duration	About DURATION.
+statement duration	For DURATION.
+statement duration	I ’ ll be here for approximately DURATION.
+statement duration	DURATION.
+statement duration	You are supposed to check in at least DURATION beforehand.
+statement duration	DURATION.
+statement duration	Once a DURATION.
+statement duration	Well, the DURATION-hour facial costs 50 yuan and the one-hour costs 80 yuan.
+statement duration	I just turned 18 a DURATION ago.
+statement duration	About DURATION.
+statement duration	It's only about DURATION ' walk.
+statement duration	I haven't been driving for long — only for a DURATION.
+statement duration	About DURATION...
+statement duration	DURATION.
+statement duration	About a DURATION.
+statement duration	About DURATION.
+statement duration	An DURATION?
+statement duration	In DURATION or so.
+statement duration	DURATION, please.
+statement duration	About DURATION.
+statement duration	DURATION
+statement duration	DURATION.
+statement duration	OK.After DURATION, I will come to you for it.
+statement duration	In DURATION.
+statement duration	Once a DURATION.
+statement duration	About a DURATION.
+statement duration	Less than DURATION.
+statement duration	I've been packed for a DURATION.
+statement duration	In fact, I just swept the floor DURATION ago.
+statement duration	Just DURATION ago.
+statement duration	I can stay a few more DURATION.
+statement duration	I'm afraid I can only rent it for DURATION.
+statement duration	You're here a bit early, so check the departure screens in the waiting area in about a DURATION.
+statement duration	OK, sir, yours will be ready in a DURATION.
+statement duration	I've been married for about DURATION.
+statement duration	I lived there for DURATION.
+statement duration	You will get it in a DURATION.
+statement duration	It's valid for DURATION.
+statement duration	Very well, thanks, I will probably finish next week, but this is still a lot of work, I have been worked on in for DURATION, and
+statement duration	Because our contract says that you will live here for DURATION.
+statement duration	About DURATION.
+statement duration	About DURATION.
+statement duration	Well, $ 10 per DURATION, but I can keep the tips.
+statement duration	It's been a DURATION, and I haven't slept that well.
+statement duration	Yeah, it ’ s a DURATION away, and we don ’ t have anything yet.
+statement duration	It'll take her only a DURATION to get online.
+statement duration	But we could just stay there for DURATION.
+statement duration	DURATION.
+statement duration	DURATION is fine, with a value of 1,000 RIB.
+statement duration	DURATION exactly.
+statement duration	More than DURATION.
+statement duration	About DURATION.
+statement duration	I have been married for DURATION.
+statement duration	On and off, for quite a DURATION.
+statement duration	Yes, DURATION.
+statement duration	It's been DURATION now, I am not sure.
+statement duration	He should be back in DURATION.
+statement duration	It'll be about an DURATION.
+statement duration	I smoke around 30 each DURATION.
+statement duration	It bothers me off and on, but it ’ s gotten much worse these past DURATION.
+statement duration	We are gaining a DURATION.
+statement duration	He should be back in about DURATION.
+statement duration	No, I've been coming for the last DURATION.
+statement duration	About 20 to DURATION.
+statement duration	We'll give you our decision in a DURATION.
+statement duration	Only a DURATION.
+statement duration	I have been working on it for a whole DURATION and it's too late to write another.
+statement duration	It's 325 a DURATION.
+statement duration	It should take at least DURATION to get there.
+statement duration	Just fill out these forms, and I ’ ll be with you in DURATION.
+statement duration	DURATION.
+statement duration	It was founded in 2002, has been in business for DURATION.
+statement duration	Just over DURATION now.
+statement duration	DURATION.
+statement duration	Hang up and I'll call you back in a DURATION.
+statement duration	DURATION.
+statement duration	The manager will come to see you in a DURATION.
+statement duration	I've been making these designs for over DURATION.
+statement duration	I heard they were just married for DURATION.
+statement duration	I'm going to need it for DURATION.
+statement duration	Oh, maybe DURATION.
+statement duration	I think she's lived there for about DURATION.
+statement duration	We can leave it in there for about DURATION.
+statement duration	I worked with him for DURATION.
+statement duration	Normally it can be completed in DURATION.
+statement duration	I have a driver's license, and DURATION years of driving experience.
+statement duration	Only about DURATION.
+statement duration	Generally it will arrive within DURATION.
+statement duration	Yes, if we're lucky we'll find something in the next DURATION.
+statement duration	In DURATION.
+statement duration	Five days every DURATION, but if it is necessary, you need to work overtime once in a while
+statement duration	Yes, I haven't seen you for DURATION.
+statement duration	Well, the check out time is 12:00 o'clock everyday, if you checked out after 15:00, we have to charge you for another DURATION.
+statement duration	It was founded in 2002, has been in business for DURATION.
+statement duration	I told him that I hadn ’ t got a raise for DURATION.
+statement duration	For nearly DURATION.
+statement duration	Just walk for a DURATION, you'll find it.
+statement duration	That'll be in a DURATION.
+statement duration	It's 325 a DURATION.
+statement duration	about DURATION ago.
+statement duration	Yes, she's lived there for about DURATION.
+statement duration	I can't believe this for it's been DURATION since we got married.
+statement duration	Let's see, I've got about $ 50 to get me through the DURATION.
+statement duration	They run about every DURATION.
+statement duration	Just fill out these forms, and I ’ ll be with you in DURATION.
+statement duration	Nearly DURATION.
+statement duration	Oh, it ’ s been uh... DURATION.
+statement duration	It only takes a DURATION.
+statement duration	A bit over DURATION
+statement duration	DURATION.
+statement duration	Well, I'll have to think about it and get back to you in about DURATION.
+statement duration	We plan to get together once a DURATION.
+statement duration	I'll need a DURATION to check over my notes again on every detail.
+statement duration	You'd better have a good rest for a DURATION.
+statement duration	From 3 to DURATION if everything goes well.
+statement duration	About DURATION.
+statement duration	DURATION.
+statement duration	For about DURATION.
+statement duration	Well, about an DURATION or so.
+statement duration	Well, go home and rest in bed for DURATION, then you'll feel better.
+statement duration	OK, I can have it ready by the end of the DURATION.
+statement duration	OK, I suppose, but she's had a rough time in the last DURATION, She got divorced.
+statement duration	Very well, thanks, I will probably finish next week, but this is still a lot of work, I have been worked on in for DURATION, and
+statement duration	It lasts for DURATION.
+statement duration	About DURATION.
+statement duration	DURATION?
+statement duration	OK.I will accept you for a DURATION-period of probation.
+statement duration	From 3 to DURATION if everything goes well.
+statement duration	It can ’ t be more than DURATION late for us to accept it.
+statement duration	Some woman in here when I tried to register DURATION ago.
+statement duration	$ 10 per DURATION.
+statement duration	Once a DURATION.
+statement duration	Just 10 more DURATION.
+statement duration	I'll be here for about DURATION.
+statement duration	And take a good rest for a DURATION.
+statement duration	The minimum time period is DURATION.
+statement duration	I'm afraid DURATION isn't enough for you to see all the places of interest.
+statement duration	I've been reviewing your work over the past DURATION.
+statement duration	For DURATION.
+statement duration	DURATION.
+statement duration	It ’ s about DURATION ’ walk, I think.
+statement duration	if I'm not back in DURATION, come and find me.
+statement duration	I've worked here for DURATION.
+statement duration	Probably another DURATION.
+statement duration	Actually, one just left DURATION ago.
+statement duration	If I'm not back in DURATION, come and find me.
+statement duration	I realize that, and I can do all that when I wake up in DURATION.
+statement duration	Couple times a DURATION.
+statement duration	I usually run it every few DURATION.
+statement duration	I bought it here DURATION ago.
+statement duration	For DURATION.
+statement duration	DURATION.
+statement duration	Yes, if we're lucky we'll find something in the next DURATION.
+statement duration	Yes, he ’ s been like this for DURATION.
+statement duration	DURATION or so.
+statement duration	I usually go every other day for about DURATION.
+statement duration	About DURATION.
+statement duration	Generally it is DURATION and during this period you are half-paid.
+statement duration	In that case, we will have to improve DURATION further on the time.
+statement duration	DURATION.
+statement duration	You have to send that form in every DURATION so we that we will know what to pay you.
+statement duration	It ’ ll only take me DURATION to complete your transaction.
+statement duration	It usually comes out about $ 40 a DURATION.
+statement duration	You will need to fill out a Continued Claim Form every DURATION.
+statement duration	I have enough to live off of for about DURATION.
+statement duration	It ’ s about an DURATION.
+statement duration	DURATION.
+statement duration	Yes, but we charge 50 % more and it only takes DURATION.
+statement duration	Well, we come here almost every DURATION.
+statement duration	No, but I am sure it won't take more than DURATION.
+statement duration	DURATION months later.
+statement duration	It was DURATION ago.
+statement duration	$ 30.00 a DURATION.
+statement duration	about DURATION ago.
+statement duration	Not so long, just DURATION.
+statement duration	I have been working on it for a whole DURATION and it's too late to write another.
+statement duration	You fill in the hours and total them for the DURATION.
+statement duration	Yes, it took DURATION and a lot of initiative to get that account.
+statement duration	DURATION.
+statement duration	DURATION
+statement duration	You should take it twice a DURATION.
+statement duration	Your lease will be up in DURATION.
+statement duration	I lived there for DURATION.
+statement duration	Just DURATION days ago it was 35.
+statement duration	I hope not but it will take at least DURATION.
+statement duration	It went off DURATION ago.
+statement duration	Let's see... That was about DURATION ago.
+statement duration	Say, DURATION?
+statement duration	In a DURATION.
+statement duration	You're going to need to complete DURATION.
+statement duration	Only about DURATION.
+statement duration	It is, buy remember that we only have a DURATION to make our presentation.
+statement duration	For DURATION.
+statement duration	About DURATION.
+statement duration	About DURATION.
+statement duration	About DURATION.
+statement duration	He ’ ll finish writing in DURATION.
+statement duration	So, if for some reason I was having a bad DURATION and spent a little too much I could just pay the minimum?
+statement duration	About 300 a DURATION.
+statement duration	I have been at my current job for DURATION.
+statement duration	For DURATION.
+statement duration	DURATION?
+statement duration	DURATION?
+statement duration	It's been DURATION now.
+statement event	Oh, it's the EVENT ' Emblem.
+statement event	Hopefully he will use the same exam, cause Im going to spend most of my time studying the EVENT.
+statement event	The EVENT!
+statement event	Of course he was called ' the father of the EVENT ' .
+statement event	The EVENT was made 4,000 years ago.
+statement event	The EVENT!
+statement event	Good, I can still attend the EVENT.
+statement event	Well, let ’ s go to the EVENT tomorrow then!
+statement gamename	I started playing GAMENAME and ended up wasting a lot of time.
+statement gamename	GAMENAME.
+statement genre	nowadays, you can be a DJ.You can mix GENRE.
+statement genre	Listen, it is GENRE.
+statement genre	I didn ’ t realize it was a GENRE.
+statement genre	I didn ’ t realize it was a GENRE.
+statement genre	Nowadays, you can be a DJ.You can mix GENRE.
+statement genre	We can go to a GENRE, and I'll hold your hand so you don't get scared.
+statement genre	Oh, no, it was a kind of GENRE.
+statement genre	It's not all GENRE.
+statement genre	And they said you should play GENRE?
+statement genre	It is just GENRE, you could have sung there too if you want it.
+statement location	This place doesn't look like LOCATION.
+statement location	In LOCATION.
+statement location	But it is far from LOCATION.
+statement location	Well.. we're not sure yet, probably in LOCATION.
+statement location	They come to the LOCATION?
+statement location	I heard that one of their specialities is the LOCATION.
+statement location	I'm from LOCATION.
+statement location	LOCATION.
+statement location	The southbound A trains say LOCATION.
+statement location	No, but we went to the LOCATION.
+statement location	My husband is betting on LOCATION.
+statement location	No, I am from LOCATION.
+statement location	Well, I am from LOCATION.
+statement location	no, that's OK.You know what they say when in LOCATION...
+statement location	It's made in LOCATION.
+statement location	This is LOCATION.
+statement location	I'm going to LOCATION.
+statement location	Oh, I know LOCATION.
+statement location	LOCATION is my hometown.
+statement location	Yes, I'm from LOCATION.
+statement location	And I travelled a little bit in LOCATION.
+statement location	Well, to be fare, since he's coming all the way from LOCATION, he's got to get up much earlier than the rest of us.
+statement location	I am trying to get to the LOCATION.
+statement location	Looks like you'll have to get a place in the LOCATION.
+statement location	They are staying at the LOCATION.
+statement location	These are from LOCATION.
+statement location	It's on the other side of the LOCATION.
+statement location	So you want to go to LOCATION?
+statement location	I'm from LOCATION.
+statement location	LOCATION.
+statement location	It's made in LOCATION.
+statement location	I am from LOCATION.
+statement location	well, if you want to live in LOCATION, you have to pay the price!
+statement location	I will take you to LOCATION after walking around here.
+statement location	You were visiting LOCATION?
+statement location	I heard that you moved to LOCATION.
+statement location	I ’ m supposed to be going to LOCATION.
+statement location	In LOCATION.
+statement location	No, from LOCATION, sir.
+statement location	I was born in LOCATION.
+statement location	I'm from LOCATION.
+statement location	Our trip to LOCATION!
+statement location	It's made in LOCATION.
+statement location	We used to be really close, but that all changed once she moved to LOCATION.
+statement location	You're from LOCATION?
+statement location	I'm from LOCATION.
+statement location	because it's off-season, we got a really good package deal to LOCATION, so we went there.
+statement location	No I haven ’ t. I haven ’ t visited the LOCATION either.
+statement location	I'm from LOCATION.
+statement location	It doesn't look like we're on our way to LOCATION.
+statement location	In LOCATION.
+statement location	I've been to LOCATION a few times.
+statement location	I have heard about it while in LOCATION.
+statement location	In LOCATION.
+statement location	I need to remit £ 500 to LOCATION.
+statement location	I didn't know that bus went to the LOCATION station.
+statement location	Well, not so far from LOCATION.
+statement location	And you shouldn't miss the LOCATION.
+statement location	LOCATION.
+statement location	I'm from the other side of the coast--LOCATION.
+statement location	LOCATION?
+statement location	At school, in LOCATION.
+statement location	Ah I see, so you were actually educated in LOCATION?
+statement location	They're imported from LOCATION.
+statement location	LOCATION?
+statement location	That ’ s why it was so weird traveling from LOCATION to LA!
+statement location	LOCATION.
+statement location	Our trip to LOCATION!
+statement location	In LOCATION.
+statement location	Here is the LOCATION.
+statement location	LOCATION is like a dozen miles away from here.
+statement location	My domicile place is LOCATION, too.
+statement location	Well, you could go down to LOCATION.
+statement location	Then one to LOCATION at 10 thirty.
+statement location	I want to send this package to LOCATION, please.
+statement location	She's from LOCATION.
+statement location	When we finally decided to ask someone, they told us we were in LOCATION.
+statement location	I'm from LOCATION.
+statement location	I'm from LOCATION.
+statement location	I'm going to LOCATION.
+statement location	Flight CA216 to LOCATION.
+statement location	Yes, it is, but not as hot as in LOCATION.
+statement location	Well.. we're not sure yet, probably in LOCATION.
+statement location	So they limit it to one region of LOCATION.
+statement location	LOCATION.
+statement location	These are from LOCATION.
+statement location	Ah I see, so you were actually educated in LOCATION?
+statement location	They still live in LOCATION where I was born.
+statement location	Don't forget to call us if you're in LOCATION.
+statement location	Anyway, we are arriving at LOCATION soon.
+statement location	I'd like to go to LOCATION.
+statement location	LOCATION is like a dozen miles away from here.
+statement location	LOCATION.
+statement location	He says he's just arrived in LOCATION.
+statement location	My domicile place is LOCATION.
+statement location	In LOCATION.
+statement location	Yes, I'm from LOCATION.
+statement location	I live in the LOCATION.
+statement location	Really, I went to LOCATION last week.
+statement location	But, you were born and raised in LOCATION!
+statement location	In LOCATION, I think.
+statement location	Well, if you want to live in LOCATION, you have to pay the price!
+statement location	I just got back from LOCATION.
+statement location	My birthplace is LOCATION.
+statement location	I ’ m from Living, LOCATION.
+statement location	I am from LOCATION.
+statement location	Last year when I visited LOCATION.
+statement location	You know, the one just on the corner with LOCATION.
+statement location	LOCATION.
+statement location	I've never been to LOCATION.
+statement location	looks like you'll have to get a place in the LOCATION.
+statement location	There is a stop at LOCATION.
+statement location	no, I want to come back to LOCATION after I graduate.
+statement location	Oh, I am from LOCATION as well.
+statement location	Well start out from LOCATION this Friday.
+statement location	I come from LOCATION.
+statement location	He ’ s been sick since he came back from LOCATION.
+statement location	I'm going to LOCATION.
+statement location	It ’ s to the east of LOCATION.
+statement location	There're a lot of suspicions that the LOCATION is never going to become reality.
+statement location	I heard that one of their specialities is the LOCATION.
+statement location	In LOCATION.
+statement location	I will be leaving the LOCATION soon so I have no need for this account.
+statement location	I only had time to visit LOCATION.
+statement location	It's LOCATION, 9981-6432.
+statement location	Well, I ’ m from LOCATION.
+statement location	I went to LOCATION.
+statement location	LOCATION?
+statement location	Relatively, once we're out of LOCATION, anyway.
+statement location	We are arriving at LOCATION.
+statement location	We intend to open the tender at first next month in LOCATION.
+statement location	Things are different in LOCATION.
+statement location	But you ’ re in LOCATION.
+statement location	LOCATION.
+statement location	In LOCATION.
+statement location	There are a lot of people from LOCATION visiting right now.
+statement location	oh, we had to break up because she didn't want to float around in LOCATION.
+statement location	I will go to LOCATION on business for 5 days next Tuesday.
+statement location	OK, well, I'm going to LOCATION.
+statement location	I only had time to visit LOCATION.
+statement location	Ok, I know you are not a resident of LOCATION.
+statement location	I'm headed to LOCATION.
+statement location	I come from LOCATION.
+statement location	Everyone in LOCATION knows it.
+statement location	Most of them live in the LOCATION.
+statement location	But she was in LOCATION!
+statement location	Yes, I'm from LOCATION.
+statement location	The ones that are on sale are from LOCATION.
+statement location	No, that's the number l that goes down LOCATION.
+statement location	Well, I want to be transferred to the LOCATION office.
+statement location	My whole family are going to LOCATION for visiting.
+statement location	It was raining when I left LOCATION.
+statement location	You'll be staying at LOCATION.
+statement location	I just got back from LOCATION.
+statement location	I'm from LOCATION.
+statement location	Remember last month when we were in LOCATION?
+statement location	Yes, I've been thinking about LOCATION.
+statement location	LOCATION.
+statement location	She lives in LOCATION.
+statement location	We are arriving at LOCATION.
+statement location	Just tell him I'll call him when I get back from LOCATION.
+statement location	I'll come back to LOCATION tonight.
+statement location	From LOCATION.
+statement location	My friends and I just got back from LOCATION.
+statement location	She ’ s going to live in LOCATION.
+statement location	That's what i did in LOCATION.
+statement location	When we finally decided to ask someone, they told us we were in LOCATION.
+statement location	Oh, you're staying at the LOCATION.
+statement location	So you haven ’ t done much then, in LOCATION?
+statement location	And others directly from LOCATION.
+statement location	Yes we are going towards LOCATION.
+statement location	I'm from LOCATION.
+statement location	LOCATION?
+statement location	Well, I ’ m from LOCATION.
+statement location	I'm from LOCATION.
+statement location	I think they went to LOCATION, but I'm not sure.
+statement location	Because it's off-season, we got a really good package deal to LOCATION, so we went there.
+statement location	Welcome to LOCATION.
+statement location	It's a very beautiful place in LOCATION.
+statement location	I really have to get to LOCATION by this evening.
+statement location	I'm from LOCATION.
+statement location	Yes, I'm from LOCATION.
+statement location	My birthplace is LOCATION.
+statement location	Yeah-all from LOCATION.
+statement location	From LOCATION.
+statement location	A girl he met on holiday in LOCATION, I think.
+statement location	As a matter of fact, I'm from LOCATION.
+statement location	Yes, I've just come from the LOCATION, yesterday in fact.
+statement location	In LOCATION.
+statement location	Some people say he's from LOCATION.
+statement location	Yes, I ’ m in LOCATION.
+statement location	We went to LOCATION.
+statement location	LOCATION.
+statement location	We used to be really close, but that all changed once she moved to LOCATION.
+statement location	I went to LOCATION.
+statement location	My husband is betting on LOCATION.
+statement location	At LOCATION.
+statement location	I want to post it to LOCATION.
+statement location	Actually, I study a lot less here than I did in LOCATION!
+statement location	I have never been to LOCATION.
+statement location	My destination is LOCATION.
+statement location	In LOCATION.
+statement location	It's FOB LOCATION.
+statement location	LOCATION.
+statement location	I'm from LOCATION.
+statement number	Yes, there are approximately NUMBER people.
+statement number	NUMBER.
+statement number	Over NUMBER.
+statement number	I believe that NUMBER people did get hurt.
+statement number	He's over NUMBER.
+statement number	We have NUMBER.
+statement number	one or NUMBER people didn ’ t take to my ideas very well.
+statement number	NUMBER.
+statement number	That would be NUMBER, sir.
+statement number	I need at least 75,NUMBER per year.
+statement number	I wrote the check out for $ NUMBER.
+statement number	I'll take NUMBER.
+statement number	This rate is NUMBER.
+statement number	NUMBER for one way.
+statement number	Yeah, especially since it's NUMBER degrees outside.
+statement number	Well, because I like you... NUMBER.
+statement number	$ NUMBER will be fine.
+statement number	So he said he'd sell me one for NUMBER.
+statement number	One dollar to NUMBER franc.
+statement number	Sure, that will be NUMBER please.
+statement number	Actually, you can only have NUMBER.
+statement number	Well, it ’ s only NUMBER stops from here.
+statement number	I think it ’ s over NUMBER meters long.
+statement number	It's about NUMBER miles away.
+statement number	There's an extra NUMBER in it for you if you can get me there on time.
+statement number	It's NUMBER.
+statement number	NUMBER-and-a-half.
+statement number	That is OK.Here is NUMBER and you can keep the change.
+statement number	It NUMBER.
+statement number	We just got one in yesterday, so now we have NUMBER.
+statement number	Well, there was a sign that said “ Buy now for NUMBER. ”
+statement number	No, we have NUMBER persons.
+statement number	We charge NUMBER a copy.
+statement number	NUMBER.
+statement number	I will take NUMBER.
+statement number	My check for $ NUMBER bounced.
+statement number	Here you are, NUMBER and my ID.
+statement number	Oh, yes, he is NUMBER years older than me.
+statement number	That's $ 1 NUMBER.
+statement number	It cost about NUMBER.
+statement number	I've gotten NUMBER, I think.
+statement number	I've gotten about NUMBER.
+statement number	¥ NUMBER, please.
+statement number	NUMBER.
+statement number	NUMBER-and-a-half.
+statement number	It starts at $ 30,NUMBER.
+statement number	There are NUMBER of them.
+statement number	The pink one is 30 yuan, and the purple one is NUMBER.
+statement number	Here is NUMBER.
+statement number	NUMBER.
+statement number	Round about NUMBER.
+statement number	There were NUMBER of us.
+statement number	NUMBER.
+statement number	A post order for NUMBER.
+statement number	It ’ s NUMBER.
+statement number	NUMBER.
+statement number	I've reserved rooms NUMBER and 403 for you.
+statement number	Here's NUMBER.
+statement number	The mag says she's NUMBER centimeters tall and 38 kilos.
+statement number	it's about NUMBER miles away.
+statement number	NUMBER.
+statement number	NUMBER, please.
+statement number	Round about NUMBER.
+statement number	NUMBER times every year.
+statement number	oh, I thought there were going to be NUMBER.
+statement number	I got NUMBER.
+statement number	Here's a NUMBER.
+statement number	It's NUMBER.
+statement number	That'll be NUMBER.
+statement number	NUMBER?
+statement number	That's $ NUMBER.
+statement number	NUMBER copies?
+statement number	I've tried NUMBER of times, but I just can't seem to kick the habit.
+statement number	I ’ Ve only NUMBER rooms on the first floor.
+statement number	NUMBER.
+statement number	$ NUMBER?
+statement number	Maybe NUMBER times.
+statement number	The other team lost by NUMBER points, 101-98.
+statement number	This building is only NUMBER years old.
+statement number	Here's NUMBER.
+statement number	I have a table for NUMBER available at 7
+statement number	Well, NUMBER.
+statement number	NUMBER?
+statement number	NUMBER!
+statement number	About NUMBER.
+statement number	NUMBER, please.
+statement number	Oh, there are NUMBER seats in total.
+statement number	It costs NUMBER a copy.
+statement number	That will be NUMBER in all.
+statement number	Here is NUMBER.
+statement number	It's NUMBER, please.
+statement number	Yeah, I don't mind giving them a dollar NUMBER for that.
+statement number	That's another NUMBER?
+statement number	If you buy 1,NUMBER or more, you'll get a 10 % discount.
+statement number	I'll take one right now for NUMBER.
+statement number	I ’ d suggest you buy NUMBER.
+statement number	That'll be $ NUMBER, sir.
+statement number	Here is NUMBER.
+statement number	NUMBER.
+statement number	So you can always keep NUMBER times at once?
+statement number	Here's a NUMBER.
+statement number	I want to transfer $ NUMBER.
+statement number	I only want to transfer $ NUMBER.
+statement number	No more than NUMBER.
+statement number	Oh, I thought there were going to be NUMBER.
+statement number	It was NUMBER feet tall.
+statement number	Well, it's only NUMBER stops from here.
+statement number	There are NUMBER more stops.
+statement number	NUMBER!
+statement number	Here's NUMBER.
+statement number	It's $ NUMBER.
+statement number	NUMBER,...
+statement number	Well, considering the quantity of your order we could further reduce the price to NUMBER.
+statement number	NUMBER will be fine.
+statement number	NUMBER.
+statement number	It cost me a couple NUMBER for the whole set.
+statement number	NUMBER, please.
+statement number	Oh... around NUMBER.
+statement number	I need $ NUMBER.
+statement number	NUMBER?
+statement number	NUMBER of us will be coming.
+statement number	About NUMBER.
+statement number	NUMBER.
+statement number	NUMBER.
+statement number	NUMBER, please.
+statement number	We want to order NUMBER.
+statement number	Well, NUMBER, then?
+statement number	Actually, I ’ m NUMBER now.
+statement number	You need to keep it at $ NUMBER.
+statement number	Here is NUMBER.
+statement number	The best we can do will be a reduction of another NUMBER.
+statement number	It took NUMBER of us to move it.
+statement number	It'll be $ NUMBER nightly.
+statement number	We have NUMBER.
+statement number	NUMBER.
+statement number	You need to pay NUMBER for every copy.
+statement number	NUMBER.
+statement number	I ’ d suggest you buy NUMBER.
+statement number	Here's NUMBER, keep the change.
+statement number	She's probably about NUMBER feet.
+statement number	NUMBER.
+statement number	NUMBER.
+statement number	Yes, I have, and NUMBER times in total.
+statement number	If I remember correctly, it's about $ NUMBER.
+statement number	NUMBER times a year at most.
+statement number	$ 3 NUMBER.
+statement number	I was NUMBER.
+statement number	She's NUMBER.
+statement number	NUMBER
+statement number	We need a reservation for NUMBER.
+statement number	Hmm, 250NT is... NUMBER?!!
+statement number	Yes, NUMBER of us.
+statement number	NUMBER!
+statement number	I want to transfer $ NUMBER.
+statement number	The deposit is $ NUMBER.
+statement number	Here's NUMBER.
+statement number	They're only NUMBER.
+statement number	NUMBER.
+statement number	I'm NUMBER.
+statement number	Yes, but there is a NUMBER delivery charge.
+statement number	That'll be NUMBER.
+statement number	It is NUMBER.
+statement number	Well, I could offer you maybe NUMBER off.
+statement number	We moved here when I was NUMBER.
+statement number	Your bill comes to NUMBER.
+statement number	NUMBER?
+statement number	The last NUMBER charges.
+statement number	Just give the man standing there NUMBER and he'll give you a token.
+statement number	There ’ s a check of NUMBER and photograph.
+statement number	Well, that's only $ NUMBER.
+statement number	Yes, but there is a NUMBER delivery charge.
+statement number	I need to withdraw $ NUMBER.
+statement number	NUMBER.
+statement number	That's NUMBER.
+statement number	NUMBER.
+statement number	I want to check these NUMBER pieces and I'll carry this overnight bag by myself.
+statement number	OK, that will be NUMBER.
+statement number	The best we can do is another NUMBER off.
+statement number	$ NUMBER dollars.
+statement number	NUMBER a piece.
+statement number	NUMBER, Madam.
+statement number	Please pay NUMBER, the handling charge.
+statement number	NUMBER.
+statement number	I need to deposit $ NUMBER.
+statement number	I will take NUMBER.
+statement number	We still have NUMBER left.
+statement number	So he said he'd sell me one for NUMBER.
+statement number	I got them for NUMBER.
+statement number	Usually it's NUMBER off the cover price.
+statement number	It ’ s going to be $ NUMBER.
+statement number	The count is up to NUMBER right now and several are in critical condition.
+statement number	Okay, I ’ ll take NUMBER, please.
+statement number	She is NUMBER.
+statement number	I don't really need NUMBER.
+statement number	NUMBER.
+statement number	I think it ’ s over NUMBER meters long.
+statement number	It's $ NUMBER.
+statement number	We demand a surcharge of NUMBER for it.
+statement number	Today you get a 50 - NUMBER discount.
+statement number	NUMBER.
+statement number	I would like to deposit $ NUMBER.
+statement number	No, it's the number NUMBER.
+statement number	I want to take out $ NUMBER.
+statement number	NUMBER.
+statement number	NUMBER.
+statement number	We had NUMBER, but we sold one this morning.
+statement number	NUMBER.
+statement number	I'm sorry but my bottom figure is $ 36,NUMBER.
+statement number	NUMBER.
+statement number	Good, here's your ticket and NUMBER change.
+statement number	NUMBER people were injured.
+statement number	Here is $ NUMBER, keep the change, please.
+statement number	I want to check these NUMBER pieces and I'll carry this overnight bag by myself.
+statement number	We cannot reach a final decision until we have talked to all of the other NUMBER applicants.
+statement number	It cost me a couple NUMBER for the whole set.
+statement number	NUMBER.
+statement number	NUMBER.
+statement number	As a trial order, I'll take NUMBER this time.
+statement number	I'll be honest with you, our budgeted cost can't exceed more than $ NUMBER per unit.
+statement number	I stopped counting at NUMBER.
+statement number	OK.Five for NUMBER.
+statement number	That ‘ ll be NUMBER in all.
+statement number	That still leaves a gap of NUMBER to be covered.
+statement number	Right now I show that there are NUMBER people on the list.
+statement number	Yes, I'd like to insure it for NUMBER.
+statement number	I get NUMBER yuan from you, and this is the change, 10 yuan.
+statement number	NUMBER please.
+statement number	Go to window number NUMBER.
+statement number	NUMBER.
+statement number	I ’ d suggest you buy NUMBER.
+statement number	NUMBER.
+statement number	NUMBER.
+statement number	It's only NUMBER.
+statement number	NUMBER.
+statement number	Here is NUMBER.
+statement number	NUMBER.
+statement number	No, from here I think it's only about NUMBER.
+statement number	That'll be ¥ NUMBER.
+statement number	Here is NUMBER, keep the change.
+statement number	Well, I'll give NUMBER for it.
+statement number	She's NUMBER.
+statement number	NUMBER.
+statement number	NUMBER.
+statement number	Yes, you are charged NUMBER a piece.
+statement number	There's an extra NUMBER in it for you if you can get me there on time.
+statement number	NUMBER.
+statement number	We just got one in yesterday, so now we have NUMBER.
+statement number	Go to window number NUMBER.
+statement number	I would like to transfer $ NUMBER.
+statement number	I'd like to exchange NUMBER.
+statement number	NUMBER.
+statement number	NUMBER?
+statement number	It's NUMBER.
+statement number	NUMBER.
+statement number	No more than NUMBER.
+statement number	I'll buy it for $ NUMBER.
+statement number	NUMBER.
+statement number	Sure, we'll take NUMBER off the price.
+statement number	This one is $ NUMBER.
+statement number	I follow you and I'll take NUMBER just for my trial.
+statement number	There's an extra NUMBER in it for you if you can get me there on time.
+statement number	This rate is NUMBER.
+statement number	Altogether you have to pay $ NUMBER.
+statement number	Oh, my CV.Yes, here it s. There are NUMBER copies.
+statement number	No, it's the number NUMBER.
+statement number	NUMBER.
+statement number	The meter reads 9.15 NUMBER.
+statement number	Frankly speaking, NUMBER.
+statement number	I want $ NUMBER.
+statement number	The price per copy is NUMBER.
+statement number	The small ones are NUMBER for each.
+statement number	The most we can offer you at present is NUMBER.
+statement number	Yes, I am NUMBER.
+statement number	No, it's the number NUMBER.
+statement number	NUMBER!
+statement number	NUMBER.
+statement number	I want to check these NUMBER pieces and I'll carry this overnight bag by myself.
+statement number	NUMBER times.
+statement number	NUMBER.
+statement number	He's number NUMBER.
+statement number	I'll buy it for $ NUMBER.
+statement number	Every month I ’ d only have to pay $ NUMBER.
+statement number	That still leaves a gap of NUMBER.
+statement number	You have to maintain a minimum balance of $ NUMBER.
+statement number	OK I'll take NUMBER.
+statement number	We'll give you about NUMBER to start.
+statement number	They only cost me about NUMBER.
+statement number	It's room number NUMBER.
+statement number	That'll be NUMBER.
+statement organization	yes, I received a conditional offer from ORGANIZATION a few days ago.
+statement organization	You must tell the ORGANIZATION about it.
+statement organization	I transferred from ORGANIZATION.
+statement organization	I did but now I ’ m for ORGANIZATION.
+statement organization	ORGANIZATION accepted me!
+statement organization	I have a ORGANIZATION certificate.
+statement organization	I did but now I ’ m for ORGANIZATION.
+statement organization	I went to get mine from ORGANIZATION.
+statement organization	You must tell the ORGANIZATION about it.
+statement organization	I purchased mine from ORGANIZATION.
+statement organization	I ’ m just going to stay at ORGANIZATION.
+statement organization	Someone called ORGANIZATION.
+statement organization	It ’ s a letter from ORGANIZATION.
+statement organization	It ’ s from ORGANIZATION.
+statement organization	Yes, as a representative of ORGANIZATION.I hope to conclude some business with you.
+statement organization	I transferred here from ORGANIZATION.
+statement organization	I work for ORGANIZATION.
+statement organization	Yes, and turn right at the ORGANIZATION.
+statement organization	I have been accepted by ORGANIZATION on PhD.
+statement organization	Yes, and turn right at the ORGANIZATION.
+statement organization	ORGANIZATION.
+statement organization	This pair is ORGANIZATION, right?
+statement organization	I got it from ORGANIZATION.
+statement organization	I am going to register at ORGANIZATION next month.
+statement organization	I was at ORGANIZATION before.
+statement organization	I went to ORGANIZATION.
+statement organization	I bought mine from ORGANIZATION.
+statement organization	I ’ ll just have to wait for ORGANIZATION.
+statement organization	I got it from ORGANIZATION.
+statement organization	It ’ s called ORGANIZATION.
+statement organization	At ORGANIZATION.
+statement organization	Take me to ORGANIZATION.
+statement organization	I'm attending ORGANIZATION right now.
+statement organization	I went to ORGANIZATION.
+statement organization	I have a ORGANIZATION certificate.
+statement organization	I found mine at ORGANIZATION.
+statement organization	But I don't know how to work the ORGANIZATION Words.
+statement organization	I finally begin to get to know ORGANIZATION.
+statement organization	ORGANIZATION Investments.
+statement organization	I transferred from ORGANIZATION.
+statement organization	I ’ m calling from ORGANIZATION.
+statement person	It isn't PERSON.
+statement person	PERSON.
+statement person	You know, PERSON is my best friend and he asked me to be his best man.
+statement person	Tell you what, I'll be calling PERSON late this week anyway, so I'll mention it to him then.
+statement person	I remembered PERSON is always out of tune.
+statement person	PERSON is one of them.
+statement person	PERSON.
+statement person	Here's my PERSON.
+statement person	PERSON.
+statement person	I want to, but PERSON doesn't.
+statement person	Motivate PERSON to cooperate by rewarding his good behavior.
+statement person	Well, I heard PERSON has been fired.
+statement person	PERSON?
+statement person	That's PERSON.
+statement person	PERSON.
+statement person	PERSON, Room 1201.
+statement person	I voted for PERSON.
+statement person	It was PERSON.
+statement person	We maintain a curfew for PERSON because she's just 16.
+statement person	I've never met PERSON.
+statement person	Hi, I'm PERSON.
+statement person	PERSON.
+statement person	PERSON, 23, March 30,1982.
+statement person	PERSON always tries to stay fit and healthy.
+statement person	it was written by PERSON.
+statement person	PERSON?
+statement person	PERSON, Room 1202.
+statement person	She married PERSON.
+statement person	The problem with PERSON is that she's too shy to tell him.
+statement person	But you have had PERSON already?
+statement person	I am PERSON.
+statement person	Wonderful, PERSON is taking the lead.
+statement person	Someone told PERSON off.
+statement person	This is PERSON.
+statement person	Someone told PERSON off.
+statement person	What, from PERSON?
+statement person	Home run by PERSON!
+statement person	PERSON.
+statement person	PERSON.
+statement person	this is PERSON.
+statement person	I had PERSON.
+statement person	I'm PERSON.
+statement person	Here comes PERSON, though.
+statement person	It should be under PERSON.
+statement person	I am supposed to go to PERSON.
+statement person	PERSON?
+statement person	In 1639, it was renamed after its major benefactor PERSON.
+statement person	I didn ’ t bring PERSON with me today.
+statement person	I voted for PERSON, of course!
+statement person	Home run by PERSON!
+statement person	Yes, PERSON in Room 713.
+statement person	Tell you what, I ’ ll be calling PERSON late this week anyway, so I ’ ll mention it to him then.
+statement person	I already told you, because PERSON is in it.
+statement person	PERSON always tries to stay fit and healthy.
+statement person	PERSON.
+statement person	Yes, PERSON.
+statement person	I also expect PERSON to tidy up her own room.
+statement person	The company's performance has improved since PERSON became president.
+statement person	A lot of people compare you to PERSON.
+statement person	So are PERSON and many others.
+statement person	Nice to meet you, I'm PERSON.
+statement person	it ’ s about PERSON.
+statement person	You should speed up, because the story of PERSON can give you a better understanding about what you learned today.
+statement person	PERSON is one of them.
+statement person	I'll go back home with PERSON.
+statement person	PERSON.
+statement person	You mean the one starring PERSON?
+statement person	Oh, sorry, PERSON.
+statement person	This is PERSON.
+statement person	Yes, it is PERSON.
+statement person	I wasn ’ t serious, because PERSON got elected.
+statement person	Hi, I ’ m PERSON.
+statement person	PERSON.
+statement person	I'm PERSON.
+statement person	I'll speak to PERSON, he'll be able to help us.
+statement person	Yes, PERSON said that he could come back to work ASAP.
+statement person	Oh, PERSON.
+statement person	It was written by PERSON.
+statement person	Well, PERSON lives next door to us.
+statement person	They work for PERSON now.
+statement person	Yeah, PERSON moved in last week.
+statement person	it's PERSON.
+statement person	These are called All Star PERSON.
+statement person	It's PERSON.
+statement person	Sorry, sir, but I recommend you PERSON.
+statement person	This is PERSON.
+statement person	And if we don't need them, we won't need PERSON, either.
+statement person	PERSON.
+statement person	Here comes PERSON, though.
+statement person	It's PERSON.
+statement person	It's for PERSON.
+statement person	I know PERSON
+statement person	He's dancing with PERSON!
+statement person	Motivate PERSON to cooperate by rewarding his good behavior.
+statement person	It ’ s about PERSON.
+statement person	Yes, it's PERSON.
+statement person	Oh, PERSON is very easy-going and friendly.
+statement person	I'll wait right here for you PERSON.
+statement person	PERSON.
+statement person	Yes, this is PERSON.
+statement person	Uh, A... you know I'm friends with PERSON.
+statement person	PERSON.
+statement person	Yes, it's PERSON.
+statement person	PERSON.
+statement person	( PERSON starts to run and then he seems to remember something and returns. )
+statement person	PERSON.
+statement person	Oh, PERSON.
+statement person	OK.Just keep in mind it has to be somebody who can get along with PERSON.
+statement person	PERSON, 32, May 23, 1970.
+statement position	I voted for our next POSITION.
+statement softwareapplication	Actually, I'm already working for SOFTWAREAPPLICATION.
+statement sport	After SPORT practice.
+statement sport	I often play SPORT with my parents.
+statement sport	It ’ s about as complicated as SPORT.
+statement sport	I was SPORT on and on excitedly until I realized one thing-I could not stop!
+statement sport	Yes, actually I fell SPORT last week and hit my head.
+statement sport	Of course even people who don't know anything about SPORT know his name.
+statement sport	A great deal of people follow SPORT in my country.
+statement sport	We all went SPORT.
+statement sport	No, I'm talking about SPORT.
+statement sport	But I don't know how to play SPORT.
+statement sport	True, but I still have to watch my SPORT.
+statement sport	Yes, I often go SPORT.
+statement sport	Well, he was playing SPORT with some friends...
+statement sport	Then you must know a lot about SPORT.
+statement sportteam	So SPORTTEAM is winning?
+statement sportteam	SPORTTEAM.
+statement sportteam	You can transfer SPORTTEAM.
+statement vehicle	the VEHICLE?
+statement vehicle	Yeah, it sounds like it usually does when I start the VEHICLE, but nothing else happens.
+statement vehicle	I ride my VEHICLE.
+statement vehicle	First you have to put the VEHICLE into gear.
+statement vehicle	I started driving the VEHICLE a few months ago.
+statement vehicle	It's a VEHICLE.
+statement vehicle	Yes, I have my own VEHICLE.
+statement vehicle	I drove a VEHICLE before, but only once.
+statement vehicle	You mean we'll share the VEHICLE?
+statement vehicle	Do me a favor, and take a VEHICLE.
+statement vehicle	It ’ ll be too late ; you ’ d better take a VEHICLE.
+statement vehicle	OK, a VEHICLE will be there by 9:30.
+statement vehicle	A VEHICLE it is.
+statement vehicle	Our VEHICLE is in the parking lot.
+statement vehicle	When you lent me the VEHICLE, it looked brand new, almost anyway.
+statement vehicle	I don't want anything except a VEHICLE, thank you.
+statement vehicle	If we start now, we can make it by VEHICLE.
+statement vehicle	And a company VEHICLE.
+statement vehicle	You need to start the VEHICLE now.
+statement vehicle	You mean we'll share the VEHICLE?
+statement vehicle	We can take the VEHICLE, that will be faster.
+statement vehicle	So, you have your own VEHICLE?
+statement vehicle	I'm going to go sit in the VEHICLE while I still have the stomach to walk.
+statement vehicle	Just a VEHICLE, please.
+statement vehicle	No, I think it came out of my pocket when I was in the VEHICLE.
+statement vehicle	I can ’ t see anything out of the side mirror on your side of the VEHICLE.
+statement vehicle	Oh, there comes the VEHICLE.
+statement vehicle	we can take the VEHICLE, that will be faster.
+statement vehicle	I'll have a VEHICLE for you momentarily, sir.
+statement vehicle	I can ’ t see anything out of the side mirror on your side of the VEHICLE.
+statement vehicle	The VEHICLE?
+statement vehicle	This is a VEHICLE!
+statement vehicle	Now you put the key in the ignition and start the VEHICLE.
+statement vehicle	Oh, the VEHICLE is old but still in good condition.
+statement vehicle	do me a favor, and take a VEHICLE.
+statement vehicle	I'm going to go and get my ID from the VEHICLE right now.
+statement vehicle	Next time, I'll look for the VEHICLE myself.
+statement vehicle	Start the VEHICLE.
+statement vehicle	I took a VEHICLE.
+statement vehicle	Instead of walking you can take this VEHICLE to get you there faster.
+statement vehicle	I'll call the VEHICLE immediately, sir.
+statement vehicle	He had his VEHICLE stolen.
+statement vehicle	Instead of walking.you can take this VEHICLE to get you there faster.
+statement vehicle	Your VEHICLE is ready.
+statement vehicle	My husband takes him in the VEHICLE.
+statement vehicle	I had to move it, so that I can get my VEHICLE through.
+statement vehicle	Oh, we've just repainted our VEHICLE.
+statement vehicle	we're already late, so I think we had better take a VEHICLE.
+statement vehicle	No, but I could take the VEHICLE.
+statement vehicle	Instead of walking, you can take this VEHICLE to get you there faster.
+statement vehicle	Then we drive west on the VEHICLE.
+statement vehicle	You can take a VEHICLE.
+statement vehicle	Here, I'll take a VEHICLE instead.
+statement vehicle	We're already late, so I think we had better take a VEHICLE.
+statement vehicle	Then we drive on the VEHICLE.
+statement vehicle	We will need to know who will be driving the VEHICLE.
+statement vehicle	Then I have to call another VEHICLE, or I'll be late.
+statement videoname	At the gate of the VIDEONAME.
+statement videoname	Well, did you know he was also the director of The VIDEONAME?
+statement videoname	VIDEONAME.
+statement videoname	VIDEONAME, sir?
+statement videoname	Then it must be a VIDEONAME who did it.
+statement videoname	It ’ s called VIDEONAME.
+statement videoname	Here we are, VIDEONAME!
+statement videoname	The only two drivers will be VIDEONAME.
+statement videoname	VIDEONAME?
+statement videoname	But VIDEONAME!
+statement videoname	If you keep your promise, I will also let you watch VIDEONAME this evening.
+statement videoname	oh yeah, I saw VIDEONAME the other day.
+statement videoname	That ’ s the VIDEONAME.
+statement videoname	You can see VIDEONAME.
+statement videoname	VIDEONAME.
+statement videoname	VIDEONAME!
+statement videoname	VIDEONAME!
+statement videoname	I sometimes find VIDEONAME in front of me.
+statement videoname	VIDEONAME, eh?
+statement videoname	It ’ s called VIDEONAME.
+statement videoname	VIDEONAME?
+statement videoname	Just call me VIDEONAME.
+statement videoname	Except VIDEONAME, that is.
+statement videoname	A VIDEONAME!
+statement videoname	VIDEONAME.
+statement videoname	VIDEONAME?
+statement videoname	I watched VIDEONAME go up to $ 315.
+statement videoname	I'm watching VIDEONAME of it.
+statement videoname	I made VIDEONAME.
+statement videoname	VIDEONAME?
+statement videoname	I saw VIDEONAME.
+statement videoname	It's VIDEONAME.
+statement videoname	Later we'll let you know who the VIDEONAME will be.
+statement videoname	And VIDEONAME?
+statement videoname	VIDEONAME.
+statement videoname	Of course not, I have to watch my VIDEONAME.
+statement videoname	You know the phrase the VIDEONAME.
+statement videoname	Out in the VIDEONAME.
+statement videoname	I think they're playing VIDEONAME
+statement videoname	VIDEONAME.
+statement videoname	VIDEONAME?
+statement videoname	VIDEONAME!
+statement videoname	That ’ s the VIDEONAME.
+statement videoname	Oh, VIDEONAME.
+statement videoname	You mean VIDEONAME?
+statement videoname	VIDEONAME?
+statement videoname	Sorry, it ’ s from VIDEONAME.
+statement videoname	I didn't know that you saw VIDEONAME before.
+statement videoname	VIDEONAME is our best seller.
+statement videoname	VIDEONAME?
+statement videoname	VIDEONAME.
+statement videoname	Green, G-R-E-E-N, but just call me VIDEONAME.
+statement videoname	At the close of VIDEONAME, the house will be yours!
+statement videoname	There is a VIDEONAME over there.
+statement videoname	VIDEONAME.
+statement videoname	Ok - when you leave the Underground, cross the road and you should see VIDEONAME.
+statement videoname	VIDEONAME.
+statement videoname	VIDEONAME.
+statement videoname	The VIDEONAME will be with you in a moment.
+statement videoname	The VIDEONAME will be with you in a moment.
+statement videoname	VIDEONAME.
+statement videoname	VIDEONAME.
+statement videoname	I made VIDEONAME.
+statement videoname	The clients like the VIDEONAME more.
+statement videoname	VIDEONAME!
+statement videoname	VIDEONAME.
+statement videoname	Haha, I just got the VIDEONAME costume.
+statement videoname	Please, call me VIDEONAME.
+statement videoname	Oh, VIDEONAME.
+statement videoname	Then it must be a VIDEONAME who did it.
+statement videoname	At the VIDEONAME.
+statement videoname	At the VIDEONAME.
+statement videoname	I saw VIDEONAME the other day.
+statement videoname	Last week I saw VIDEONAME kissing you on the cheek.
+statement videoname	Out in the VIDEONAME.
+statement videoname	No, I just watched VIDEONAME, and it began too late in the night.
+statement videoname	VIDEONAME.
+statement videoname	Oh yeah, I saw VIDEONAME the other day.
+statement videoname	Just like VIDEONAME!
+statement year	I have to be there before YEAR.
+statement year	You mean the YEAR?
+statement year	Yes, I have been here since YEAR.
+statement year	I think about YEAR.
+yes_no_question date	Are you available on DATE?
+yes_no_question date	Would you like to come and have dinner with us on DATE?
+yes_no_question date	Do I have to work on DATE?
+yes_no_question date	The question is, can he have it done before DATE?
+yes_no_question date	are we going to see them in DATE or are they coming to see us?
+yes_no_question date	Would you like to come and have dinner with us on DATE?
+yes_no_question date	But it's DATE, isn't it?
+yes_no_question date	Do I have to work on DATE?
+yes_no_question date	Is DATE any better?
+yes_no_question date	Are you busy on the DATE?
+yes_no_question date	And may I take DATE off?
+yes_no_question date	Is 5 PM.DATE a good time for you?
+yes_no_question date	Is it DATE?
+yes_no_question date	I am free on DATE afternoon from 2 PM to 4 PM, is it convenient for you?
+yes_no_question date	are you available on DATE?
+yes_no_question date	I am free on DATE afternoon from 2 PM to 4 PM, is it convenient for you?
+yes_no_question date	Isn't it a DATE?
+yes_no_question device	Is there a DEVICE around here?
+yes_no_question device	Do we have a DEVICE?
+yes_no_question device	do you open all your IM tools whenever you're using a DEVICE?
+yes_no_question device	do you have an DEVICE?
+yes_no_question device	has your DEVICE turned back on yet?
+yes_no_question device	Could it be the DEVICE?
+yes_no_question device	Have you packed the DEVICE yet?
+yes_no_question device	is your DEVICE comfortable?
+yes_no_question device	Oh, do you use your DEVICE often?
+yes_no_question device	Could it be the DEVICE?
+yes_no_question device	Have you checked the DEVICE?
+yes_no_question device	Is that your DEVICE?
+yes_no_question device	Is it the DEVICE?
+yes_no_question device	Can you operate DEVICE skillfully?
+yes_no_question device	Oh, does he play the DEVICE?
+yes_no_question device	is that your DEVICE?
+yes_no_question device	Can I bring my DEVICE with me?
+yes_no_question device	Do you open all your IM tools whenever you're using a DEVICE?
+yes_no_question device	Is this DEVICE a gift for someone?
+yes_no_question device	Does the TV have DEVICE?
+yes_no_question device	Is your DEVICE comfortable?
+yes_no_question device	Were you wearing your DEVICE when you noticed them, sir?
+yes_no_question device	Do I have to pay to use the DEVICE?
+yes_no_question device	Did you check the DEVICE?
+yes_no_question device	Did you like it at DEVICE?
+yes_no_question device	All right, can I have your DEVICE?
+yes_no_question device	Oh, do you use your DEVICE often?
+yes_no_question device	Have you had any experience with DEVICE?
+yes_no_question device	does it have a DEVICE?
+yes_no_question device	Do you like it better here or at DEVICE?
+yes_no_question device	Did you like DEVICE?
+yes_no_question device	Did you buy the DEVICE?
+yes_no_question device	Anyway, do you have any change I can use for the DEVICE?
+yes_no_question device	Do you want DEVICE?
+yes_no_question device	Do you feel comfortable with the new system by DEVICE?
+yes_no_question device	Might I suggest a DEVICE?
+yes_no_question device	Have you checked the connections on your DEVICE?
+yes_no_question device	OK.Do I turn on the DEVICE or do I go straight?
+yes_no_question device	Are you able to operate the DEVICE?
+yes_no_question device	Is there something wrong with your DEVICE?
+yes_no_question duration	DURATION, did you say?
+yes_no_question duration	Then can you wait a DURATION?
+yes_no_question duration	Would you recommend going there for a DURATION?
+yes_no_question duration	Are you leaving right away or can you stay for a few more DURATION?
+yes_no_question duration	Would you mind my keeping it for another DURATION?
+yes_no_question duration	Do you think you could finish it in DURATION?
+yes_no_question duration	Do you want me to wake you in DURATION?
+yes_no_question duration	Would you mind me keeping it for another DURATION?
+yes_no_question duration	Can you make it in DURATION.
+yes_no_question duration	Would you come here in DURATION?
+yes_no_question duration	would you recommend going there for a DURATION?
+yes_no_question duration	If there's something wrong with it in a DURATION, can I come back to change it?
+yes_no_question duration	Does it close at that time every DURATION?
+yes_no_question duration	Well, you had more than one DURATION ; couldn't you have fit it in on another day?
+yes_no_question duration	Then can you wait a DURATION?
+yes_no_question duration	Do you think you could finish it in DURATION?
+yes_no_question duration	Can you come back in DURATION for a fitting?
+yes_no_question duration	Could you get there in DURATION?
+yes_no_question duration	Certainly, would you wait for a DURATION?
+yes_no_question duration	if you gave him another DURATION, do you think he could figure it out by then?
+yes_no_question event	did either one of them win an EVENT this year?
+yes_no_question event	Haven't the EVENT been stopped for a long time?
+yes_no_question event	Did either one of them win an EVENT this year?
+yes_no_question genre	and can you dance GENRE?
+yes_no_question genre	Did you always like GENRE.
+yes_no_question location	Did you go to LOCATION?
+yes_no_question location	have you ever gone LOCATION before?
+yes_no_question location	Is it the same in LOCATION?
+yes_no_question location	Are you also going to LOCATION?
+yes_no_question location	Is that very likely in LOCATION?
+yes_no_question location	Is it a long ride to LOCATION?
+yes_no_question location	If we start early, do we have some time for LOCATION?
+yes_no_question location	Is LOCATION nice?
+yes_no_question location	are you planning on studying LOCATION?
+yes_no_question location	did you know anyone who worked in the LOCATION?
+yes_no_question location	Hey, wouldn't it be great if we could go to LOCATION together sometime?
+yes_no_question location	Is it far from here to LOCATION?
+yes_no_question location	Anyhow, it's a long way to LOCATION, isn't it?
+yes_no_question location	Do you mean The LOCATION?
+yes_no_question location	Have you ever been to LOCATION?
+yes_no_question location	Do you work in LOCATION?
+yes_no_question location	Are you from the LOCATION?
+yes_no_question location	Will you be going back to LOCATION soon?
+yes_no_question location	Do you have a package tour to LOCATION?
+yes_no_question location	They are all produced in LOCATION, aren't they?
+yes_no_question location	Have you ever been to LOCATION?
+yes_no_question location	Hey, wouldn't it be great if we could go to LOCATION together sometime?
+yes_no_question location	Isn ’ t there a place in LOCATION where people go to get healed?
+yes_no_question location	Have you been to LOCATION before?
+yes_no_question location	are you also going to LOCATION?
+yes_no_question location	You have been in LOCATION, hadn't you?
+yes_no_question location	Isn ’ t there a place in LOCATION where people go to get healed?
+yes_no_question location	Is this your first time in LOCATION?
+yes_no_question location	Is it faster if I take LOCATION?
+yes_no_question location	Is that very likely in LOCATION?
+yes_no_question location	Have you been to LOCATION?
+yes_no_question location	Well, then, would you send it to LOCATION, please?
+yes_no_question location	Are they from LOCATION?
+yes_no_question number	May I have NUMBER of them?
+yes_no_question number	Can I have a reduction of NUMBER?
+yes_no_question number	Could you make it $ NUMBER?
+yes_no_question organization	Is ORGANIZATION affordable?
+yes_no_question organization	Do you like ORGANIZATION?
+yes_no_question organization	Did you like the tour of ORGANIZATION?
+yes_no_question person	Could you tell him that PERSON phoned.
+yes_no_question person	Do you really think the PERSON sent that?
+yes_no_question person	Would you like PERSON back?
+yes_no_question person	Would PERSON be all right?
+yes_no_question person	Doesn ’ t PERSON look old!
+yes_no_question person	Can't PERSON handle it?
+yes_no_question person	Have you heard PERSON?
+yes_no_question person	Would you tell her PERSON called?
+yes_no_question person	Oh well, do you know if the PERSON is available?
+yes_no_question person	Do you still remember PERSON?
+yes_no_question person	Do you know where PERSON is?
+yes_no_question person	Did you have a fight with PERSON?
+yes_no_question person	Do you know PERSON?
+yes_no_question person	Oh, did you know PERSON?
+yes_no_question person	Is it PERSON?
+yes_no_question person	did you have a fight with PERSON?
+yes_no_question person	Is PERSON in?
+yes_no_question person	Are you nervous about meeting up with your ex, PERSON?
+yes_no_question position	Did the POSITION ask for me?
+yes_no_question softwareapplication	But isn't it the same with SOFTWAREAPPLICATION?
+yes_no_question sport	Did you go SPORT while you were there?
+yes_no_question sport	Do you like SPORT?
+yes_no_question sport	Are you interested in SPORT?
+yes_no_question sport	OK.Do you think I can play SPORT tomorrow?
+yes_no_question sport	Is it anything like SPORT?
+yes_no_question sport	Do you play SPORT?
+yes_no_question sport	Do you play SPORT well?
+yes_no_question sport	OK.Do you think I can play SPORT tomorrow?
+yes_no_question sport	Do you like SPORT?
+yes_no_question sport	Is SPORT interesting?
+yes_no_question sport	would you like to go to SPORT?
+yes_no_question vehicle	Do you like to drive the VEHICLE?
+yes_no_question vehicle	Do you think I could borrow the VEHICLE?
+yes_no_question vehicle	You have your own VEHICLE?
+yes_no_question vehicle	Do you think the VEHICLE will leave without me?
+yes_no_question vehicle	Can I board the VEHICLE now?
+yes_no_question vehicle	Do you think I could borrow the VEHICLE?
+yes_no_question vehicle	Is it fun driving the VEHICLE?
+yes_no_question vehicle	Is it just a VEHICLE?
+yes_no_question vehicle	Have you ever driven a VEHICLE before?
+yes_no_question vehicle	Should I take the VEHICLE?
+yes_no_question vehicle	Do you have any experience driving a VEHICLE?
+yes_no_question vehicle	Do you think the VEHICLE will leave without me?
+yes_no_question vehicle	Do you think the VEHICLE will leave without me?
+yes_no_question videoname	You haven't seen VIDEONAME yet, have you?
+yes_no_question videoname	You like VIDEONAME?
+yes_no_question videoname	May I see the VIDEONAME?
+yes_no_question videoname	May I see the VIDEONAME?
+yes_no_question videoname	Have you seen VIDEONAME?
+yes_no_question videoname	Have you heard of VIDEONAME?
+yes_no_question videoname	have you ever tried VIDEONAME?
+yes_no_question videoname	Have you seen VIDEONAME?
