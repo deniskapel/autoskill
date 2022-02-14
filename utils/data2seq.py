@@ -94,7 +94,7 @@ class SequencePreprocessor():
     def __is_valid(self, ut) -> bool:
         """
         checks if all the requirements for an utterance are met:
-        1. an uterrance is one sentence, and has only one
+        1. an uterrance is one sentence, and has either one
         labelled entity which is not in the stoplist
         2. when an utterance has 2+ sentence, it will be valid if
         the requirement 2 is applicable to the first sentence while
@@ -105,9 +105,15 @@ class SequencePreprocessor():
         
         output: bool
         """
-        if len(ut['entities'][0]) != 1:
+        # skip those that have too many entities
+        if len(ut['entities'][0]) > 1:
             return False
         
+        # no entities in the first or only sentence
+        if not ut['entities'][0]:
+            return True
+        
+        # if there is one, check if it is not in stoplist of entity labels
         return ut['entities'][0][0]['label'] not in self.stoplist_labels
     
     
@@ -126,8 +132,11 @@ class SequencePreprocessor():
         # preprocess last sentence in the sequence
         midas_labels, midas_vectors = self.__get_midas(seq[-1]['midas'])
         sentence = seq[-1]['text'][0]
-        entity = seq[-1]['entities'][0][0]
-        
+        entity = seq[-1]['entities'][0]
+        # if there is an entity, take it. Otherwise, use dict of empty values 
+        entity = entity[0] if entity else {'label':"", 'offsets':[0,0], 'text': ""}
+
+        # replace the entity text with its label
         sentence = (sentence[:entity['offsets'][0]] + 
                     entity['label'].upper() + 
                     sentence[entity['offsets'][1]:])
@@ -151,8 +160,7 @@ class SequencePreprocessor():
         self.midas_target.update([seq[-1][1][0]])
         self.entity_target.update([seq[-1][2]['label']])
         self.midas_and_entity_target.update(
-            [f"{seq[-1][1][0]}_{seq[-1][2]['label']}"]
-        )
+            [f"{seq[-1][1][0]}_{seq[-1][2]['label']}"])
         
         entry['previous_text'] = [s[0] for s in seq[:-1]]
         entry['previous_midas'] = [s[1] for s in seq[:-1]]
