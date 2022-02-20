@@ -60,7 +60,7 @@ class Midas(Annotation):
          - annotated utterance with midas labels per each sentence in the utterance
          - last sentence of the given utterance to annotate the next utterance  
         """
-        sentences = ut['text']
+        sentences = [sentence.lower() for sentence in ut['text']]
         # batch annotation 
         to_annotate = {
             # provide sentences to annotate
@@ -108,8 +108,7 @@ class EntityDetection(Annotation):
         """ 
         returns a labelled entities per each sentences in the utterance
         """
-        sentences = [{'sentences': [s]} for s in ut['text']]
-        
+        sentences = [{'sentences': [s.lower()]} for s in ut['text']]
         entities = list()
         
         for to_annotate in sentences:
