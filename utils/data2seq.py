@@ -3,8 +3,6 @@ from collections import Counter
 import re
 
 
-from nltk.tokenize import sent_tokenize
-
 class Dial2seq():
     """ 
     a class to transform dialogues into a sequence of utterances and labels
@@ -17,11 +15,11 @@ class Dial2seq():
     
     params:
     path2data: str - a path to a json file with dialogues and their midas and cobot labels
-    seqlen: int - a number of utterances to use to predict next midas labels and entities
+    context_len: int - a number of utterances to use to predict next midas labels and entities
     """
-    def __init__(self, path2data: str, seqlen=2):
+    def __init__(self, path2data: str, context_len=2):
         self.data = self.__load_data(path2data)
-        self.seqlen = seqlen
+        self.context_len = context_len
 
         
     def transform(self) -> list:
@@ -31,7 +29,7 @@ class Dial2seq():
     
     def __ngrammer(self, dialogue: list) -> list:
         """ transforms a dialogue into a set of sequences (ngram style) """
-        return [dialogue[i:i+self.seqlen+1] for i in range(len(dialogue)-(self.seqlen+1)+1)]
+        return [dialogue[i:i+self.context_len+1] for i in range(len(dialogue)-(self.context_len+1)+1)]
         
         
     def __load_data(self, path: str) -> dict:
@@ -62,60 +60,25 @@ class SequencePreprocessor():
     in terms of number of annotated entities 
     """
 
-    def __init__(self, 
-                 num_entities=1, 
-                 stoplist_labels: list = ['misc', 'anaphor'],
-                ):
-        self.num_entities = num_entities
+    def __init__(self, stoplist_labels: list = ['misc', 'anaphor'],
+                 seq_validator=None):
         self.stoplist_labels = stoplist_labels
-        self.midas_all = Counter()
-        self.entity_all = Counter()
-        self.midas_target = Counter()
-        self.entity_target = Counter()
-        self.midas_and_entity_target = Counter()
-        
+        self.validator = seq_validator
         
     def transform(self, sequences: list) -> list:
         """ extract necessary data from sequences """
         seqs = list()
         
         for seq in sequences:
-            
-            if not self.__is_valid(seq[-1]):
+            if self.validator and not self.validator.is_valid(seq[-1]):
+                # validate final utterance if necessary
                 continue
-            
+
             sample = self.__get_dict_entry(self.__shape_output(seq))
-            
+
             seqs.append(sample)
             
         return seqs
-    
-
-    def __is_valid(self, ut) -> bool:
-        """
-        checks if all the requirements for an utterance are met:
-        1. an uterrance is one sentence, and has either one
-        labelled entity which is not in the stoplist
-        2. when an utterance has 2+ sentence, it will be valid if
-        the requirement 2 is applicable to the first sentence while
-        other sentences are omitted
-            
-        input:
-        ut: dict
-        
-        output: bool
-        """
-        # skip those that have too many entities
-        if len(ut['entities'][0]) > 1:
-            return False
-        
-        # no entities in the first or only sentence
-        if not ut['entities'][0]:
-            return True
-        
-        # if there is one, check if it is not in stoplist of entity labels
-        return ut['entities'][0][0]['label'] not in self.stoplist_labels
-    
     
     def __shape_output(self, seq: list) -> list:
         """ shapes sequence in order to keep only the necessary data """
@@ -129,20 +92,19 @@ class SequencePreprocessor():
             output.append((
                 ut['text'], midas_labels, midas_vectors, ut['entities']))
 
-        # preprocess last sentence in the sequence
+        # preprocess only the first sentence of 
+        # the last utterance in the sequence
         midas_labels, midas_vectors = self.__get_midas(seq[-1]['midas'])
+        midas_labels, midas_vectors = midas_labels[0:1], midas_vectors[0:1]
         sentence = seq[-1]['text'][0]
-        entity = seq[-1]['entities'][0]
-        # if there is an entity, take it. Otherwise, use dict of empty values 
-        entity = entity[0] if entity else {'label':"", 'offsets':[0,0], 'text': ""}
-
-        # replace the entity text with its label
-        sentence = (sentence[:entity['offsets'][0]] + 
-                    entity['label'].upper() + 
-                    sentence[entity['offsets'][1]:])
+        entities = seq[-1]['entities'][0]
         
+        if entities:
+            # filter out labels from stoplist
+            entities = [e for e in entities if e['label'] not in self.stoplist_labels]
+            
         output.append(
-            (sentence, midas_labels[0:1], entity))
+            (sentence, midas_labels[0:1], entities))
         
         return output
     
@@ -150,18 +112,6 @@ class SequencePreprocessor():
     def __get_dict_entry(self, seq) -> dict:
         """ creates a proper dict entry to dump into a file """
         entry = dict()
-        
-        # calc stats for all possible entities and targets in prev sequences
-        for s in seq[:-1]:
-            self.midas_all.update(s[1])
-            self.entity_all.update([ent['label'] for ents in s[-1] for ent in ents])
-
-        # calc stats for targets
-        self.midas_target.update([seq[-1][1][0]])
-        self.entity_target.update([seq[-1][2]['label']])
-        self.midas_and_entity_target.update(
-            [f"{seq[-1][1][0]}_{seq[-1][2]['label']}"])
-        
         entry['previous_text'] = [s[0] for s in seq[:-1]]
         entry['previous_midas'] = [s[1] for s in seq[:-1]]
         entry['midas_vectors'] = [s[2] for s in seq[:-1]]
@@ -169,7 +119,7 @@ class SequencePreprocessor():
         entry['predict'] = {}
         entry['predict']['text'] = seq[-1][0]
         entry['predict']['midas'] = seq[-1][1][0]
-        entry['predict']['entity'] = seq[-1][2]
+        entry['predict']['entities'] = seq[-1][2]
         
         return entry
             
@@ -187,3 +137,43 @@ class SequencePreprocessor():
             vectors.append(list(sample[0].values()))
             
         return labels, vectors
+
+    
+
+def get_label_mapping(dataset: list) -> dict():
+    """ create label2id dictionary from the given dataset """
+    
+    labels = dict()
+    labels['midas2id'] = dict()
+    labels['entity2id'] = dict()
+    labels['target_midas2id'] = dict()
+    labels['target_entity2id'] = dict()
+    
+
+    for sample in dataset:
+        
+        # populate midas dict
+        midas = set([label for m in sample['previous_midas'] for label in m if label not in labels['midas2id']])
+        for m in midas:
+            labels['midas2id'][m] = len(labels['midas2id'])
+
+        # populate entity dict
+        entities = [ents for ut in sample['previous_entities'] for ents in ut if ents]
+        entities = set([ent['label'] for ents in entities for ent in ents])
+        
+        for ent in entities:
+            if ent in labels['entity2id']:
+                continue
+            
+            labels['entity2id'][ent] = len(labels['entity2id'])
+        
+        target_midas = sample['predict']['midas']
+        target_entity = sample['predict']['entity']['label']
+
+        if target_midas not in labels['target_midas2id']:
+            labels['target_midas2id'][target_midas] = len(labels['target_midas2id'])
+        
+        if target_entity not in labels['target_entity2id']:
+            labels['target_entity2id'][target_entity] = len(labels['target_entity2id'])
+            
+    return labels
