@@ -8,11 +8,6 @@ class Dial2seq():
     a class to transform dialogues into a sequence of utterances and labels
     The sequence consists of n previous uterrances. 
     
-    There are no constraints
-    on number of entities or midas types in the them, however a sequence is 
-    valid only when it is followed by an utterance with a single entity and
-    its midas label is not MISC or ANAPHOR.
-    
     params:
     path2data: str - a path to a json file with dialogues and their midas and cobot labels
     context_len: int - a number of utterances to use to predict next midas labels and entities
