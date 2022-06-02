@@ -1,124 +1,101 @@
 import re
+from utils.common_words import common_words
 
-from abc import ABC, abstractmethod
-from hashlib import sha1
-from typing import List, Tuple
+def normalize_resp(text: str) -> str:
+    """ remove everything but spaces and letters """
+    return " ".join(re.sub(r'[^a-zA-Z\s0-9-_\'`]', " ", text).strip().split())
 
-from nltk.tokenize import sent_tokenize
-from sklearn.preprocessing import MultiLabelBinarizer
-from tqdm import tqdm
 
-import spacy
 
-spacy.prefer_gpu()
-nlp = spacy.load("en_core_web_sm")
-
-Labels = List[Tuple[str, str]]
-EncodedLabels = List[List[int]]
-
-class LabelEncoder:
-    
-    """ 
-    Returns encoded labels in the following formats:
-    1. Midas labels only
-    2. Entity labels only
-    3. Their concatenation
-    4. Multilabeled binarization.
-    
-    First three
-
-    The first two will be used when a separate classifier is applied
-    while their concatenation is used with a universal classifier.
-    Multilabeled binarization is based on sklearn MultiLabelBinarizer
+class SequencePreprocessor():
     """
-    def __init__(self, classes: list, encoding: str='multi'):
-        self.mlb = MultiLabelBinarizer()
-        self.mlb.classes = classes
-        self.encoding = self.__validate_encoding(encoding)
-    
-    def to_categorical(self, labels: Labels) -> EncodedLabels:
-        """ encodes labels for tensorflow models """
-        if self.encoding == 'midas':
-            labels = [sample[:1] for sample in labels]
-        elif self.encoding == 'entity':
-            labels = [sample[1:] for sample in labels]
-        elif self.encoding == 'concatenation':
-            labels = [["_".join(sample)] for sample in labels]
-            
-        return self.mlb.fit_transform(labels)
-        
-    def __validate_encoding(self, encoding: str) -> str:
-        # validates encoding type
-        err_message = "Sorry, choose one of those: 'midas', 'entity', 'concatenation', 'multi'"
-        assert encoding in ['midas', 'entity', 'concatenation', 'multi'], err_message
-        return encoding
-    
-    
-def dummy_fn(doc):
-    """ dummy function to apply tfidf to pre-tokenized docs """
-    return doc
+    preprocesses sequences
+    to filter only those that are relevant for the task
 
-def spacy_tokenize(text: str, tokenizer):
-    """ 
-    tokenize a string with Spacy and return list of lowercase tokens
+    params:
+    stoplist_labels: Entity labels to ignore
+    seq_validator: None or similar to one of utils/sequence_validation.py
+    classes or similar
     """
-    return [token.lower_ for token in tokenizer(text)]
+
+    def __init__(self, stoplist_labels: list = ['misc', 'anaphor', 'film',
+                                                'song', 'literary_work'],
+                 seq_validator=None):
+        self.stoplist_labels = stoplist_labels
+        self.seq_validator = seq_validator
+
+    def transform(self, sequences: list) -> list:
+        """ extract only necessary data from sequences """
+        seqs = list()
+
+        for seq in sequences:
+            if self.seq_validator and not self.seq_validator.is_valid(seq[-1]):
+                # validate final utterance if necessary
+                continue
+            sample = self.__get_dict_entry(self.__shape_output(seq))
+            seqs.append(sample)
+
+        return seqs
 
 
+    def __shape_output(self, seq: list) -> list:
+        """ shapes sequence in order to keep only the necessary data """
+        output = list()
 
-class Raw2Clean(ABC):
-    
-    """ 
-    a class to transform raw dialogues into clean ones with a legacy structure
-    """
-    def __init__(self, data, output_path: str):
-        self.data = data
-        self.output_path = output_path
-    
-    @abstractmethod
-    def clean(self):
-        """ reduces a dataset to necessary data only"""
-        pass
-    
-    
-class Daily2Clean(Raw2Clean):
-    
-    """ Raw2Clean customisation for the daily dialogue dataset """
-        
-    def clean(self):
-        output = {}
+        # preprocess context
+        for ut in seq[:-1]:
+            midas_labels, midas_vectors = self.__get_midas(ut['midas'])
+            output.append((
+                ut['text'], midas_labels, midas_vectors, ut['entities']))
 
-        for dialogue in tqdm(self.data):
-            idx = sha1(dialogue.encode()).hexdigest()
-            output[idx] = [{'text': self.__preproc(ut)} for ut in dialogue.split('__eou__') if ut.strip()]
-            
-        return output
-    
-    def __preproc(self, text: str) -> list:
-        """ 
-        removes unnecessary spaces from a string and
-        tokenizes into sentences to facilitate midas annotation
-        """
-        # remove extra spaces between punctuation marks and word tokens
-        text = re.sub(r'(?<=[a-zA-Z0-9\.,?!])\s(?=[\.,?!])', "", text.strip())
-        # remove extra spaces in acronyms to faciliate midas annotation
-        text = re.sub(r'(?<=[A-Z]\.)\s(?=[A-Z])', "", text)
-        # tokenize into sentences
-        return [s.text for s in nlp(text).sents] 
-    
-    
-class Topical2Clean(Raw2Clean):
-    """ Raw2Clean customisation for the topical chat dataset """
-    def clean(self):
-        output = {}
+        # preprocess target: only the first sentence of
+        # the last utterance in the sequence
+        midas_labels, midas_vectors = self.__get_midas(seq[-1]['midas'])
+        midas_labels, midas_vectors = midas_labels[0:1], midas_vectors[0:1]
+        sentence = seq[-1]['text'][0].lower()
+        entities = seq[-1]['entities'][0]
 
-        for idx, sample in tqdm(self.data.items()):
-            output[idx] = [{'text': self.__preproc(ut['message'])} for ut in sample['content']]
+        if entities:
+            # filter out labels from stoplist
+            entities = [e for e in entities if e['label'] not in self.stoplist_labels]
+            # pre-sort them -> longest first to prevent mess with overlapping entities
+            entities = sorted(entities, key=lambda x: len(x['text']), reverse=True)
+
+        ## replace entities with their labels
+        for ent in entities:
+            sentence = sentence.replace(ent['text'], ent['label'].upper())
+
+        output.append(
+            (sentence, midas_labels[0], entities))
 
         return output
 
-    def __preproc(self, text: str) -> list:
-        """ 
-        replaces all commas with full stops and tokenize into sentences
+
+    def __get_dict_entry(self, seq) -> dict:
+        """ creates a proper dict entry to dump into a file """
+        entry = dict()
+        entry['previous_text'] = [s[0] for s in seq[:-1]]
+        entry['previous_midas'] = [s[1] for s in seq[:-1]]
+        entry['midas_vectors'] = [s[2] for s in seq[:-1]]
+        entry['previous_entities'] = [s[-1] for s in seq[:-1]]
+        entry['predict'] = {}
+        entry['predict']['text'] = seq[-1][0]
+        entry['predict']['midas'] = seq[-1][1]
+        entry['predict']['entities'] = seq[-1][2]
+
+        return entry
+
+
+    def __get_midas(self, midas_labels: list) -> tuple:
         """
-        return [s.text for s in nlp(text.replace(",", ".")).sents if s.text.strip()]
+        extracts midas labels with max value per each sentence in an utterance
+        and return a midas vector per each sentence
+        """
+        labels = []
+        vectors = []
+
+        for sentence_labels in midas_labels:
+            labels.append(max(sentence_labels, key=sentence_labels.get))
+            vectors.append(list(sentence_labels.values()))
+
+        return labels, vectors
