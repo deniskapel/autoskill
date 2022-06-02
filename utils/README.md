@@ -17,4 +17,7 @@
 
 
 ## Utilities for third-party software
-* **tf_utils.py** (TF2), **sent_encoder.py** (TF1 USE), **convert_utils.py** (TF1 ConveRT), **bert_utils.py** (torch BERT)
+* **tf_utils.py** (TF2)
+* **sent_encoder.py** (TF1 USE)
+* **convert_utils.py** (TF1 ConveRT)
+* **bert_utils.py** (torch BERT)
