@@ -12,7 +12,7 @@ The Supplementary files
 
 ## Pre-trained models
 The models come from two sources:
-* [DREAM Socialbot](https://deeppavlov.ai/dream) - Use this [instruction](https://github.com/deepmipt/dream#quick-start) to install Entity Detection, MIDAS Xlassification and ConversationEvaluator models.
+* [DREAM Socialbot](https://deeppavlov.ai/dream) - Use this [instruction](https://github.com/deepmipt/dream#quick-start) to install Entity Detection, MIDAS Classification and ConversationEvaluator models.
 * [Hugging Face Transformers](https://huggingface.co/models)
 
 Utilitites are described in [here](utils).
