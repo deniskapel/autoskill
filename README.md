@@ -1,24 +1,22 @@
-# Thesis for HSE
+# Automatic Generation of Conversational Skills Using Available Dialogue Datasets
 
-Python >= 3.8
+An approach to generate conversational agents for different domains that can output responses in a more controlled and interpretable way. The proposed solution combines tools for retrieval- and template-based response generation as well as masked language modelling into one conversational agent. With its in-built dialog tracking scheme, the skill can manage dialog flow on its own in a script-based manner. It is designed for the open domain but may be used for automatic skill generation if a more domain-specific dialog system is required.
 
-## Notebooks
-1. [Data preprocessing](preprocessing.ipynb) to turn raw dialogues into sequences (n previous utterances + the following utterance)
-2. [Training](tfidf_notebook.ipynb) a basic TfIdfVectorizer
-3. [Basic experiments](base_experiments.ipynb) with a very simplystic model
-4. [Calculating statistics](clean_data.ipynb) for the midas- and cobot-labeled [dialogue dataset](https://github.com/alexa/Topical-Chat)
+## Data for train/val/test/ and a pool of responses
+1. [Topical-Chat](https://github.com/alexa/Topical-Chat)
+2. [DailyDialog](http://yanran.li/dailydialog.html)
 
+The Supplementary files
+* A pool of responses used for [ranking-only](data/responses/ranking_only) and [proposed](data/responses/proposed) approaches.
+* [Predictions](data/predictions) by all approaches merged into a single json file
 
-## Utilities
-1. [Torch utilities](utils/autoskill_torch.py): dataset, collator, etc.
-2. [Preprocessing functions](utils/preprocessing.py): tokenizer, etc.
-3. [Preprocessing 2](utils/data2seq): a class to shape a autoskill dataset from the midas- and cobot-labeled dataset
-4. [Basic torch functions and models](utils/base_torch_utils): used to test pipelines
+## Pre-trained models
+The models come from two sources:
+* [DREAM Socialbot](https://deeppavlov.ai/dream)
+* [Hugging Face Transformers](https://huggingface.co/models)
 
-## Data description:
-1. [Preprocessed dataset](data/dataset.json): properly shaped dataset (n_seq -> following utterance: text, midas, entity)
-2. [Label maps](data/labels.json): a dictionary with all possible labels. There are all label maps (midas and entity) and maps with target labels only (e.g. midas MISC and ANAPHOR are excluded from them as they are not present in the target utterance)
+Utilitites are described in [here](utils).
 
-## Models
-
-[This folder](models/) will contain models trained for the project, e.g., sklearn models, torch models, etc.  
+.ipynb files (Windows + Google Colab) Python 3.8 (Windows)
+.py files (UNIX) Python 3.6.9 (UNIX)
+Dependancies files for pip install are in [this folder](requirements_files)
